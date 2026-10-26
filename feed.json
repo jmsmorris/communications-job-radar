@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T15:12:12Z",
+  "generatedAt": "2026-10-26T15:16:00Z",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
   "jobs": [
@@ -41,24 +41,6 @@
       "rank": 2
     },
     {
-      "id": "oeb-senior-advisor-corporate-communications",
-      "company": "Ontario Energy Board",
-      "title": "Senior Advisor, Corporate Communications",
-      "cluster": "Senior Advisor / Public and Crown Sector",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA",
-      "work": "Not stated",
-      "posted": "Not stated",
-      "deadline": "2026-10-29",
-      "salary": "$110,685–$130,235 CAD/year",
-      "summary": "Develop communications strategy, advise stakeholders, manage media materials and interviews, use analytics to identify opportunities, and support reputation and social-media communications.",
-      "fit": "Primary media-contact experience, senior-leadership advice, issues management and analytics-informed communications are direct matches.",
-      "gap": "Ontario energy-regulatory context is new; French is listed as an asset rather than a requirement.",
-      "url": "https://careers.oeb.ca/job/Toronto-Senior-Advisor%2C-Corporate-Communications-ON-M4P-1E4/1291662147/",
-      "rank": 3
-    },
-    {
       "id": "aerovect-content-marketing-manager",
       "company": "AeroVect",
       "title": "Content Marketing Manager",
@@ -74,6 +56,24 @@
       "fit": "UJA flagship publications, executive messaging, digital communications strategy and agency-side content leadership align with end-to-end content ownership.",
       "gap": "The posting requires content experience for technical B2B audiences; aviation, robotics and logistics experience is preferred but not required.",
       "url": "https://jobs.ashbyhq.com/aerovect/ef2ecfdc-f460-4837-8ffb-bdd6e71f66d9",
+      "rank": 3
+    },
+    {
+      "id": "oeb-senior-advisor-corporate-communications",
+      "company": "Ontario Energy Board",
+      "title": "Senior Advisor, Corporate Communications",
+      "cluster": "Senior Advisor / Public and Crown Sector",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA",
+      "work": "Not stated",
+      "posted": "Not stated",
+      "deadline": "2026-10-29",
+      "salary": "$110,685–$130,235 CAD/year",
+      "summary": "Develop communications strategy, advise stakeholders, manage media materials and interviews, use analytics to identify opportunities, and support reputation and social-media communications.",
+      "fit": "Primary media-contact experience, senior-leadership advice, issues management and analytics-informed communications are direct matches.",
+      "gap": "Ontario energy-regulatory context is new; French is listed as an asset rather than a requirement.",
+      "url": "https://careers.oeb.ca/job/Toronto-Senior-Advisor%2C-Corporate-Communications-ON-M4P-1E4/1291662147/",
       "rank": 4
     },
     {
@@ -203,6 +203,24 @@
       "rank": 11
     },
     {
+      "id": "rogers-multi-media-content-creator-toronto",
+      "company": "Rogers Sports & Media",
+      "title": "Multi-Media Content Creator",
+      "cluster": "Digital Content / Editorial",
+      "tier": "Good fit with stretch",
+      "level": "Below target level",
+      "location": "Toronto/GTA",
+      "work": "On-site",
+      "posted": "2026-10-22",
+      "deadline": "Not stated",
+      "salary": "Not stated",
+      "summary": "Part-time newsroom role creating and publishing news content across digital and broadcast channels, including WordPress publishing and digital audience optimization.",
+      "fit": "Editorial judgment, digital storytelling, WordPress experience and sports-media background are relevant to the content and audience-growth responsibilities.",
+      "gap": "The role is hands-on newsroom work involving video, photography, broadcast systems and variable shifts rather than communications leadership.",
+      "url": "https://jobs.rogers.com/job/Toronto-Multi-Media-Content-Creator-ON/1442964400/",
+      "rank": 12
+    },
+    {
       "id": "reel-canada-assistant-manager-communications",
       "company": "REEL CANADA",
       "title": "Assistant Manager, Communications",
@@ -218,7 +236,7 @@
       "fit": "Nonprofit communications, campaign storytelling and community-facing content experience align with the organization's mission-driven work.",
       "gap": "The posted salary and apparent scope are materially below Jacob's target; the role also values a strong interest in Canadian cinema and culture.",
       "url": "https://workinculture.ca/jobs-and-more/reel-canada-full-time-assistant-manager-communications/",
-      "rank": 12
+      "rank": 13
     },
     {
       "id": "movable-ink-content-marketing-coordinator",
@@ -236,25 +254,25 @@
       "fit": "Digital content, editorial coordination, analytics and email-marketing platform experience are relevant to content marketing operations.",
       "gap": "Coordinator-level scope is below Jacob's target; the listing's detailed requirements and compensation should be checked before investing in an application.",
       "url": "https://movableink.com/job-listing?gh_jid=8221933",
-      "rank": 13
+      "rank": 14
     },
     {
-      "id": "mlse-email-marketing-cloud-specialist",
+      "id": "mlse-email-marketing-cloud-specialist-contract",
       "company": "Maple Leaf Sports & Entertainment",
-      "title": "Email Marketing Cloud Specialist",
+      "title": "Email Marketing Cloud Specialist (Contract)",
       "cluster": "Sport-Sector Digital Communications / Email Marketing",
       "tier": "Good fit with stretch",
       "level": "Below target level",
       "location": "Toronto/GTA",
       "work": "Not stated",
-      "posted": "2026-10-02",
+      "posted": "Not stated",
       "deadline": "Not stated",
-      "salary": "Not stated",
+      "salary": "Freelance rate not stated",
       "summary": "Coordinate email and SMS campaign requests, schedules, approvals and cross-functional delivery across sports and entertainment brands.",
       "fit": "Mailchimp, Constant Contact, Stripo and multi-channel campaign experience provide a relevant foundation for email communications operations.",
       "gap": "Salesforce Marketing Cloud or equivalent marketing-automation experience is emphasized but is not listed in the resume details; the role is specialist-level.",
-      "url": "https://sportswork.ca/job/email-marketing-cloud-specialist-mlse-2/",
-      "rank": 14
+      "url": "https://mlse.wd3.myworkdayjobs.com/en-US/MLSE/job/XMLNAME--C--Email-Marketing-Cloud-Specialist_JR0000702",
+      "rank": 15
     },
     {
       "id": "mlse-coordinator-fan-access",
@@ -272,7 +290,25 @@
       "fit": "Sport-sector experience and multi-channel digital communications align with fan engagement and campaign delivery.",
       "gap": "The role targets 1–3 years of experience and pays $25/hour, making it substantially below Jacob's manager-level target.",
       "url": "https://mlse.wd3.myworkdayjobs.com/en-US/MLSE/job/Toronto-Ontario/Coordinator--Fan-Access_JR0000759",
-      "rank": 15
+      "rank": 16
+    },
+    {
+      "id": "mlse-email-marketing-campaigns-coordinator",
+      "company": "Maple Leaf Sports & Entertainment",
+      "title": "Email Marketing & Campaigns Coordinator",
+      "cluster": "Digital Communications / Email Marketing",
+      "tier": "Good fit with stretch",
+      "level": "Below target level",
+      "location": "Toronto/GTA",
+      "work": "Not stated",
+      "posted": "Not stated",
+      "deadline": "Not stated",
+      "salary": "Not stated",
+      "summary": "Supports the email marketing program, content calendar, campaign coordination, approvals and communication between stakeholders and the email agency.",
+      "fit": "Experience with Mailchimp, Constant Contact, Stripo and campaign/content planning translates directly to the channel and coordination responsibilities.",
+      "gap": "This is a coordinator-level execution role and sits below Jacob's target seniority.",
+      "url": "https://mlse.wd3.myworkdayjobs.com/en-US/MLSE/job/XMLNAME--C--Email-Marketing---Campaigns-Coordinator_JR0000879",
+      "rank": 17
     }
   ]
 }
