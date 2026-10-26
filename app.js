@@ -38,6 +38,7 @@ async function loadCloudForUser(user){
     emailInput.disabled=!!user;emailInput.value=user?(user.email||""):emailInput.value;
     signInButton.hidden=!!user;signOutButton.hidden=!user;
     identity.textContent=user?"Signed in as "+(user.email||"your account"):"Sign in to your Job Radar account";
+    document.body.classList.toggle("signed-out",!user);
     syncState.textContent=user?"Loading your private tracker…":"Local-only mode";
     if(user){await loadCloudForUser(user);say("Signed in. Your application tracker is connected to your account.","success");}
     else{currentUser=null;syncState.textContent="Local-only mode";}
