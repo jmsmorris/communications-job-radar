@@ -29,8 +29,13 @@ async function loadCloudForUser(user){
   const authMessage=$("authMessage"),emailInput=$("authEmail"),signInButton=$("signIn"),signOutButton=$("signOut"),identity=$("authIdentity"),syncState=$("syncState");
   if(!authMessage||!emailInput||!signInButton||!signOutButton)return;
   const say=(message,kind="")=>{authMessage.textContent=message;authMessage.className="auth-message "+kind;};
-  if(!window.supabase?.createClient){say("Sign-in could not load. Check your internet connection and refresh.","error");return;}
-  supabaseClient=window.supabase.createClient("https://axypeonrgxsjojxnttaf.supabase.co","sb_publishable_OhbGKJuGLnwp2jwLnon_NA_qjNhEnIa");
+  if(!window.supabase?.createClient){
+    signInButton.addEventListener("click",()=>say("The sign-in service did not load in this browser. Check your connection or disable script-blocking extensions, then refresh the page.","error"));
+    say("Sign-in service is not available yet. If the button does not respond, refresh the page or check whether a browser extension is blocking scripts.","error");
+    return;
+  }
+  try{supabaseClient=window.supabase.createClient("https://axypeonrgxsjojxnttaf.supabase.co","sb_publishable_OhbGKJuGLnwp2jwLnon_NA_qjNhEnIa");}
+  catch(error){signInButton.addEventListener("click",()=>say("Could not initialize sign-in: "+(error.message||"Please refresh and try again."),"error"));say("Could not initialize sign-in: "+(error.message||"Please refresh and try again."),"error");return;}
   async function updateSession(){
     const {data,error}=await supabaseClient.auth.getSession();
     if(error){say("Unable to check sign-in status: "+error.message,"error");return;}
