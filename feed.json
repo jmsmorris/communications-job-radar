@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T09:30:00-04:00",
+  "generatedAt": "2026-10-27T13:50:00-04:00",
   "isSampleData": false,
   "source": "Communications Job Radar on-demand refresh; employer pages, LinkedIn and Indeed listings",
   "jobs": [
@@ -362,9 +362,9 @@
     }
   ],
   "refreshMetadata": {
-    "refreshedAt": "2026-10-27T09:30:00-04:00",
+    "refreshedAt": "2026-10-27T13:50:00-04:00",
     "addedListings": 7,
-    "method": "Connected browser inspection of LinkedIn and Indeed tabs, plus public job-page verification and indexed listing searches",
-    "note": "No user feedback, application stages, notes, local tracker, or Supabase data was modified. Existing feed entries retained; canonical URL and employer/title/location deduplication applied."
+    "method": "Connected Chrome browser inspection of authenticated LinkedIn and Indeed tabs, plus current public listing checks and direct employer/job-page search",
+    "note": "Refresh ran 2026-10-27. LinkedIn and Indeed were directly accessed in the connected browser. Existing feed entries were retained; one verified current listing was added after URL and employer/title/location deduplication. Only feed.json was changed; user feedback, application stages, notes, local tracker data, and Supabase data were not touched."
   }
 }
