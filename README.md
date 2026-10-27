@@ -36,3 +36,7 @@ Candidate context: Content Manager at UJA Federation of Greater Toronto, includi
 
 ## Production work still required
 The front end does not crawl job boards or independently verify listings. A scheduled ingestion/verification service must search employer pages and relevant aggregators, extract and verify deadlines, locations, salary, French requirements and direct application URLs, deduplicate postings, and publish the feed. Feedback is local to this browser until a backend is added.
+
+## Duplicate prevention
+
+The tracker deduplicates loaded vacancies by canonical application URL and by normalized employer + role title + location. Normalize case, punctuation, accents, trailing slashes and common tracking parameters. Prefer active, source-verified employer postings over aggregator duplicates; preserve genuinely distinct requisitions and locations. Before publishing a feed, run the same checks across all sources and manually review near-duplicates and reposts. Keep stable job IDs so existing application stages, notes and Fit/Not a fit feedback remain attached; never reset feedback during feed refreshes. Runtime deduplication is a backstop, not a substitute for checking that a role is still open.
