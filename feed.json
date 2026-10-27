@@ -359,12 +359,32 @@
       "rank": 7,
       "verifiedAt": "2026-10-27",
       "verification": "Indeed listing indexed 4 days ago; application page available"
+    },
+    {
+      "id": "fidelity-manager-corporate-communications-community-affairs",
+      "company": "Fidelity Investments",
+      "title": "Manager Corporate Communications and Community Affairs",
+      "cluster": "Corporate Communications / Community Affairs",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto (relocating to Mississauga office in late 2026)",
+      "work": "Hybrid",
+      "posted": "2026-10-20",
+      "deadline": "Not stated",
+      "salary": "$140,000–$165,000 CAD/year",
+      "summary": "Lead corporate communications and community-affairs work for a Canadian investment firm, supporting corporate reputation, stakeholder engagement and organizational priorities.",
+      "fit": "Senior-stakeholder communications, mission-driven storytelling, campaign leadership and PR agency experience transfer well to corporate communications and community affairs.",
+      "gap": "Financial-services expertise and the specific scope of community-affairs programming may be differentiators; verify the exact responsibilities and reporting line before applying.",
+      "url": "https://ca.indeed.com/viewjob?jk=9df29462074f8e04",
+      "rank": 8,
+      "verifiedAt": "2026-10-27",
+      "verification": "Indeed listing accessible today; salary and hybrid location visible. LinkedIn also shows the role as posted about one week ago."
     }
   ],
   "refreshMetadata": {
     "refreshedAt": "2026-10-27T13:50:00-04:00",
-    "addedListings": 7,
+    "addedListings": 8,
     "method": "Connected Chrome browser inspection of authenticated LinkedIn and Indeed tabs, plus current public listing checks and direct employer/job-page search",
-    "note": "Refresh ran 2026-10-27. LinkedIn and Indeed were directly accessed in the connected browser. Existing feed entries were retained; one verified current listing was added after URL and employer/title/location deduplication. Only feed.json was changed; user feedback, application stages, notes, local tracker data, and Supabase data were not touched."
+    "note": "LinkedIn and Indeed were directly accessed in the connected browser. Existing feed entries were retained and deduplicated by canonical URL and employer/title/location. Only feed.json was changed; user feedback, application stages, notes, local tracker data, and Supabase data were not touched."
   }
 }
