@@ -13,3 +13,6 @@ body.signed-out .auth-panel .eyebrow{margin-top:0}
 body.signed-out .auth-panel h2{font-size:30px}
 body.signed-out .auth-panel #syncState{display:none}
 @media(max-width:600px){body.signed-out main{padding:12px 0}body.signed-out .auth-panel{margin:12px;padding:22px}}
+
+/* Auth interaction hardening: keep sign-in controls above decorative layers and clickable. */
+.auth-panel,.auth-controls,.auth-buttons{position:relative;z-index:2;pointer-events:auto}.auth-buttons button{position:relative;z-index:3;pointer-events:auto;touch-action:manipulation;cursor:pointer}.auth-buttons button:disabled{cursor:wait;opacity:.7}
