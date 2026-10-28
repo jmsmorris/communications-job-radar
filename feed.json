@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-28T08:34:56-04:00",
+  "generatedAt": "2026-10-28T09:49:00-04:00",
   "isSampleData": false,
-  "source": "Daily Communications Job Feed automation",
+  "source": "Communications Job Radar on-demand refresh (LinkedIn, Indeed, employer pages and job-board verification)",
   "jobs": [
     {
       "id": "bmo-senior-communications-manager-contract",
@@ -273,6 +273,42 @@
       "gap": "The posting requires deep outdoor-industry/product marketing knowledge and global brand-team leadership that are not established in the resume details.",
       "url": "https://jobs.lever.co/arcteryx.com/64c82cff-277f-432b-b3ad-4c032306da71",
       "rank": 15
+    },
+    {
+      "id": "mcmaster-director-communications-health-sciences",
+      "company": "McMaster University",
+      "title": "Director, Communications",
+      "cluster": "Strategic Communications / Higher Education",
+      "tier": "Good fit with stretch",
+      "level": "Director-level stretch",
+      "location": "Hamilton, ON",
+      "work": "Hybrid",
+      "posted": "2026-10-25",
+      "deadline": "2026-11-08",
+      "salary": "$150,795–$226,193 CAD/year (hiring range $150,795–$197,730)",
+      "summary": "Lead integrated communications, reputation, media relations, executive thought leadership, digital strategy and stakeholder engagement for the Faculty of Health Sciences; advise the Vice-President & Dean and lead communications staff.",
+      "fit": "UJA campaign storytelling and senior-stakeholder communications, combined with Olympic/sport-sector and PR leadership, align with integrated strategy, reputation and high-impact storytelling.",
+      "gap": "The posting asks for 10+ years of progressively responsible experience and senior leadership, plus issues/crisis communications in complex organizations; these are potential gaps against the experience currently documented.",
+      "url": "https://ca.indeed.com/viewjob?jk=7bc5ccb25c3f72e5",
+      "rank": 1
+    },
+    {
+      "id": "cohere-product-technology-communications-manager",
+      "company": "Cohere",
+      "title": "Product & Technology Communications Manager",
+      "cluster": "Technology Communications / PR",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto, ON / Remote",
+      "work": "Remote",
+      "posted": "Not stated (employer page live; recent crawl)",
+      "deadline": "Not stated",
+      "salary": "CA$165,000–CA$270,000/year, plus equity",
+      "summary": "Develop product and technology communications strategy, translate complex technical work into accessible narratives, support launches and executive thought leadership, and work with product, engineering, research and media teams.",
+      "fit": "Strong writing, editorial strategy, research, digital storytelling and stakeholder counsel are transferable to explaining complex work and shaping product narratives.",
+      "gap": "The role strongly prefers 5–7 years in product/technology communications, AI/enterprise software or developer-focused environments, which is not established in the current profile.",
+      "url": "https://jobs.ashbyhq.com/cohere/1c011283-34f3-4461-bb65-455d65a3ec84",
+      "rank": 2
     }
   ]
 }
