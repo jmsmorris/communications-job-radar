@@ -40,17 +40,14 @@ The front end does not crawl job boards or independently verify listings. A sche
 
 ## Feedback learning
 
-Fit, Not a fit, Applied and private notes shape both the portal and the daily search:
+Fit, Not a fit, Applied, reasons, rule-outs and private notes shape both the portal and the daily search. Both use the same traits from `taxonomy.json` — **level, title seniority, role family, sector, work setup and pay band** — so the portal's tags and the daily feed agree.
 
-- **In the portal (immediate, private):** Not a fit hides a role. Within each fit tier, roles similar to your Fit/Applied picks (same cluster, employer, level or contract status) rise and get a *Like your picks* tag; roles similar to Not a fit picks sink and get a *Like roles you passed on* tag. Each feedback entry keeps a snapshot of the job so the signal survives after the posting closes.
-- **In the daily search:** click **Export feedback** now and then. The scheduled task reads the newest `job-radar-feedback*.json` in your Downloads folder (or `~/.config/communications-job-radar/feedback.json`) and runs `scripts/learn_feedback.py`, which:
-  - excludes roles marked Not a fit and any repost of them;
-  - excludes reposts of roles where your application stage is *Not moving ahead*;
-  - scores patterns (level, title seniority, cluster, contract, employer) by comparing each pattern's share of Fit/Applied picks with your overall share, so traits common to everything you see stay neutral; with at least 3 picks, a pattern 12+ points below ranks lower within its tier and 12+ points above ranks higher; a title keyword or cluster with no Fit/Applied picks at 15+ points below also drops one fit tier (`tierBeforeFeedbackDowngrade`); a junior role marked Not a fit counts against seniority, not against its field;
-  - ranks roles requiring French fluency lower when a Not-a-fit note cites French;
-  - never lifts a role above its cluster tier and never hides a role on a pattern alone.
-  The task also reads notes for reasons ("too junior", "no agency roles") and applies them as rules.
-- **Privacy:** this repository is public. The export and notes are never committed (`.gitignore` blocks them); `feed.json` carries only a generic `feedbackLearning` summary and per-job `feedbackAdjustment` lines with no note text or employer names. The portal shows that summary under *What the daily search learned*.
+- **How a trait is judged:** its share of Fit/Applied picks is compared with your overall share. It needs at least 3 picks; at 0.6× your usual rate or lower the trait ranks roles lower, at 1.6× or higher it ranks them higher. Traits common to everything you see (e.g. "manager" titles) stay neutral, and a weak trait weighs double against a liked one.
+- **Tags:** each card shows at most one tag naming its reason — *Often passed on: below-target-level roles (4 of 46 picked)* first if any trait is weak, otherwise *Like your picks: …* when a trait is at least twice your usual rate. Most cards have no tag. Your own picks are never tagged.
+- **Not a fit reasons:** after clicking × Not a fit, pick why — *Too junior*, *Pay too low*, *Work setup*, *Not my kind of role* — and that pick counts only against those traits. Without a reason, a junior role counts as "too junior", not against its field or sector.
+- **Rule out employer / industry:** also in the reason picker. Employers are otherwise judged role by role; a ruled-out employer or industry is hidden and excluded from future feeds. Undo is in the side panel under *Ruled out*. Religious organizations and tobacco are excluded by default (`excludedSectors`).
+- **Daily search:** click **Export feedback** now and then. The scheduled task reads the newest `job-radar-feedback*.json` in Downloads and runs `scripts/learn_feedback.py`, which also excludes reposts of roles marked *Not moving ahead* and applies note-based rules (e.g. French required). `archive.json` keeps public details of every posting ever listed, so older picks keep counting after a posting closes.
+- **Privacy:** this repository is public. Exports and notes are never committed (`.gitignore` blocks them); `feed.json` carries only trait-level summaries and per-job reason lines.
 
 ## Duplicate prevention
 

@@ -36,3 +36,4 @@ Valid levels: `Target level`, `Below target level`.
 Locations: `Toronto`, `Hamilton`, `Remote Canada`. Use `work` for Remote, Hybrid or On-site.
 
 Only mark `isSampleData` false after replacing the starter feed with verified current postings. Do not use example.com links in a live feed. Prefer employer career pages. A published feed may be public; do not include private notes or sensitive personal data.
+Optional per-job fields written by `scripts/learn_feedback.py`: `sector` (from `taxonomy.json`), `feedbackAdjustment` (one public reason line), `tierBeforeFeedbackDowngrade`. Top-level: `excludedSectors`, `feedbackLearning`. `archive.json` maps every job id ever listed to its public posting details.
