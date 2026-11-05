@@ -38,6 +38,19 @@ Candidate context: Content Manager at UJA Federation of Greater Toronto, includi
 ## Production work still required
 The front end does not crawl job boards or independently verify listings. A scheduled ingestion/verification service must search employer pages and relevant aggregators, extract and verify deadlines, locations, salary, French requirements and direct application URLs, deduplicate postings, and publish the feed. Feedback is local to this browser until a backend is added.
 
+## Feedback learning
+
+Fit, Not a fit, Applied and private notes shape both the portal and the daily search:
+
+- **In the portal (immediate, private):** Not a fit hides a role. Within each fit tier, roles similar to your Fit/Applied picks (same cluster, employer, level or contract status) rise and get a *Like your picks* tag; roles similar to Not a fit picks sink and get a *Like roles you passed on* tag. Each feedback entry keeps a snapshot of the job so the signal survives after the posting closes.
+- **In the daily search:** click **Export feedback** now and then. The scheduled task reads the newest `job-radar-feedback*.json` in your Downloads folder (or `~/.config/communications-job-radar/feedback.json`) and runs `scripts/learn_feedback.py`, which:
+  - excludes roles marked Not a fit and any repost of them;
+  - scores patterns (level, title seniority, cluster, contract, employer): Not a fit −1, Fit +1, Applied +1.5; a junior role marked Not a fit counts against seniority, not against its field;
+  - ranks roles in a pattern scoring ≤ −2 lower and ≥ +2 higher within their tier; a cluster or title keyword at ≤ −3 with no positive picks also drops one fit tier (`tierBeforeFeedbackDowngrade`);
+  - never lifts a role above its cluster tier and never hides a role on a pattern alone.
+  The task also reads notes for reasons ("too junior", "no agency roles") and applies them as rules.
+- **Privacy:** this repository is public. The export and notes are never committed (`.gitignore` blocks them); `feed.json` carries only a generic `feedbackLearning` summary and per-job `feedbackAdjustment` lines with no note text or employer names. The portal shows that summary under *What the daily search learned*.
+
 ## Duplicate prevention
 
 The tracker deduplicates loaded vacancies by canonical application URL and by normalized employer + role title + location. Normalize case, punctuation, accents, trailing slashes and common tracking parameters. Prefer active, source-verified employer postings over aggregator duplicates; preserve genuinely distinct requisitions and locations. Before publishing a feed, run the same checks across all sources and manually review near-duplicates and reposts. Keep stable job IDs so existing application stages, notes and Fit/Not a fit feedback remain attached; never reset feedback during feed refreshes. Runtime deduplication is a backstop, not a substitute for checking that a role is still open.
