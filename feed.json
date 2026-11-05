@@ -1,9 +1,75 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T09:13:20-05:00",
+  "generatedAt": "2026-11-05T09:14:09-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
+  "excludedClosed": [
+    {
+      "id": "city-of-hamilton-channel-strategy-specialist-32297",
+      "company": "City of Hamilton",
+      "title": "Channel Strategy Specialist (Job ID #32297)",
+      "reason": "Deadline passed (closed 2026-11-04 at 4:00 p.m.)",
+      "checkedOn": "2026-11-05"
+    },
+    {
+      "id": "coc-manager-brand-integrated-marketing-contract",
+      "company": "Canadian Olympic Committee",
+      "title": "Manager, Brand and Integrated Marketing (12-month contract)",
+      "reason": "LinkedIn posting now shows \"No longer accepting applications\"",
+      "checkedOn": "2026-11-05"
+    },
+    {
+      "id": "bmo-communications-manager-r260030412",
+      "company": "BMO Financial Group",
+      "title": "Communications Manager",
+      "reason": "Removed from BMO Workday: job detail returns permission-denied and req R260030412 no longer appears in BMO job search",
+      "checkedOn": "2026-11-05"
+    }
+  ],
+  "notes": "Feedback history (Fit / Not a fit / Applied / stage / notes) lives in each viewer's browser and in the RLS-protected Supabase tracker; it was not available to this run, so no Not-a-fit exclusions or feedback-based reweighting were applied. Run 2026-11-05: 68 of 71 carried-over postings re-checked and still open (ids preserved); 3 closed and moved to excludedClosed; 31 new roles added from LinkedIn (48-hour sweep), CharityVillage, SIRC and Sportswork. Checked and excluded as not eligible: Sankofa Square Manager of Marketing & Communications (deadline 2026-10-16 passed), Indspire Senior Communications Advisor – French Language Strategy (deadline 2026-10-30 passed), unpaid volunteer board roles, and out-of-region roles. Fixed-term roles carry contract:true but keep their functional cluster; no fractional/consulting engagements were found. Jobs with verified:false could not be fully read on the check date.",
   "jobs": [
+    {
+      "id": "corpay-global-communications-content-specialist",
+      "company": "Corpay",
+      "title": "Global Communications & Content Specialist",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-05",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Produce global internal and external communications and content for a commercial-payments technology company; LinkedIn lists it as entry level.",
+      "fit": "Nine years of writing, editing and multi-channel content production (UJA publications, AthletesCAN web/social) exceed the brief.",
+      "gap": "Specialist/entry-level role well below target; payments/fintech context is new.",
+      "url": "https://ca.linkedin.com/jobs/view/global-communications-content-specialist-at-corpay-4486581150",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 1
+    },
+    {
+      "id": "rbc-senior-manager-social-content-communities",
+      "company": "RBC",
+      "title": "Senior Manager, Social Content & Communities",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "2026-11-27 (applications accepted until 11:59 p.m. the day prior)",
+      "salary": "Salary not stated",
+      "summary": "Lead organic social content and community building end-to-end for RBC Direct Investing within RBC Enterprise Social Media, including creator/platform-native formats, budget tracking and performance reporting.",
+      "fit": "Grew social channels and owned digital media at AthletesCAN and runs content calendars and senior-level content at UJA; Google Analytics and reporting experience maps to the performance remit.",
+      "gap": "Investing/financial-services compliance content and large-bank social governance are not in his background.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-manager-social-content-communities-at-rbc-4487535791",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 2
+    },
     {
       "id": "kin-canada-communications-coordinator-contract",
       "company": "Kin Canada",
@@ -22,9 +88,8 @@
       "url": "https://www.charityvillage.com/job/communications-coordinator-359608",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 1
+      "verifiedOn": "2026-11-05",
+      "rank": 3
     },
     {
       "id": "uoft-senior-communications-strategist-dfcm",
@@ -43,10 +108,9 @@
       "gap": "Term appointment; academic-medicine audiences are new territory.",
       "url": "https://jobs.utoronto.ca/job/Toronto-Senior-Communications-Strategist-ON/607608717/",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 2,
-      "contract": true
+      "verifiedOn": "2026-11-05",
+      "contract": true,
+      "rank": 4
     },
     {
       "id": "ymca-gt-marketing-communications-content-specialist",
@@ -65,9 +129,8 @@
       "gap": "Specialist level and pay well below target; deadline is this Friday.",
       "url": "https://ca.linkedin.com/jobs/view/marketing-and-communications-content-specialist-at-ymca-of-greater-toronto-4482722157",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 3
+      "verifiedOn": "2026-11-05",
+      "rank": 5
     },
     {
       "id": "utm-social-media-digital-communications-specialist-term",
@@ -81,15 +144,15 @@
       "posted": "2026-11-02",
       "deadline": "2026-11-10 (11:59 p.m. ET)",
       "salary": "$79,640–$101,845 CAD/year (USW Pay Band 11)",
-      "url": "https://jobs.utoronto.ca/job/Mississauga-Social-Media-and-Digital-Communications-Specialist-%28Term%29-ON/607592917/",
-      "contract": true,
       "summary": "Term role (to October 2027) running social media, digital communications calendars and multimedia content for the UTM Career Centre; five days on-site.",
       "fit": "Mirrors Jacob's AthletesCAN social growth and UJA content-calendar work in a university setting.",
       "gap": "Specialist level, term contract and fully on-site in Mississauga.",
+      "url": "https://jobs.utoronto.ca/job/Mississauga-Social-Media-and-Digital-Communications-Specialist-%28Term%29-ON/607592917/",
+      "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "oncat-manager-marketing-communications",
@@ -108,31 +171,8 @@
       "gap": "Post-secondary/credit-transfer sector is new; French is an asset only.",
       "url": "https://canada.gethired.com/a/c968afc8-e965-4ffe-bc9e-9098944760a3",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 5
-    },
-    {
-      "id": "city-of-hamilton-channel-strategy-specialist-32297",
-      "company": "City of Hamilton",
-      "title": "Channel Strategy Specialist (Job ID #32297)",
-      "cluster": "Digital Communications / Digital Content",
-      "tier": "Strongest fit",
-      "level": "Below target level",
-      "location": "Hamilton",
-      "work": "Not stated",
-      "posted": "2026-10-28",
-      "deadline": "2026-11-04 (4:00 p.m.) — closes today",
-      "salary": "Salary not stated",
-      "url": "https://ca.linkedin.com/jobs/view/job-id-%2332297-channel-strategy-specialist-at-city-of-hamilton-4482497418",
-      "contract": true,
-      "summary": "Up-to-12-month role analysing website, social, newsletter and campaign channel performance to guide City communications; apply at hamilton.ca.",
-      "fit": "Google Analytics, Google Ads, SEO and social growth experience align with channel analytics and optimization.",
-      "gap": "Closes 4 p.m. today; specialist-level, analytics-heavy and temporary.",
-      "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-04",
-      "rank": 6
+      "verifiedOn": "2026-11-05",
+      "rank": 7
     },
     {
       "id": "uoft-digital-content-coordinator-utsc",
@@ -151,9 +191,8 @@
       "gap": "Coordinator title is below target level.",
       "url": "https://jobs.utoronto.ca/job/Toronto-Digital-Content-Coordinator-ON/607395917/",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 7
+      "verifiedOn": "2026-11-05",
+      "rank": 8
     },
     {
       "id": "york-osgoode-communication-engagement-specialist",
@@ -172,9 +211,73 @@
       "gap": "Specialist level below target; legal-education audience is new.",
       "url": "https://ca.linkedin.com/jobs/view/communication-and-engagement-specialist-at-york-university-4486446618",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 8
+      "verifiedOn": "2026-11-05",
+      "rank": 9
+    },
+    {
+      "id": "the-519-coordinator-communications",
+      "company": "The 519",
+      "title": "Coordinator, Communications",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-10-27",
+      "deadline": "2026-11-20 (4:00 p.m.)",
+      "salary": "From $29.36/hour",
+      "summary": "Coordinate digital, social and print communications for the Toronto 2SLGBTQ+ community centre, reporting to the Director, Strategic Communications.",
+      "fit": "Community-nonprofit content and social experience plus MA research on representation in media align with the organisation's mission.",
+      "gap": "Coordinator level and hourly pay well below target.",
+      "url": "https://www.charityvillage.com/job/coordinator-communications-357069",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 10
+    },
+    {
+      "id": "caubo-project-coordinator-communications",
+      "company": "Canadian Association of University Business Officers (CAUBO)",
+      "title": "Project Coordinator, Communications",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-10-23",
+      "deadline": "Not stated (CharityVillage listing expires 2026-11-14)",
+      "salary": "$68,680–$94,435 CAD/year",
+      "summary": "Coordinate production, QA and distribution of member communications for the national association of university administrators (Ottawa-based, fully remote).",
+      "fit": "Content calendars, editing and multi-contributor production at UJA match the coordination and QA remit.",
+      "gap": "Working knowledge of French REQUIRED to review translated materials; coordinator level below target.",
+      "url": "https://www.charityvillage.com/job/project-coordinator-communications-responsable-de-projets-communications-355633",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "frenchRequired": true,
+      "rank": 11
+    },
+    {
+      "id": "helpage-canada-communications-lead-contract",
+      "company": "HelpAge Canada",
+      "title": "Communications Lead (contract)",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-10-22",
+      "deadline": "Not stated (CharityVillage listing expires 2026-11-13)",
+      "salary": "$60,000–$70,000 CAD/year",
+      "summary": "Contract lead for content, digital and media communications at a national charity supporting older people, reporting to the Director of Communications and Marketing.",
+      "fit": "Charity storytelling, digital channels and media-contact experience from UJA and AthletesCAN fit the role directly.",
+      "gap": "Pay is below manager level; CharityVillage lists English and French among languages and the posting calls French proficiency an asset — confirm whether French is effectively expected.",
+      "url": "https://www.charityvillage.com/job/communications-lead-355479",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 12
     },
     {
       "id": "bwi-senior-communications-specialist-storytelling-public-affairs",
@@ -193,9 +296,30 @@
       "gap": "Specialist title is below target level; hands-on video production depth not established in resume.",
       "url": "https://www.charityvillage.com/job/senior-communications-specialist-storytelling-and-public-affairs-353497",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 9
+      "verifiedOn": "2026-11-05",
+      "rank": 13
+    },
+    {
+      "id": "ccran-bilingual-communications-coordinator",
+      "company": "Colorectal Cancer Resource & Action Network (CCRAN)",
+      "title": "Bilingual Communications Coordinator (Canadian Based)",
+      "cluster": "Digital Communications / Digital Content",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-09-17",
+      "deadline": "As soon as possible; applications reviewed as received (CharityVillage listing expires 2026-11-16)",
+      "salary": "$50,000 CAD/year",
+      "summary": "Digital storytelling, social, newsletter and community-engagement communications for a national patient-advocacy charity.",
+      "fit": "Health-charity content and digital community work aligns with his nonprofit content background.",
+      "gap": "Bilingual English/French is REQUIRED; coordinator level and pay are well below target.",
+      "url": "https://www.charityvillage.com/job/bilingual-communications-coordinator-canadian-based-326984",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "frenchRequired": true,
+      "rank": 14
     },
     {
       "id": "bladder-cancer-canada-bilingual-communications-manager",
@@ -209,15 +333,15 @@
       "posted": "2026-09-09",
       "deadline": "Not stated (closes when filled; CharityVillage listing expires 2026-11-08)",
       "salary": "$60,000–$65,000 CAD/year",
-      "url": "https://www.charityvillage.com/job/bilingual-communications-manager-342442",
-      "frenchRequired": true,
       "summary": "Leads national health-charity communications strategy, two direct reports, newsletters, website/SEO and campaign calendar; fully remote with occasional travel.",
       "fit": "Health-charity content strategy, Mailchimp/Constant Contact, web/SEO and team leadership line up with Jacob's UJA and AthletesCAN work.",
       "gap": "Full professional French is REQUIRED (non-bilingual candidates not considered); pay well below target.",
+      "url": "https://www.charityvillage.com/job/bilingual-communications-manager-342442",
+      "frenchRequired": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 10
+      "rank": 15
     },
     {
       "id": "kga-digital-content-manager",
@@ -235,9 +359,9 @@
       "fit": "WordPress, SEO, Google Analytics, AthletesCAN digital work and UJA content planning provide direct evidence for the role's channel and content requirements.",
       "gap": "The posting includes hands-on photography and videography as needed; that production experience is not explicit in the resume details.",
       "url": "https://tealandco.applicantstack.com/x/detail/a29x8ikgp1n5",
-      "rank": 11,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 16
     },
     {
       "id": "kga-senior-digital-content-manager",
@@ -255,9 +379,199 @@
       "fit": "UJA's editorial leadership and content calendars, AthletesCAN's website modernization and SEO, and Mile 27 PR's client-facing communications work align closely with the role.",
       "gap": "The role expects strong UX/UI and digital-content strategy across multiple client accounts; a portfolio demonstrating this breadth will be important.",
       "url": "https://tealandco.applicantstack.com/x/detail/a29x8ikm4wga",
-      "rank": 12,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 17
+    },
+    {
+      "id": "cibc-senior-consultant-content-editorial-advice-education",
+      "company": "CIBC",
+      "title": "Senior Consultant, Content & Editorial, Advice & Education",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-05",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Lead strategic editorial content that helps clients and advisors make investing and savings decisions, within CIBC Personal & Business Banking.",
+      "fit": "Editorial leadership on flagship publications and content strategy at UJA translate to an advice-content program.",
+      "gap": "Personal-finance/investing subject matter and bank compliance review are new; \"Senior Consultant\" level should be confirmed against manager pay.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-consultant-content-editorial-advice-education-at-cibc-4487706778",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 18
+    },
+    {
+      "id": "gore-mutual-sr-specialist-content-brand-contract",
+      "company": "Gore Mutual Insurance",
+      "title": "Sr Specialist, Marketing Integration, Content & Brand (18-month contract)",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-05",
+      "deadline": "Not stated",
+      "salary": "$81,000–$131,000 CAD/year",
+      "summary": "18-month contract integrating content and brand across marketing during Gore's combination with Beneva/Unica; in office Tuesdays and Thursdays.",
+      "fit": "Brand-consistent content production across many channels and stakeholders is core to his UJA work.",
+      "gap": "Specialist title below target; insurance marketing context is new; French is an asset only.",
+      "url": "https://ca.linkedin.com/jobs/view/sr-specialist-marketing-integration-content-brand-18-month-contract-at-gore-mutual-insurance-4486553296",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 19
+    },
+    {
+      "id": "viral-nation-senior-manager-content-marketing",
+      "company": "Viral Nation",
+      "title": "Senior Manager, Content Marketing",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$100,000–$125,000 CAD/year",
+      "summary": "Hands-on senior content marketer managing content production and a small team, accountable to lead-generation metrics.",
+      "fit": "Current Content Manager role (publications, content calendars, leadership advisory) maps closely; Google Ads/Analytics familiarity helps on metrics.",
+      "gap": "Lead-gen/B2B pipeline accountability is not in his track record.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-manager-content-marketing-at-viral-nation-4470442810",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 20
+    },
+    {
+      "id": "pontosense-content-communications-lead",
+      "company": "Pontosense",
+      "title": "Content & Communications Lead",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "First dedicated content/communications hire reporting to the CEO: turn product launches, partner news and demos into stories, LinkedIn presence and a company-wide content library (Toronto or Waterloo, hybrid).",
+      "fit": "Built content and channels from scratch at AthletesCAN and Mile 27 PR; health-sciences MA helps with aging/home-care subject matter.",
+      "gap": "Deep-tech (radar sensing/AI) product storytelling is new; asks for portfolio samples.",
+      "url": "https://ca.linkedin.com/jobs/view/content-communications-lead-pontosense-at-pontosense-4486395125",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 21
+    },
+    {
+      "id": "tim-hortons-marketing-communications-specialist",
+      "company": "Restaurant Brands International — Tim Hortons",
+      "title": "Marketing Communications Specialist, Tim Hortons, Canada",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "On-site",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$75,000–$95,000 CAD/year",
+      "summary": "Execute marketing communications programs for Tim Hortons Canada; RBI requires five days per week in office.",
+      "fit": "Multi-channel campaign content and agency-side PR experience apply.",
+      "gap": "Specialist/entry level below target; QSR brand marketing is new; fully on-site.",
+      "url": "https://ca.linkedin.com/jobs/view/marketing-communications-specialist-tim-hortons-canada-at-tim-hortons-4487536909",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 22
+    },
+    {
+      "id": "viral-nation-director-content-marketing",
+      "company": "Viral Nation",
+      "title": "Director, Content Marketing",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "$125,000–$150,000 CAD/year",
+      "summary": "Own Viral Nation's content marketing engine — editorial strategy, team, Monday.com workflows and revenue-adjacent metrics — at a social-first creator/marketing agency.",
+      "fit": "Leads content strategy and calendars for a $78M+ campaign at UJA and ran a boutique PR agency; social growth record at AthletesCAN.",
+      "gap": "B2B demand-gen/revenue attribution for an agency is a step beyond nonprofit content leadership.",
+      "url": "https://ca.linkedin.com/jobs/view/director-content-marketing-at-viral-nation-4487039969",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 23
+    },
+    {
+      "id": "leadership-agency-content-manager-digitail",
+      "company": "The Leadership Agency (for Digitail)",
+      "title": "Content Manager",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "Starting at $100,000/year",
+      "summary": "Recruiter posting for Digitail (veterinary practice-management SaaS): own social presence and content production; Toronto hybrid or US remote.",
+      "fit": "Self-directed content calendar ownership and social growth experience match the \"manage your own calendar\" brief.",
+      "gap": "SaaS/veterinary sector and product-led growth content are new; recruiter listing, so employer page not available.",
+      "url": "https://ca.linkedin.com/jobs/view/content-manager-at-the-leadership-agency-4485005702",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 24
+    },
+    {
+      "id": "haystack-content-marketing-manager",
+      "company": "Haystack (undisclosed employer)",
+      "title": "Content Marketing Manager",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Remote Canada",
+      "work": "Not stated",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Own content strategy, editorial calendar and announcement content for technical audiences at an unnamed technology employer listed via Haystack.",
+      "fit": "Editorial-calendar ownership, interviewing subject experts and executive-channel writing are core to his UJA role.",
+      "gap": "Employer is not named and the listing is thin; technical-audience content experience is limited.",
+      "url": "https://ca.linkedin.com/jobs/view/content-marketing-manager-at-haystack-4486093456",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 25
+    },
+    {
+      "id": "wajax-content-marketing-specialist",
+      "company": "Wajax",
+      "title": "Content Marketing Specialist",
+      "cluster": "Content Marketing / Content Strategy",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "$75,000–$80,000 CAD/year",
+      "summary": "Create web, case-study, email and social content and support SEO for an industrial equipment distributor, reporting to the Sr. Marketing Manager.",
+      "fit": "WordPress, SEO, Mailchimp and content production experience covers the toolset.",
+      "gap": "Specialist level below target; industrial B2B subject matter is new.",
+      "url": "https://ca.linkedin.com/jobs/view/content-marketing-specialist-at-wajax-4487015500",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 26
     },
     {
       "id": "aerovect-senior-content-marketing-manager",
@@ -271,14 +585,14 @@
       "posted": "2026-10-29",
       "deadline": "Not stated",
       "salary": "$125,000–$150,000 CAD/year",
-      "url": "https://ca.talent.com/view?id=644003153189019623",
       "summary": "Primary content marketer for an aviation ground-handling autonomy startup: founder LinkedIn ghostwriting, technical explainers, announcements and editorial calendar.",
       "fit": "Owns end-to-end content like Jacob's UJA publications and calendars, plus executive voice writing and PR coordination.",
       "gap": "Technical B2B audience; aviation/robotics interest is preferred, not required; hands-on IC role.",
+      "url": "https://ca.talent.com/view?id=644003153189019623",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 13
+      "rank": 27
     },
     {
       "id": "betstamp-senior-manager-social-content-creator-partnerships",
@@ -297,9 +611,8 @@
       "gap": "Sports betting/iGaming audience and creator/influencer partnership programs are not established in Jacob's background.",
       "url": "https://careers.betstampventures.com/jobs/726129-senior-manager-social-content-creator-partnerships",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 14
+      "verifiedOn": "2026-11-05",
+      "rank": 28
     },
     {
       "id": "tim-hortons-sr-manager-content-community-management-r4003",
@@ -319,9 +632,8 @@
       "url": "https://rbi.wd3.myworkdayjobs.com/RBI_External_Career_Site/job/Corp---Toronto-Corporate-Office/Sr-Manager--Content---Community-Management--Tim-Hortons--Canada--Fixed-Term---12-months-_R4003",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 15
+      "verifiedOn": "2026-11-05",
+      "rank": 29
     },
     {
       "id": "clio-staff-editor-content-strategist-contract",
@@ -335,15 +647,57 @@
       "posted": "Not stated",
       "deadline": "Not stated",
       "salary": "$113,600–$170,400 CAD/year",
-      "url": "https://ca.talent.com/view?id=644077888766421799",
-      "contract": true,
       "summary": "Final editor and thought-leadership/executive ghostwriter on Clio's Content Strategy team; in office at least twice a week.",
       "fit": "Senior editorial judgment, flagship publications and leadership advisory are central to Jacob's UJA role.",
       "gap": "Legal-tech B2B context is new; 18-month fixed-term contract.",
+      "url": "https://ca.talent.com/view?id=644077888766421799",
+      "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 16
+      "rank": 30
+    },
+    {
+      "id": "cof-associate-manager-communications",
+      "company": "Canadian Olympic Foundation",
+      "title": "Associate Manager, Communications",
+      "cluster": "Fundraising / Philanthropic Communications",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$65,400–$89,900 CAD/year",
+      "summary": "Donor and philanthropy communications for the COC's fundraising arm — stewardship content, campaign materials, translation coordination — reporting to the Manager, Philanthropic Operations (up to two remote days a week).",
+      "fit": "Rare overlap of his two specialties: former COC communications staffer and current campaign content lead for a $78M+ fundraising campaign at UJA.",
+      "gap": "Associate Manager title and pay sit below target; bilingualism is an asset (not required).",
+      "url": "https://ca.linkedin.com/jobs/view/associate-manager-communications-at-canadian-olympic-foundation-4487529755",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 31
+    },
+    {
+      "id": "toronto-cat-rescue-fundraising-communications-manager",
+      "company": "Toronto Cat Rescue",
+      "title": "Fundraising and Communications Manager",
+      "cluster": "Fundraising / Philanthropic Communications",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — GTA",
+      "work": "Hybrid",
+      "posted": "2026-11-03",
+      "deadline": "Not stated (CharityVillage listing expires 2026-11-16)",
+      "salary": "$78,000–$80,000 CAD/year",
+      "summary": "Lead donor communications, campaigns, grant calendar and funding applications, plus communications for a volunteer-driven animal-rescue charity.",
+      "fit": "Fundraising-campaign content at UJA plus Mailchimp/Constant Contact donor email experience fit directly.",
+      "gap": "Grant writing and hands-on solicitation are a bigger share than in his current role; small-charity pay.",
+      "url": "https://www.charityvillage.com/job/fundraising-and-communications-manager-359421",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 32
     },
     {
       "id": "york-school-digital-fundraising-donor-relations-officer",
@@ -357,14 +711,14 @@
       "posted": "2026-10-31",
       "deadline": "Not stated (CharityVillage listing expires 2026-11-10)",
       "salary": "$70,000–$88,000 CAD/year",
-      "url": "https://www.charityvillage.com/job/digital-fundraising-and-donor-relations-officer-343300",
       "summary": "New advancement role building digital fundraising and donor communications and stewardship at an independent Toronto school.",
       "fit": "Jacob's campaign content work for UJA's $78M+ annual campaign maps directly to digital fundraising and donor communications.",
       "gap": "Officer level (2–3 years) below target; on-site; some evening events.",
+      "url": "https://www.charityvillage.com/job/digital-fundraising-and-donor-relations-officer-343300",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 17
+      "rank": 33
     },
     {
       "id": "equinix-communications-manager-foundation",
@@ -382,9 +736,9 @@
       "fit": "UJA philanthropic storytelling and large-scale campaign communications, combined with AthletesCAN digital storytelling and senior-stakeholder work, align closely with impact narrative development.",
       "gap": "Direct global ESG/CSR and digital-inclusion subject experience is not established; the posting treats this background as a plus rather than a requirement.",
       "url": "https://careers.equinix.com/jobs/communications-manager-equinix-foundation-toronto-ontario-canada-dallas-texas-united-states-redwood-city-california",
-      "rank": 18,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 34
     },
     {
       "id": "nygh-foundation-manager-marketing-communications",
@@ -402,9 +756,9 @@
       "fit": "Directly relevant to UJA's large-scale philanthropic campaign communications, donor storytelling, stakeholder engagement and hands-on campaign delivery.",
       "gap": "Events are the primary portfolio focus; the role has no direct reports and requires substantial hands-on project execution.",
       "url": "https://afptoronto.org/job/manager-marketing-communications/",
-      "rank": 19,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 35
     },
     {
       "id": "mackenzie-health-philanthropy-communications-officer",
@@ -422,9 +776,9 @@
       "fit": "UJA's $78M+ annual campaign, donor storytelling, executive content and flagship publications are closely aligned with the Foundation's fundraising and stewardship communications.",
       "gap": "The Officer title and 2–3 year experience requirement place this below target level; healthcare and Raiser's Edge are listed as assets, not requirements.",
       "url": "https://employment-mackenziehealth.icims.com/jobs/19059/2026-19059/job",
-      "rank": 20,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 36
     },
     {
       "id": "sdrcc-communications-coordinator",
@@ -438,15 +792,14 @@
       "posted": "2026-11-02",
       "deadline": "2026-11-23",
       "salary": "$56,000–$66,000 CAD/year",
-      "frenchRequired": true,
       "summary": "Draft newsletters, releases, web and social content, coordinate translation, monitor media and report metrics for the national sport dispute-resolution body; primarily remote (office in Brossard, QC).",
       "fit": "AthletesCAN and COC experience gives deep knowledge of the Canadian sport system and safe-sport issues; WordPress, Canva and analytics skills match directly.",
       "gap": "Fluent written and spoken French is REQUIRED; coordinator level (1–2 years) well below target.",
       "url": "https://sirc.ca/jobs/communications-coordinator-6/",
+      "frenchRequired": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 21
+      "verifiedOn": "2026-11-05",
+      "rank": 37
     },
     {
       "id": "swimming-canada-communications-lead",
@@ -464,31 +817,9 @@
       "fit": "AthletesCAN and Canadian Olympic Committee experience directly match national sport storytelling, media leadership and high-performance athlete communications; UJA adds senior counsel and editorial leadership.",
       "gap": "The posting asks for 10 years of progressive experience versus approximately nine documented; frequent travel is required.",
       "url": "https://swimmingcanada.bamboohr.com/careers/59",
-      "rank": 22,
       "verified": true,
-      "verifiedOn": "2026-11-04"
-    },
-    {
-      "id": "coc-manager-brand-integrated-marketing-contract",
-      "company": "Canadian Olympic Committee",
-      "title": "Manager, Brand and Integrated Marketing (12-month contract)",
-      "cluster": "Sport-Sector Communications / Digital Content",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto (or Montreal)",
-      "work": "Hybrid",
-      "posted": "2026-10-21",
-      "deadline": "Not stated",
-      "salary": "$79,100–$108,790 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/manager-brand-and-integrated-marketing-12-month-contract-at-canadian-olympic-committee-4480541750",
-      "contract": true,
-      "summary": "Leads Team Canada brand strategy, integrated campaigns and agency partners from the COC's Toronto (250 Yonge St.) or Montreal office; up to two remote days a week.",
-      "fit": "Former COC communications staffer with nine years in sport communications, Olympic brand familiarity and campaign content leadership.",
-      "gap": "Brand/integrated marketing rather than communications; 12-month contract; French is a strong asset (not required).",
-      "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-04",
-      "rank": 23
+      "verifiedOn": "2026-11-05",
+      "rank": 38
     },
     {
       "id": "mlse-email-marketing-campaigns-coordinator-contract",
@@ -508,30 +839,95 @@
       "url": "https://mlse.wd3.myworkdayjobs.com/MLSE/job/Toronto-Ontario/XMLNAME--C--Email-Marketing---Campaigns-Coordinator_JR0000879",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 24
+      "verifiedOn": "2026-11-05",
+      "rank": 39
     },
     {
-      "id": "bmo-communications-manager-r260030412",
-      "company": "BMO Financial Group",
-      "title": "Communications Manager",
+      "id": "aecon-director-internal-communications",
+      "company": "Aecon Group Inc.",
+      "title": "Director, Internal Communications",
       "cluster": "Internal / Employee Communications",
       "tier": "Strongest fit",
       "level": "Target level",
       "location": "Toronto/GTA — Toronto",
-      "work": "On-site",
-      "posted": "2026-11-02",
-      "deadline": "2026-11-19",
-      "salary": "$55,500–$120,000 CAD/year",
-      "summary": "Develop and deliver employee and change communications across email, SharePoint, newsletters, video and events; counsel business partners on messaging and channels and measure effectiveness. 33 Dundas St W; remote applications invited.",
-      "fit": "UJA senior-leadership advisory, content calendars and SharePoint/newsletter work match employee communications counsel and multi-channel delivery.",
-      "gap": "Banking/change-management context is new; French is an asset only.",
-      "url": "https://bmo.wd3.myworkdayjobs.com/External/job/Toronto-ON-CAN/Communications-Manager_R260030412",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$135,000–$145,000 CAD/year",
+      "summary": "Lead enterprise internal communications (replacement vacancy) for a national infrastructure and construction company.",
+      "fit": "Senior-leadership advisory and SharePoint/intranet content at UJA plus a decade of multi-audience messaging support the remit.",
+      "gap": "Director-level enterprise employee comms for a large, field-based workforce is a step up; construction sector is new (not stated as required).",
+      "url": "https://ca.linkedin.com/jobs/view/director-internal-communications-at-aecon-group-inc-4469936016",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 25
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 40
+    },
+    {
+      "id": "greenshield-corporate-communications-manager-contract",
+      "company": "GreenShield",
+      "title": "Corporate Communications Manager (12-month contract)",
+      "cluster": "Corporate / Internal & External Communications",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "12-month contract managing corporate communications for Canada's non-profit health and benefits \"payvider,\" reporting to the Director, Corporate Communications.",
+      "fit": "Mission-driven nonprofit communications and health-sciences MA suit GreenShield's \"Better Health for All\" positioning.",
+      "gap": "Insurance/benefits sector is new; contract term.",
+      "url": "https://ca.linkedin.com/jobs/view/corporate-communications-manager-contract-at-greenshield-4487530080",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 41
+    },
+    {
+      "id": "high-liner-foods-communications-specialist-contract",
+      "company": "High Liner Foods",
+      "title": "Communications Specialist (12–18 month contract)",
+      "cluster": "Internal / Employee Communications",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Mississauga",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$59,000–$81,500 CAD/year",
+      "summary": "Internal, executive-visibility and reputation communications reporting to the Senior Manager, Communications.",
+      "fit": "Executive and employee-facing content experience applies directly.",
+      "gap": "Specialist level and pay below target; contract.",
+      "url": "https://ca.linkedin.com/jobs/view/communications-specialist-12-18-month-contract-at-high-liner-foods-4487283729",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 42
+    },
+    {
+      "id": "definity-coordinator-corporate-communication-contract",
+      "company": "Definity",
+      "title": "Coordinator, Corporate Communication (18-month contract)",
+      "cluster": "Corporate / Internal & External Communications",
+      "tier": "Strongest fit",
+      "level": "Below target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "$45,000–$82,100 CAD/year",
+      "summary": "Junior coordinator supporting employee, media, executive and event communications at the insurer.",
+      "fit": "Covers every channel he has run.",
+      "gap": "Explicitly junior; well below target level and pay.",
+      "url": "https://ca.linkedin.com/jobs/view/coordinator-corporate-communication-18-month-contract-at-definity-4487042812",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 43
     },
     {
       "id": "mda-space-internal-communications-manager",
@@ -545,14 +941,14 @@
       "posted": "2026-11-01",
       "deadline": "Not stated",
       "salary": "$110,000–$125,000 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/internal-communications-manager-%E2%80%93-corporate-communications-at-mda-space-4467592935",
       "summary": "Plans and measures global internal communications campaigns with HR as primary stakeholder (talent, total rewards, engagement, DEI).",
       "fit": "Jacob's multi-channel content planning, publications and senior-leadership advisory at UJA translate to employee engagement campaigns.",
       "gap": "Asks for 5–8 years specifically in internal/change communications; aerospace context is new; French a strong asset.",
+      "url": "https://ca.linkedin.com/jobs/view/internal-communications-manager-%E2%80%93-corporate-communications-at-mda-space-4467592935",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 26
+      "rank": 44
     },
     {
       "id": "adp-communications-manager-canada",
@@ -570,9 +966,9 @@
       "fit": "UJA senior-leadership counsel, campaign planning and digital content experience, alongside AthletesCAN media work, align with the broad national communications remit.",
       "gap": "Direct ownership of large-scale corporate change communications is not explicit in the resume details.",
       "url": "https://jobs.adp.com/en/jobs/6013159010232026/communications-manager/",
-      "rank": 27,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 45
     },
     {
       "id": "intact-communications-advisor-ii-strategic-internal",
@@ -590,9 +986,9 @@
       "fit": "UJA content calendars and editorial work, AthletesCAN communications, SharePoint familiarity and sport sponsorship context align well with the day-to-day work.",
       "gap": "Advisor II is below the target level; Viva Engage and Trados are not established in the resume details.",
       "url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Toronto-Ontario-CAN/Communications-Advisor-II---Strategic-Internal-Communications_R156311",
-      "rank": 28,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 46
     },
     {
       "id": "td-senior-manager-audit-stakeholder-communications",
@@ -611,9 +1007,8 @@
       "gap": "Asks for 10+ years including people management; audit experience preferred (not required).",
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Audit-Stakeholder-Communications--900-_R_1485597",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 29
+      "verifiedOn": "2026-11-05",
+      "rank": 47
     },
     {
       "id": "omnicom-media-manager-communications",
@@ -627,14 +1022,14 @@
       "posted": "2026-10-28",
       "deadline": "Not stated",
       "salary": "$70,000–$75,000 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/manager-communications-at-omnicom-media-4481919175",
       "summary": "Runs day-to-day internal communications, newsletters, intranet and employer-brand content for Omnicom Media Canada; minimum three office days a week.",
       "fit": "Editorial calendars, newsletters and leadership content are core to Jacob's UJA role; agency background via Mile 27 PR.",
       "gap": "Pay below target for a 7–10 year ask; employer-brand/HR communications focus.",
+      "url": "https://ca.linkedin.com/jobs/view/manager-communications-at-omnicom-media-4481919175",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 30
+      "rank": 48
     },
     {
       "id": "mars-internal-communications-manager-mars-snacking-r170829",
@@ -653,9 +1048,8 @@
       "gap": "Asks for 5+ years specifically in corporate internal communications; Bolton commute from Toronto.",
       "url": "https://mars.wd3.myworkdayjobs.com/External/job/CAN-Ontario-Bolton/Internal-Communications-Manager---Mars-Snacking_R170829",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 31
+      "verifiedOn": "2026-11-05",
+      "rank": 49
     },
     {
       "id": "camh-communications-coordinator-public-affairs",
@@ -675,9 +1069,8 @@
       "url": "https://ca.linkedin.com/jobs/view/communications-coordinator-public-affairs-at-camh-4483272064",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 32
+      "verifiedOn": "2026-11-05",
+      "rank": 50
     },
     {
       "id": "fidelity-manager-corporate-communications-community-affairs",
@@ -691,14 +1084,14 @@
       "posted": "2026-10-21",
       "deadline": "Not stated",
       "salary": "$140,000–$165,000 CAD total cash compensation (base plus target bonus)",
-      "url": "https://ca.talent.com/view?id=642679033054504465",
       "summary": "Leads corporate and internal communications plus community-affairs programming; work location moves from Bay St. to Mississauga in late 2026.",
       "fit": "Combines Jacob's nonprofit/community storytelling with corporate communications and senior-leader advisory.",
       "gap": "Financial-services/regulated-industry experience preferred (not required); office relocating to Mississauga.",
+      "url": "https://ca.talent.com/view?id=642679033054504465",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 33
+      "rank": 51
     },
     {
       "id": "corby-senior-manager-corporate-communications-jr-055235",
@@ -717,9 +1110,8 @@
       "gap": "Asks for 8–10 years in corporate communications (public-company experience a plus); beverage-alcohol sector is new.",
       "url": "https://pernodricard.wd3.myworkdayjobs.com/pernod-ricard/job/Toronto-ON/Senior-Manager--Corporate-Communications_JR-055235",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 34
+      "verifiedOn": "2026-11-05",
+      "rank": 52
     },
     {
       "id": "cibc-consultant-communications-public-affairs",
@@ -733,14 +1125,14 @@
       "posted": "2026-10-14",
       "deadline": "Not stated",
       "salary": "Salary not stated",
-      "url": "https://ca.linkedin.com/jobs/view/consultant-communications-public-affairs-at-cibc-4479045895",
       "summary": "Corporate communications and public-affairs consultant role at CIBC; 1–3 days a week on-site.",
       "fit": "Media relations, writing and stakeholder work from AthletesCAN and UJA cover the 5+ year corporate communications ask.",
       "gap": "Consultant level likely below target; banking context is new.",
+      "url": "https://ca.linkedin.com/jobs/view/consultant-communications-public-affairs-at-cibc-4479045895",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 35
+      "rank": 53
     },
     {
       "id": "postmedia-communications-specialist",
@@ -758,9 +1150,9 @@
       "fit": "Jacob's editorial content, multi-channel communications, WordPress, SharePoint, Adobe and Canva experience align closely with the role's tools and responsibilities.",
       "gap": "The Specialist title is below target level; public-company investor-relations communications are an asset, not a requirement.",
       "url": "https://jobs.dayforcehcm.com/postmedia/postmediacareers/jobs/10201",
-      "rank": 36,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 54
     },
     {
       "id": "danone-communications-senior-manager-14-month-contract",
@@ -774,15 +1166,37 @@
       "posted": "Not stated",
       "deadline": "Not stated",
       "salary": "$95,000–$135,000 CAD/year (per aggregator listings)",
-      "url": "https://ca.indeed.com/viewjob?jk=bd310f47d937bcb4",
-      "contract": true,
-      "verified": false,
       "summary": "Unconfirmed lead — posting text not fully readable. Listed on Indeed, SimplyHired and Jooble in late October 2026 as a hybrid 14-month contract with travel between Toronto and Montreal.",
       "fit": "Senior corporate communications contract at a consumer brand; matches Jacob's manager-level communications leadership.",
       "gap": "Could not read the posting to confirm requirements or French expectations; contract.",
-      "verifiedOn": "2026-11-04",
+      "url": "https://ca.indeed.com/viewjob?jk=bd310f47d937bcb4",
+      "contract": true,
+      "verified": false,
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 37
+      "rank": 55
+    },
+    {
+      "id": "optrust-senior-public-affairs-advisor-contract",
+      "company": "OPTrust",
+      "title": "Senior Public Affairs Advisor (12-month contract)",
+      "cluster": "Public / Crown-Sector Advisory",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$104,550–$128,763 CAD/year",
+      "summary": "12-month contract advising on public affairs and stakeholder communications for the OPSEU Pension Trust (public-sector pension plan); apply via Workday.",
+      "fit": "Senior advisory to leadership, stakeholder messaging and media-contact experience fit a senior advisor brief with manager-level pay.",
+      "gap": "Pension policy and government-relations context is new.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-public-affairs-advisor-at-optrust-4486533102",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 56
     },
     {
       "id": "rpra-communications-advisor-contract",
@@ -796,15 +1210,15 @@
       "posted": "2026-11-03",
       "deadline": "Not stated",
       "salary": "$69,605–$87,007 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/communications-advisor-contract-at-resource-productivity-and-recovery-authority-4385929654",
-      "contract": true,
       "summary": "Provides strategic communications advice, content, digital, media relations and stakeholder engagement for Ontario's circular-economy regulator; remote days must be in Ontario.",
       "fit": "Strong writer/editor with digital and media-relations experience suited to a provincial regulator.",
       "gap": "Advisor level and pay below target; 16-month contract; regulatory communications are new.",
+      "url": "https://ca.linkedin.com/jobs/view/communications-advisor-contract-at-resource-productivity-and-recovery-authority-4385929654",
+      "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 38
+      "rank": 57
     },
     {
       "id": "oakville-senior-communications-advisor",
@@ -818,14 +1232,142 @@
       "posted": "2026-10-29",
       "deadline": "2026-11-06 (12:00 p.m.)",
       "salary": "Salary not stated",
-      "url": "https://muniserv.ca/jobs/senior-communications-advisor-77raz",
       "summary": "Permanent role building communications plans, issues/crisis management, media relations and collateral for Town departments; apply at oakville.ca.",
       "fit": "Nine years of strategic communications, media relations and senior-staff advisory meet the 5+ year requirement.",
       "gap": "Municipal/public-sector experience preferred; deadline is Friday noon; salary shown only after sign-in.",
+      "url": "https://muniserv.ca/jobs/senior-communications-advisor-77raz",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 39
+      "rank": 58
+    },
+    {
+      "id": "kpmg-md-head-leadership-communications",
+      "company": "KPMG",
+      "title": "Managing Director, Head of Leadership Communications, Global Corporate Affairs",
+      "cluster": "Executive Communications / Thought Leadership",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Lead the Leadership Communications team within KPMG International's Global Communications — executive speeches, thought leadership and leader visibility.",
+      "fit": "Advises senior leadership and writes executive content at UJA.",
+      "gap": "Managing-director level, global professional-services executive comms are a significant step up.",
+      "url": "https://ca.linkedin.com/jobs/view/managing-director-head-of-leadership-communications-global-corporate-affairs-at-kpmg-canada-4479269888",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 59
+    },
+    {
+      "id": "cohere-product-technology-communications-manager",
+      "company": "Cohere",
+      "title": "Product & Technology Communications Manager",
+      "cluster": "Executive / External Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$115,000–$210,000/year",
+      "summary": "Own product and technology communications (launch narratives, media, technical storytelling) for the Toronto enterprise-AI company; remote-friendly with offices.",
+      "fit": "Media relations, agency founder experience and strong narrative writing apply.",
+      "gap": "Enterprise AI/technical product communications experience is not in his background.",
+      "url": "https://ca.linkedin.com/jobs/view/product-technology-communications-manager-at-cohere-4439927469",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 60
+    },
+    {
+      "id": "mercury-tech-communications-lead",
+      "company": "Mercury",
+      "title": "Tech Communications Lead",
+      "cluster": "Executive / External Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$149,500–$186,900 CAD/year (Canadian employees)",
+      "summary": "Shape and own Mercury's technology and AI-innovation narrative, partnering with the co-founder and product/AI leaders.",
+      "fit": "Thought-leadership and earned-media skills from Mile 27 PR and AthletesCAN.",
+      "gap": "Tech/fintech press network and AI product storytelling are new.",
+      "url": "https://ca.linkedin.com/jobs/view/tech-communications-lead-at-mercury-4476601567",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 61
+    },
+    {
+      "id": "lds-church-manager-area-public-relations",
+      "company": "The Church of Jesus Christ of Latter-day Saints",
+      "title": "Manager, Area Public Relations",
+      "cluster": "Public Relations / Stakeholder Relations",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Etobicoke",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Lead a team building relationships with leaders, influencers and organizations across the Canada area; regular travel including Ottawa.",
+      "fit": "Faith-community nonprofit experience at UJA and relationship-driven PR work apply; 7+ years requirement met.",
+      "gap": "Government/interfaith relations focus and frequent travel; French preferred (not required).",
+      "url": "https://ca.linkedin.com/jobs/view/manager-area-public-relations-at-the-church-of-jesus-christ-of-latter-day-saints-4478428356",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 62
+    },
+    {
+      "id": "tangerine-senior-manager-global-sponsorships-contract",
+      "company": "Tangerine (Scotiabank)",
+      "title": "Senior Manager, Global Sponsorships (12-month contract)",
+      "cluster": "Sport / Sponsorship & Partnerships",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "12-month contract planning and executing sponsorship programs from concept to activation, with budgeting and partner management.",
+      "fit": "Sport-sector partnerships and athlete/partner communications from COC and AthletesCAN.",
+      "gap": "Sponsorship activation/budget ownership for a bank brand is more marketing than communications.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-manager-global-sponsorships-12-month-contract-tangerine-at-tangerine-4486506096",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "contract": true,
+      "rank": 63
+    },
+    {
+      "id": "cogeco-senior-director-communications",
+      "company": "Cogeco",
+      "title": "Senior Director, Communications",
+      "cluster": "Executive / External Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Burlington",
+      "work": "Not stated",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Strategic lead for enterprise narrative, corporate reputation and crisis communications at the telecom company.",
+      "fit": "Reputation and leadership-advisory experience apply.",
+      "gap": "Fluent French and English REQUIRED; senior-director telecom corporate affairs is a big step up.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-director-communications-at-cogeco-inc-4485551829",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "frenchRequired": true,
+      "rank": 64
     },
     {
       "id": "d2l-content-strategist-12-month-contract",
@@ -839,15 +1381,15 @@
       "posted": "2026-11-03",
       "deadline": "Not stated",
       "salary": "$57,000–$80,000 CAD/year",
-      "url": "https://builtin.com/job/content-strategist-12-month-contract/12041645",
-      "contract": true,
       "summary": "Multilingual content strategy, technical documentation, style guides and localization for a Kitchener-based edtech company; remote within Canada.",
       "fit": "Content strategy, style standards and audits draw on Jacob's editorial leadership.",
       "gap": "Technical writing/localization focus and below-target pay; 12-month contract.",
+      "url": "https://builtin.com/job/content-strategist-12-month-contract/12041645",
+      "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 40
+      "rank": 65
     },
     {
       "id": "edelman-director-public-government-affairs-technology",
@@ -861,14 +1403,14 @@
       "posted": "2026-11-03",
       "deadline": "Not stated",
       "salary": "$90,000–$125,000 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/director-public-government-affairs-technology-clients-at-edelman-4486470183",
       "summary": "Leads public-affairs and government-relations counsel for technology clients at Edelman Toronto.",
       "fit": "Agency leadership and strategic communications counsel transfer to a director seat.",
       "gap": "Requires 5–10 years in government, public policy or GR; technology-policy clients are new.",
+      "url": "https://ca.linkedin.com/jobs/view/director-public-government-affairs-technology-clients-at-edelman-4486470183",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 41
+      "rank": 66
     },
     {
       "id": "osl-public-relations-manager",
@@ -882,14 +1424,35 @@
       "posted": "2026-11-03",
       "deadline": "Not stated",
       "salary": "$100,000–$110,000 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/public-relations-manager-at-osl-retail-services-4486408665",
       "summary": "Leads PR, media relations and integrated brand communications for a retail marketing-services company.",
       "fit": "5–7 years of PR/media relations is met by Jacob's agency and AthletesCAN media-contact experience.",
       "gap": "Retail/brand-marketing sector is new; Mississauga location.",
+      "url": "https://ca.linkedin.com/jobs/view/public-relations-manager-at-osl-retail-services-4486408665",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 42
+      "rank": 67
+    },
+    {
+      "id": "citizen-relations-senior-director-pr",
+      "company": "Citizen Relations",
+      "title": "Senior Director (PR)",
+      "cluster": "Agency PR / Account Leadership",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-11-03",
+      "deadline": "Not stated",
+      "salary": "$125,000–$150,000 CAD/year",
+      "summary": "Full ownership of client accounts — day-to-day operations, growth and team leadership — at a global integrated PR agency.",
+      "fit": "Ran his own PR agency (Mile 27 PR) and served as primary media contact at AthletesCAN.",
+      "gap": "Senior large-agency account P&L and consumer-brand roster experience not established.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 68
     },
     {
       "id": "cihi-project-lead-office-director-marketing-communications",
@@ -909,9 +1472,8 @@
       "url": "https://www.simplyhired.ca/job/M0EWkjiQCJVRMNNiwd6FmEg_YdUP6J7csxdfWAaTRFwhW-AJSve84Q",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 43
+      "verifiedOn": "2026-11-05",
+      "rank": 69
     },
     {
       "id": "sac-interim-director-public-affairs-strategic-communications",
@@ -934,9 +1496,8 @@
         "French listed as strong asset; sidebar lists French under required languages"
       ],
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 44
+      "verifiedOn": "2026-11-05",
+      "rank": 70
     },
     {
       "id": "yma-director-communications-coordination",
@@ -950,15 +1511,14 @@
       "posted": "2026-11-02",
       "deadline": "2026-11-08 (5 p.m.; job-description PDF misprints the year as 2024)",
       "salary": "$65,000–$80,000 CAD/year",
-      "frenchRequired": true,
       "summary": "Run communications (releases, press, social, website) and annual events (Awards of Excellence gala, KIMS Canada) for the children's screen-media association, plus scholarship and philanthropy support.",
       "fit": "Event and media-relations work at the COC and AthletesCAN plus donor-facing content at UJA cover the communications, events and development mix.",
       "gap": "Fluent written and oral French is REQUIRED (application letter in English and French); pay below target despite Director title.",
       "url": "https://www.ymamj.org/en/job_opening_list",
+      "frenchRequired": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 45
+      "verifiedOn": "2026-11-05",
+      "rank": 71
     },
     {
       "id": "intact-communications-specialist-writer-executive-communications",
@@ -977,9 +1537,8 @@
       "gap": "Specialist title below target level; French is a strong asset (not required outside Quebec).",
       "url": "https://intactfc.wd3.myworkdayjobs.com/intactfc/job/Toronto-Ontario-CAN/Communications-Specialist--Writer--Executive-Communications-_R155366",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 46
+      "verifiedOn": "2026-11-05",
+      "rank": 72
     },
     {
       "id": "national-senior-consultant-public-affairs-government-relations",
@@ -993,14 +1552,14 @@
       "posted": "2026-10-30",
       "deadline": "Not stated",
       "salary": "$77,000–$87,500 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/senior-consultant-public-affairs-and-government-relations-at-national-public-relations-4458794521",
       "summary": "Day-to-day client lead on municipal/provincial government relations, stakeholder and reputation programs at Canada's largest PR firm.",
       "fit": "Agency founder experience (Mile 27 PR) and media relations support client-facing counsel.",
       "gap": "Government-relations and political experience is central; consultant level below target.",
+      "url": "https://ca.linkedin.com/jobs/view/senior-consultant-public-affairs-and-government-relations-at-national-public-relations-4458794521",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 47
+      "rank": 73
     },
     {
       "id": "opentext-manager-communications-public-affairs",
@@ -1014,14 +1573,14 @@
       "posted": "2026-10-30",
       "deadline": "Not stated",
       "salary": "$86,800–$130,200 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/manager-communications-public-affairs-at-opentext-4483056396",
       "summary": "Corporate, executive and public-affairs communications for a Canadian enterprise software company.",
       "fit": "4–6 year ask is within Jacob's experience; executive advisory and media relations apply.",
       "gap": "Politics/public-affairs background is preferred; enterprise tech sector is new.",
+      "url": "https://ca.linkedin.com/jobs/view/manager-communications-public-affairs-at-opentext-4483056396",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 48
+      "rank": 74
     },
     {
       "id": "unity-health-senior-communications-specialist-map",
@@ -1040,9 +1599,8 @@
       "gap": "Asks for 5–7 years plus experience communicating about equity issues and public health; Senior Specialist is below target level.",
       "url": "https://ca.linkedin.com/jobs/view/senior-communications-specialist-map-at-st-michael-s-hospital-4480473546",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 49
+      "verifiedOn": "2026-11-05",
+      "rank": 75
     },
     {
       "id": "korn-ferry-head-of-communications-confidential",
@@ -1056,14 +1614,14 @@
       "posted": "2026-10-28",
       "deadline": "Not stated",
       "salary": "$200,000–$250,000 CAD/year base",
-      "url": "https://ca.linkedin.com/jobs/view/head-of-communications-senior-manager-corporate-communications-at-korn-ferry-4481311813",
       "summary": "Recruiter-led search for a confidential client's head of corporate communications.",
       "fit": "Senior-leadership advisory and end-to-end communications ownership at UJA.",
       "gap": "Pay band signals a much more senior corporate role than Jacob's current scope; client undisclosed.",
+      "url": "https://ca.linkedin.com/jobs/view/head-of-communications-senior-manager-corporate-communications-at-korn-ferry-4481311813",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 50
+      "rank": 76
     },
     {
       "id": "td-senior-manager-executive-communications",
@@ -1082,9 +1640,8 @@
       "gap": "Wants 8–10 years in a corporate communications environment; Jacob’s background is sport/nonprofit.",
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Executive-Communications_R_1514217",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 51
+      "verifiedOn": "2026-11-05",
+      "rank": 77
     },
     {
       "id": "mcmaster-director-communications-health-sciences",
@@ -1102,9 +1659,30 @@
       "fit": "Jacob's MA in Applied Health Sciences, research-informed writing, UJA senior-leadership counsel and content leadership align with health-sciences reputation and research storytelling.",
       "gap": "The posting asks for at least 10 years of progressively responsible experience and senior leadership in complex organizations; approximately nine years are documented.",
       "url": "https://www.simplyhired.ca/job/N0V5Z-SfndvvmZG9yrUd94CgMVBO6gJv0hVEdsCDSD_TRjILUIKDuQ",
-      "rank": 52,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 78
+    },
+    {
+      "id": "ohtn-director-communications",
+      "company": "Ontario HIV Treatment Network (OHTN)",
+      "title": "Director, Communications",
+      "cluster": "University / Research Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-10-23",
+      "deadline": "Not stated (CharityVillage listing expires 2026-11-06)",
+      "salary": "$100,000–$112,000 CAD/year",
+      "summary": "Lead communications for a provincial HIV research, knowledge-translation and community network, reporting to the Senior Director, Strategic Operations.",
+      "fit": "MA in Applied Health Sciences and research-communication skills plus nonprofit content leadership fit a KT-heavy director role.",
+      "gap": "Director scope and HIV/health-equity research translation are a stretch; listing expires 2026-11-06 — apply immediately.",
+      "url": "https://www.charityvillage.com/job/director-communications-355855",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 79
     },
     {
       "id": "benevity-external-communications-manager",
@@ -1122,9 +1700,9 @@
       "fit": "Mile 27 PR leadership, AthletesCAN media experience, UJA nonprofit context and executive-facing storytelling are relevant to external reputation and thought leadership.",
       "gap": "Substantial B2B technology media-relations and crisis-communications experience is not established.",
       "url": "https://jobs.ashbyhq.com/benevity/57de361d-61ba-4058-adae-1dda3ff6cf75",
-      "rank": 53,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 80
     },
     {
       "id": "mlse-account-manager-partnership-development",
@@ -1136,16 +1714,15 @@
       "location": "Toronto/GTA — Toronto",
       "work": "Hybrid",
       "posted": "2026-10-22",
-      "deadline": "Not stated (Workday end date of 2026-11-06 no longer displayed)",
+      "deadline": "2026-11-06 (Workday posting end date)",
       "salary": "$70,000–$85,000 CAD/year base plus bonus",
       "summary": "Support corporate partnership development and sponsor relationships across MLSE properties.",
       "fit": "Sport-sector partnership exposure from AthletesCAN, the COC and Mile 27 PR client work.",
       "gap": "Sales/business-development role rather than communications; below target level.",
       "url": "https://mlse.wd3.myworkdayjobs.com/MLSE/job/Toronto-Ontario/Account-Manager--Partnership-Development_JR0000873",
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-02",
-      "rank": 54
+      "verifiedOn": "2026-11-05",
+      "rank": 81
     },
     {
       "id": "molson-coors-commercial-communications-manager-contract",
@@ -1159,15 +1736,15 @@
       "posted": "2026-10-21",
       "deadline": "Not stated",
       "salary": "$94,900–$124,500 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/commercial-communications-manager-12-month-contract-at-molson-coors-beverage-company-4480741912",
-      "contract": true,
       "summary": "Internal and external communications for the sales organization, including quarterly town halls and national sales conference content; four office days a week.",
       "fit": "5–8 year corporate communications ask fits; event and leadership content experience.",
       "gap": "Posting asks for extensive beverage-industry knowledge and sales-org experience; 12-month contract.",
+      "url": "https://ca.linkedin.com/jobs/view/commercial-communications-manager-12-month-contract-at-molson-coors-beverage-company-4480741912",
+      "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 55
+      "rank": 82
     },
     {
       "id": "citizen-relations-account-director-pr",
@@ -1181,14 +1758,15 @@
       "posted": "2026-10-15",
       "deadline": "Not stated",
       "salary": "$105,000–$130,000 CAD/year",
-      "url": "https://ca.talent.com/view?id=641833692645689394",
       "summary": "Owns a client portfolio, integrated PR campaigns and team mentoring at a global consumer PR agency.",
       "fit": "Founded and ran Mile 27 PR and served as primary media contact at AthletesCAN.",
       "gap": "Large-agency account P&L and consumer-brand roster experience not established.",
+      "url": "https://ca.linkedin.com/jobs/view/account-director-pr-at-citizen-relations-4480156824",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 56
+      "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
+      "rank": 83
     },
     {
       "id": "varicent-manager-content-marketing",
@@ -1206,9 +1784,9 @@
       "fit": "UJA content strategy, flagship publications and campaign storytelling, plus AthletesCAN digital content and analytics, align with editorial leadership and measurement.",
       "gap": "Direct B2B SaaS product marketing and sales-performance-management subject expertise are not established.",
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
-      "rank": 57,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 84
     },
     {
       "id": "tvo-social-media-specialist-12-month-contract",
@@ -1228,9 +1806,8 @@
       "url": "https://ca.linkedin.com/jobs/view/social-media-specialist-12-month-contract-at-tvo-4485261797",
       "contract": true,
       "verified": true,
-      "verifiedOn": "2026-11-04",
-      "newOn": "2026-11-03",
-      "rank": 58
+      "verifiedOn": "2026-11-05",
+      "rank": 85
     },
     {
       "id": "blue-door-account-director-public-relations",
@@ -1248,9 +1825,9 @@
       "fit": "Mile 27 PR founder/CEO experience, AthletesCAN media relations and UJA stakeholder communications align with agency account leadership and strategic counsel.",
       "gap": "The posting seeks 5–7 years and direct account management with team delegation; agency experience is preferred, but multi-account leadership at this level is not fully documented.",
       "url": "https://www.bluedoor.agency/careers/account-director-public-relations",
-      "rank": 59,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 86
     },
     {
       "id": "weber-shandwick-account-director-earned-media-strategy",
@@ -1268,9 +1845,9 @@
       "fit": "Mile 27 PR leadership and AthletesCAN's primary media-contact responsibilities align with earned-media strategy, client counsel and reputation storytelling.",
       "gap": "Agency-scale major-account ownership, direct team management and corporate-affairs client experience are not fully established.",
       "url": "https://webershandwick.com/job-offer/account-director-earned-media-strategy-4",
-      "rank": 60,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 87
     },
     {
       "id": "weber-shandwick-account-director-integrated-media-strategy",
@@ -1288,9 +1865,9 @@
       "fit": "Mile 27 PR, AthletesCAN media relations and national sport storytelling align with agency strategy, earned media and integrated campaigns.",
       "gap": "The role expects senior account and team leadership plus deep lifestyle/food-and-beverage media expertise; that specific consumer-brand portfolio is not documented.",
       "url": "https://webershandwick.com/job-offer/account-director-integrated-media-strategy",
-      "rank": 61,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 88
     },
     {
       "id": "weber-shandwick-manager-media-relations",
@@ -1308,9 +1885,9 @@
       "fit": "Mile 27 PR and AthletesCAN media relations provide relevant agency, pitching, spokesperson and client-facing experience.",
       "gap": "The role is more tactical than Jacob's current scope; creator-program execution and agency client rosters are not explicit.",
       "url": "https://webershandwick.com/job-offer/manager-media-relations-2",
-      "rank": 62,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 89
     },
     {
       "id": "everist-creative-content-manager",
@@ -1328,9 +1905,9 @@
       "fit": "UJA and AthletesCAN content development, social storytelling and Adobe/Canva skills align with multi-channel brand content production.",
       "gap": "The role asks for 2–5 years and independent photo/video production plus paid-social creative; it is below target level.",
       "url": "https://www.jobs.ca/everist/jobs/creative-content-manager-toronto-on-56e7281f1476",
-      "rank": 63,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 90
     },
     {
       "id": "everist-social-media-manager",
@@ -1348,9 +1925,9 @@
       "fit": "AthletesCAN social strategy and audience-growth results, combined with UJA content development, are directly relevant to social storytelling and engagement.",
       "gap": "The role is a hands-on 2+ year position below target level and expects independent content production and paid-ad creative.",
       "url": "https://www.jobs.ca/everist/jobs/social-media-manager-toronto-on-82641c34d3ef",
-      "rank": 64,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 91
     },
     {
       "id": "weber-shandwick-senior-manager-integrated-media",
@@ -1368,9 +1945,9 @@
       "fit": "Mile 27 PR leadership, AthletesCAN media relations and UJA senior-leadership content align with client counsel, earned media and strategic storytelling.",
       "gap": "The posting expects established media and influencer networks and senior agency account leadership; those are not fully documented.",
       "url": "https://webershandwick.com/job-offer/senior-manager-integrated-media",
-      "rank": 65,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 92
     },
     {
       "id": "kga-accounts-manager",
@@ -1388,9 +1965,9 @@
       "fit": "Mile 27 PR client work, UJA stakeholder communications and AthletesCAN media experience align with client service, communications writing and account coordination.",
       "gap": "The role supports senior counsel and asks for 4–6 years of experience; it may offer less strategic ownership than Jacob's current level.",
       "url": "https://tealandco.applicantstack.com/x/detail/a29x8ik4hs69",
-      "rank": 66,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 93
     },
     {
       "id": "mrg-group-content-marketing-manager",
@@ -1408,10 +1985,10 @@
       "fit": "AthletesCAN social growth, UJA editorial planning and COC event communications transfer to social strategy, audience engagement and live-event storytelling.",
       "gap": "The posting is marked Associate and asks for only 1–2 years; frequent evening/weekend event work and hands-on video production make it below target.",
       "url": "https://www.jobleads.com/ca/job/content-marketing-manager-mrg-live-rapseason--toronto--eee40e74714639db7df2c76d92bf3bad9",
-      "rank": 67,
       "verified": false,
       "verificationNote": "JobLeads page bot-blocked again on 2026-11-04. Unconfirmed lead — posting text not fully readable.",
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 94
     },
     {
       "id": "redbull-senior-manager-athlete-marketing",
@@ -1429,9 +2006,9 @@
       "fit": "AthletesCAN and Canadian Olympic Committee experience provide strong Canadian sport-system knowledge, athlete relationships and media/content experience.",
       "gap": "Direct athlete portfolio ownership, brand-marketing strategy, partnership negotiations, budgets and team leadership are not fully established.",
       "url": "https://jobs.redbull.com/en/toronto-senior-manager-athlete-marketing-ref31358n",
-      "rank": 68,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 95
     },
     {
       "id": "stingray-manager-content-strategy-operations",
@@ -1449,9 +2026,9 @@
       "fit": "UJA editorial calendars and content leadership, AthletesCAN digital communications and SEO, and cross-functional team leadership align with content operations and stakeholder delivery.",
       "gap": "The posting requires at least two years of direct people management; digital-signage platforms such as Navori are an asset and are not established.",
       "url": "https://jobs.stingray.com/job/manager-content-strategy-and-operations/",
-      "rank": 69,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 96
     },
     {
       "id": "wireless-dna-social-media-video-content-manager",
@@ -1469,9 +2046,9 @@
       "fit": "AthletesCAN social strategy, audience growth and digital communications, alongside Adobe and Canva skills, transfer to social content and performance analysis.",
       "gap": "The role is below target level and requires a portfolio of self-shot and edited short-form video plus regular travel to airport and GTA filming locations.",
       "url": "https://builtintoronto.com/job/social-media-video-content-manager/11913247",
-      "rank": 70,
       "verified": true,
-      "verifiedOn": "2026-11-04"
+      "verifiedOn": "2026-11-05",
+      "rank": 97
     },
     {
       "id": "td-manager-strategic-communications-data-visualization",
@@ -1485,16 +2062,35 @@
       "posted": "Not stated",
       "deadline": "Not stated",
       "salary": "$96,900–$136,800 CAD/year",
-      "url": "https://ca.linkedin.com/jobs/view/manager-strategic-communications-data-visualization-at-td-4481272543",
       "summary": "Builds executive presentations, narratives and data visualizations for a TD business-management and strategy team.",
       "fit": "Senior-leadership advisory and storytelling for executives.",
       "gap": "Wants 7+ years in executive communications/consulting/strategy with advanced PowerPoint and Excel; data-viz heavy.",
+      "url": "https://ca.linkedin.com/jobs/view/manager-strategic-communications-data-visualization-at-td-4481272543",
       "verified": true,
-      "verifiedOn": "2026-11-04",
+      "verifiedOn": "2026-11-05",
       "newOn": "2026-11-04",
-      "rank": 71
+      "rank": 98
+    },
+    {
+      "id": "atkinsrealis-vp-communications-marketing-nuclear",
+      "company": "AtkinsRéalis",
+      "title": "Vice-President, Communications & Marketing, Nuclear",
+      "cluster": "Executive / External Communications",
+      "tier": "Domain expertise required",
+      "level": "Target level",
+      "location": "Toronto/GTA — Mississauga",
+      "work": "Hybrid",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Executive lead for nuclear-sector communications and marketing (CANDU and global nuclear growth), on the Nuclear Leadership Team.",
+      "fit": "Broad communications leadership foundation.",
+      "gap": "Requires deep nuclear/energy-sector expertise and VP-level experience.",
+      "url": "https://ca.linkedin.com/jobs/view/vice-president-communications-marketing-nuclear-at-atkinsr%C3%A9alis-4479084054",
+      "verified": true,
+      "verifiedOn": "2026-11-05",
+      "newOn": "2026-11-05",
+      "rank": 99
     }
-  ],
-  "excludedClosed": [],
-  "notes": "Feedback history (Fit / Not a fit / Applied / stage / notes) lives in each viewer's browser and in the RLS-protected Supabase tracker; it was not available to this run, so no Not-a-fit exclusions or feedback-based reweighting were applied. All 48 carried-over postings were re-read on 2026-11-04 and remain open; existing ids preserved. Fixed-term/maternity-leave roles carry contract:true but keep their functional cluster; no fractional/consulting engagements were found. Relative LinkedIn/Built In dates ('N days ago') were converted to calendar dates. Jobs with verified:false could not be fully read on the check date."
+  ]
 }
