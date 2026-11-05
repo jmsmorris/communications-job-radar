@@ -30,6 +30,8 @@ The site fetches `./feed.json` on page load.
 ```
 
 Valid tiers: `Strongest fit`, `Good fit with stretch`, `Domain expertise required`.
+
+Contract roles: set `"contract": true` for contract, term, fixed-term, temporary, interim or leave-coverage roles (optionally `"contractTerm": "12 months"`). Full-time is preferred, so a contract role drops one tier — `Strongest fit` becomes `Good fit with stretch`, with the original kept in `"tierBeforeContractDowngrade"` — and ranks after full-time roles in its tier. The gap line should name the contract term.
 Valid levels: `Target level`, `Below target level`.
 Locations: `Toronto`, `Hamilton`, `Remote Canada`. Use `work` for Remote, Hybrid or On-site.
 

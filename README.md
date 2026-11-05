@@ -18,6 +18,7 @@ The site is static and requires no build step:
 - Fit, Not a fit and Applied feedback controls
 - Feedback stored in browser localStorage and exportable as JSON
 - Loads `feed.json` from the same site origin
+- Contract badge and employment-type filter (full-time preferred; contract roles downgraded one fit tier)
 - Responsive layout
 
 ## Feed contract
@@ -30,7 +31,7 @@ Locations should be `Toronto`, `Hamilton`, or `Remote Canada`; use `work` for `R
 Only set `isSampleData` to false after adding source-verified, current postings. Prefer employer career pages; exclude expired, redirected and stale roles unless a recent repost is verified.
 
 ## Search profile
-Target communications leadership and manager+ roles in Toronto/GTA, Hamilton and Remote Canada, including digital communications/content, content strategy/editorial, fundraising and philanthropic communications, sport-sector communications/partnerships, internal communications, public/Crown-sector advisory, executive communications, agency PR, research/knowledge translation, brand storytelling and contract consulting. Specialist/coordinator roles may be included but should be flagged below target level. Salary is not a hard gate. Flag French only when required. Rank down roles that require deep specialist expertise in an unrelated domain.
+Target communications leadership and manager+ roles in Toronto/GTA, Hamilton and Remote Canada, including digital communications/content, content strategy/editorial, fundraising and philanthropic communications, sport-sector communications/partnerships, internal communications, public/Crown-sector advisory, executive communications, agency PR, research/knowledge translation, brand storytelling and contract consulting. Specialist/coordinator roles may be included but should be flagged below target level. Full-time permanent roles are preferred over contract work: contract, term, fixed-term, temporary, interim and leave-coverage roles are kept but set `contract: true`, show a **Contract** badge in the UI, and drop one fit tier (Strongest fit → Good fit with stretch; record the original in `tierBeforeContractDowngrade`). Contract roles rank after full-time roles in the same tier. The UI also applies this downgrade as a backstop when a feed marks a role `contract: true` or its title names a contract/term arrangement. Salary is not a hard gate. Flag French only when required. Rank down roles that require deep specialist expertise in an unrelated domain.
 
 Candidate context: Content Manager at UJA Federation of Greater Toronto, including content strategy for a $78M+ annual campaign, flagship publications, content calendars and senior leadership advisory; former Manager, Digital Media & Communications at AthletesCAN with digital growth, web/SEO and media relations; Co-Founder & CEO of Mile 27 PR; Canadian Olympic Committee communications; MA in Applied Health Sciences with research on gender representation in sport media. Not bilingual in French.
 
