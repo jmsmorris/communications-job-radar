@@ -1,6 +1,19 @@
 {
  "about": "Every posting the feed has listed (public posting details only).",
  "jobs": {
+  "1password-senior-communications-manager": {
+   "company": "1Password",
+   "title": "Senior Communications Manager",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "CA$113,000–$164,000 base (Canada)",
+   "url": "https://jobs.ashbyhq.com/1password/08cb1ce3-984a-4878-b445-45632020d221",
+   "posted": "2026-09-18",
+   "sector": "Technology"
+  },
   "4-h-canada-communications-manager-contract": {
    "company": "4-H Canada",
    "title": "Communications Manager",
@@ -13,6 +26,19 @@
    "contract": true,
    "url": "https://www.charityvillage.com/job/communication-manager-360585",
    "posted": "2026-11-05",
+   "sector": "Nonprofit & charity"
+  },
+  "achev-web-content-digital-experience-specialist": {
+   "company": "Achēv",
+   "title": "Web Content & Digital Experience Specialist",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "$75,000",
+   "url": "https://jobs.dayforcehcm.com/en-CA/achev/CANDIDATEPORTAL",
+   "posted": "2026-10-26",
    "sector": "Nonprofit & charity"
   },
   "adp-communications-manager-canada": {
@@ -28,6 +54,19 @@
    "posted": "2026-10-30",
    "sector": "Technology"
   },
+  "advocis-corporate-communications-partnerships-specialist": {
+   "company": "Advocis (The Financial Advisors Association of Canada)",
+   "title": "Corporate Communications & Partnerships Specialist",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$60,000–$65,000",
+   "url": "https://ca.linkedin.com/jobs/view/4476207128",
+   "posted": "2026-10-08",
+   "sector": "Financial services & insurance"
+  },
   "aecon-director-internal-communications": {
    "company": "Aecon Group Inc.",
    "title": "Director, Internal Communications",
@@ -39,6 +78,19 @@
    "salary": "$135,000–$145,000 CAD/year",
    "url": "https://jobs.aecon.com/job/Toronto-Director,-Internal-Communications-ON/606290417/",
    "posted": "2026-11-04",
+   "sector": "Energy, engineering & infrastructure"
+  },
+  "aecon-group-inc-communications-specialist-ynse": {
+   "company": "Aecon Group Inc.",
+   "title": "Communications Specialist - YNSE (Yonge North Subway Extension)",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — North York",
+   "work": "Not stated",
+   "salary": "$75,000–$85,000",
+   "url": "https://jobs.aecon.com/job/North-York-Communications-Specialist-YNSE-ON/607314917/",
+   "posted": "2026-10-23",
    "sector": "Energy, engineering & infrastructure"
   },
   "aerovect-content-marketing-manager": {
@@ -93,6 +145,19 @@
    "posted": "2026-09-04",
    "sector": "PR, marketing & consulting agencies"
   },
+  "allstate-employee-communications-consultant": {
+   "company": "Allstate Insurance Company of Canada",
+   "title": "Employee Communications Consultant",
+   "cluster": "Internal / Employee Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Markham (Canadian Head Office)",
+   "work": "Remote",
+   "salary": "$85,000–$95,000",
+   "url": "https://allstate.wd5.myworkdayjobs.com/allstate_careers/job/Canadian-Head-Office/Employee-Communications-Consultant_R36303",
+   "posted": "2026-11-02",
+   "sector": "Financial services & insurance"
+  },
   "amgen-senior-manager-corporate-affairs-canada": {
    "company": "Amgen",
    "title": "Senior Manager, Corporate Affairs, Canada",
@@ -131,6 +196,32 @@
    "url": "https://ca.linkedin.com/jobs/view/vice-president-communications-marketing-nuclear-at-atkinsr%C3%A9alis-4479084054",
    "posted": "2026-11-04",
    "sector": "Energy, engineering & infrastructure"
+  },
+  "av-communications-social-media-manager": {
+   "company": "AV Communications",
+   "title": "Social Media Manager",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://avcomm.bamboohr.com/careers/42",
+   "posted": "2026-10-05",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "bdo-canada-specialist-corporate-communications": {
+   "company": "BDO Canada",
+   "title": "Specialist, Corporate Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$60,000–$92,000",
+   "url": "https://ca.linkedin.com/jobs/view/4476366991",
+   "posted": "2026-10-10",
+   "sector": "PR, marketing & consulting agencies"
   },
   "benevity-external-communications-manager": {
    "company": "Benevity",
@@ -236,6 +327,19 @@
    "posted": "Not stated",
    "sector": "Financial services & insurance"
   },
+  "brafton-content-marketing-strategist-canada-remote": {
+   "company": "Brafton",
+   "title": "Content Marketing Strategist - Canada remote",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "$80,000–$95,000",
+   "url": "https://jobs.lever.co/brafton/72674198-21b5-47b9-8358-f240ea108971",
+   "posted": "2026-09-15",
+   "sector": "PR, marketing & consulting agencies"
+  },
   "brock-associate-director-marketing-business-development": {
    "company": "Brock University (Ancillary Services)",
    "title": "Associate Director, Marketing and Business Development, Ancillary Services",
@@ -276,6 +380,19 @@
    "posted": "2026-11-06",
    "sector": "Higher education & schools"
   },
+  "brodie-sports-group-social-media-strategist": {
+   "company": "Brodie Sports Group",
+   "title": "Social Media Strategist (Founder Content)",
+   "cluster": "Sport-Sector Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "On-site",
+   "salary": "$90,000 - $140,000 CAD",
+   "url": "https://ca.linkedin.com/jobs/view/social-media-strategist-founder-content-at-brodie-sports-group-4485665573",
+   "posted": "2026-10-31",
+   "sector": "Sport & recreation"
+  },
   "burson-senior-consultant-consumer-brand": {
    "company": "Burson",
    "title": "Senior Consultant, Consumer & Brand",
@@ -285,7 +402,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Hybrid",
    "salary": "$45,000–$95,000 (group-wide band)",
-   "url": "https://www.linkedin.com/jobs/view/4480687390",
+   "url": "https://www.bursonglobal.com/careers/jobs?gh_jid=5462467008",
    "posted": "2026-11-05",
    "sector": "PR, marketing & consulting agencies"
   },
@@ -316,6 +433,140 @@
    "posted": "2026-10-23",
    "sector": "Health & hospital"
   },
+  "camh-communications-coordinator-public-affairs-permanent": {
+   "company": "CAMH",
+   "title": "Communications Coordinator - Public Affairs (Permanent)",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (Queen St, 100 Stokes St)",
+   "work": "Not stated",
+   "salary": "$37.51 - $50.60/hour",
+   "url": "https://ca.linkedin.com/jobs/view/communications-coordinator-public-affairs-at-camh-4483256958",
+   "posted": "2026-10-30",
+   "sector": "Health & hospital"
+  },
+  "canada-soccer-chief-svp-marketing-and-commercial-officer": {
+   "company": "Canada Soccer",
+   "title": "Chief/SVP, Marketing and Commercial Officer",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://canadasoccer.com/wp-content/uploads/2026/10/Canada_Soccer_Chief_SVP_Marketing_Commercial_Officer.pdf",
+   "posted": "Not stated",
+   "sector": "Sport & recreation"
+  },
+  "canadian-blood-services-marketing-manager": {
+   "company": "Canadian Blood Services",
+   "title": "Marketing Manager (National Sport-Based Donor Recruitment Initiative)",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (67 College St)",
+   "work": "Hybrid",
+   "salary": "$99,600 - $117,200",
+   "contract": true,
+   "url": "https://careers.blood.ca/job/Toronto-Marketing-Manager-ON-M5G-2M1/607808717/",
+   "posted": "2026-11-06",
+   "sector": "Health & hospital"
+  },
+  "canadian-blood-services-marketing-project-manager-national-sport-donor-recruitment-p": {
+   "company": "Canadian Blood Services",
+   "title": "Marketing Project Manager, National Sport Donor Recruitment Program",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (67 College St) or Brampton",
+   "work": "Hybrid",
+   "salary": "$99,600 - $117,200",
+   "contract": true,
+   "url": "https://careers.blood.ca/job/Toronto-Marketing-Project-Manager%2C-National-Sport-Donor-Recruitment-Program-ON-M5G-2M1/607808517/",
+   "posted": "2026-11-06",
+   "sector": "Health & hospital"
+  },
+  "canadian-blood-services-marketing-specialist": {
+   "company": "Canadian Blood Services",
+   "title": "Marketing Specialist",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (also posted for Ottawa)",
+   "work": "Hybrid",
+   "salary": "$75,100 - $88,300",
+   "url": "https://careers.blood.ca/job/Ottawa-Marketing-Specialist-ON-K1G-4J5/607835017/",
+   "posted": "2026-11-06",
+   "sector": "Health & hospital"
+  },
+  "canadian-blood-services-partnerships-manager": {
+   "company": "Canadian Blood Services",
+   "title": "Partnerships Manager (National Sport-Based Donor Recruitment Initiative)",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (67 College St)",
+   "work": "Hybrid",
+   "salary": "$99,600 - $117,200",
+   "contract": true,
+   "url": "https://careers.blood.ca/job/Toronto-Partnerships-Manager-ON-M5G-2M1/607808617/",
+   "posted": "2026-11-06",
+   "sector": "Health & hospital"
+  },
+  "canadian-hearing-services-social-media-and-content-specialist": {
+   "company": "Canadian Hearing Services",
+   "title": "Social Media and Content Specialist",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://jobs.dayforcehcm.com/tor2716/CANDIDATEPORTAL",
+   "posted": "2026-10-19",
+   "sector": "Health & hospital"
+  },
+  "canadian-hockey-league-manager-partnerships": {
+   "company": "Canadian Hockey League",
+   "title": "Manager, Partnerships",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — GTA",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/manager-partnerships-at-canadian-hockey-league-4484882827",
+   "posted": "2026-10-30",
+   "sector": "Sport & recreation"
+  },
+  "canadian-investment-regulatory-organization-senior-corporate-communications-specialist": {
+   "company": "Canadian Investment Regulatory Organization (CIRO)",
+   "title": "Senior Corporate Communications Specialist (Bilingual)",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4481277379",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
+  },
+  "canadian-olympic-foundation-manager-fund-development": {
+   "company": "Canadian Olympic Foundation",
+   "title": "Manager, Fund Development (21-month contract)",
+   "cluster": "Fundraising / Philanthropic Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$79,100 - $108,790",
+   "contract": true,
+   "url": "https://ca.linkedin.com/jobs/view/manager-fund-development-21-month-contract-at-canadian-olympic-foundation-4483737261",
+   "posted": "2026-10-27",
+   "sector": "Sport & recreation"
+  },
   "canadian-partnership-against-cancer-lead-strategic-communications": {
    "company": "Canadian Partnership Against Cancer",
    "title": "Lead, Strategic Communications",
@@ -328,6 +579,46 @@
    "url": "https://ca.linkedin.com/jobs/view/lead-strategic-communications-at-canadian-partnership-against-cancer-4484105703",
    "posted": "2026-10-28",
    "sector": "Health & hospital"
+  },
+  "canadian-strategic-missions-corporation-marketing-communication-manager": {
+   "company": "Canadian Strategic Missions Corporation (CSMC)",
+   "title": "Marketing & Communication Manager",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "On-site",
+   "salary": "Salary not stated",
+   "url": "https://csmc.bamboohr.com/careers/62",
+   "posted": "2026-09-29",
+   "sector": "Other"
+  },
+  "canadian-veterinary-medical-association-communications-marketing-specialist-independent-consultant-3": {
+   "company": "Canadian Veterinary Medical Association",
+   "title": "Communications & Marketing Specialist (Bilingual) - Independent Consultant - 3 Year Term",
+   "cluster": "Contract / Fractional Consulting",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Remote Canada (Ottawa-based)",
+   "work": "Remote",
+   "salary": "$60,000 - $75,000",
+   "contract": true,
+   "url": "https://www.charityvillage.com/job/communications-marketing-specialist-independent-consultant-3-year-term-351775",
+   "posted": "2026-10-09",
+   "sector": "Nonprofit & charity"
+  },
+  "canadian-wildlife-federation-marketing-officer": {
+   "company": "Canadian Wildlife Federation",
+   "title": "Marketing Officer",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "$46,360 - $57,950",
+   "url": "https://www.charityvillage.com/job/marketing-officer-358401",
+   "posted": "2026-10-30",
+   "sector": "Nonprofit & charity"
   },
   "capreit-manager-internal-communications-culture-contract": {
    "company": "CAPREIT",
@@ -448,6 +739,19 @@
    "posted": "2026-11-03",
    "sector": "PR, marketing & consulting agencies"
   },
+  "city-of-brampton-coordinator-marketing": {
+   "company": "City of Brampton",
+   "title": "Coordinator, Marketing (Performing Arts)",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Brampton",
+   "work": "Not stated",
+   "salary": "$90,670–$102,004",
+   "url": "https://careers.brampton.ca/job/BRAMPTON-Coordinator%2C-Marketing-%28Performing-Arts%29-ON-L6Y4R2/607571517/",
+   "posted": "2026-11-02",
+   "sector": "Government & public agencies"
+  },
   "city-of-hamilton-channel-strategy-specialist-32297": {
    "company": "City of Hamilton",
    "title": "Channel Strategy Specialist (Job ID #32297)",
@@ -461,6 +765,19 @@
    "url": "https://ca.linkedin.com/jobs/view/job-id-%2332297-channel-strategy-specialist-at-city-of-hamilton-4482497418",
    "posted": "2026-10-28",
    "sector": "Government & public agencies"
+  },
+  "clio-content-specialist-enterprise": {
+   "company": "Clio",
+   "title": "Content Specialist, Enterprise",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Vancouver/Calgary)",
+   "work": "Hybrid",
+   "salary": "$77,300–$104,500 CAD",
+   "url": "https://www.clio.com/about/careers/job_id=JOB_POSTING-3-6814/",
+   "posted": "2026-11-02",
+   "sector": "Technology"
   },
   "clio-staff-editor-content-strategist-contract": {
    "company": "Clio",
@@ -499,7 +816,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Hybrid",
    "salary": "$65,400–$89,900 CAD/year",
-   "url": "https://ca.linkedin.com/jobs/view/associate-manager-communications-at-canadian-olympic-foundation-4487529755",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d7c4caa8-0371-4bbf-8980-c1cdc2738eec&ccId=19000101_000001&jobId=570565&lang=en_CA",
    "posted": "2026-11-04",
    "sector": "Sport & recreation"
   },
@@ -542,6 +859,19 @@
    "posted": "2026-11-04",
    "sector": "Technology"
   },
+  "condominium-authority-of-ontario-senior-marketing-communications-advisor": {
+   "company": "Condominium Authority of Ontario (CAO)",
+   "title": "Senior Marketing & Communications Advisor",
+   "cluster": "Public / Crown-Sector Advisory",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$73,000–$93,000 base",
+   "url": "https://condoauthorityontario.bamboohr.com/careers/257",
+   "posted": "2026-11-03",
+   "sector": "Government & public agencies"
+  },
   "corby-senior-manager-corporate-communications-jr-055235": {
    "company": "Corby Spirit and Wine (Pernod Ricard)",
    "title": "Senior Manager, Corporate Communications",
@@ -568,6 +898,19 @@
    "posted": "2026-11-05",
    "sector": "Financial services & insurance"
   },
+  "credit-counselling-society-communication-specialist": {
+   "company": "Credit Counselling Society",
+   "title": "Communication Specialist",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Domain expertise required",
+   "level": "Below target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "$60,840 - $68,848",
+   "url": "https://www.charityvillage.com/job/communication-specialist-343232",
+   "posted": "2026-09-11",
+   "sector": "Nonprofit & charity"
+  },
   "csa-group-manager-corporate-communications-r004996": {
    "company": "CSA Group",
    "title": "Manager, Corporate Communications",
@@ -593,6 +936,19 @@
    "contract": true,
    "url": "https://builtin.com/job/content-strategist-12-month-contract/12041645",
    "posted": "2026-11-03",
+   "sector": "Technology"
+  },
+  "d2l-director-public-relations-communications": {
+   "company": "D2L",
+   "title": "Director, Public Relations & Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "$150,000–$160,000 CAD base",
+   "url": "https://www.d2l.com/careers/jobs/?job_id=8243583&gh_jid=8243583",
+   "posted": "2026-09-30",
    "sector": "Technology"
   },
   "danone-communications-senior-manager-14-month-contract": {
@@ -659,9 +1015,74 @@
    "location": "Remote Canada (Toronto listed)",
    "work": "Remote",
    "salary": "$104,000–$215,000 + bonus",
-   "url": "https://www.linkedin.com/jobs/view/4460505253",
+   "url": "https://careers.deloitte.ca/job/Toronto%2C-ON-Senior-Editor%2C-AI-and-Technology%2C-Deloitte-Global-Insights-ON-M5H-0A9/1407688700/",
    "posted": "2026-10-31",
    "sector": "PR, marketing & consulting agencies"
+  },
+  "desjardins-advisor-brand-sponsorships": {
+   "company": "Desjardins",
+   "title": "Advisor, Brand Sponsorships",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto / Aurora",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Aurora/Advisor--Brand-Sponsorships_R2612910-1",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
+  },
+  "desjardins-advisor-commercial-sponsorships": {
+   "company": "Desjardins",
+   "title": "Advisor, Commercial Sponsorships",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto / Aurora",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Aurora/Advisor--Commercial-Sponsorships_R2612957-1",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
+  },
+  "desjardins-practice-lead-philanthropy-sponsorships-and-experiential-mar": {
+   "company": "Desjardins",
+   "title": "Practice Lead, Philanthropy, Sponsorships and Experiential Marketing (OAW)",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto / Aurora",
+   "work": "Hybrid",
+   "salary": "$101,460 - $148,809 (downtown Toronto)",
+   "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Aurora/Practice-Lead--Philanthropy--Sponsorships-and-Experiential-Marketing--OAW-_R2612922-1",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
+  },
+  "desjardins-senior-advisor-brand-sponsorships": {
+   "company": "Desjardins",
+   "title": "Senior Advisor, Brand Sponsorships",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto / Aurora",
+   "work": "Hybrid",
+   "salary": "$88,008 - $129,080 (downtown Toronto)",
+   "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Aurora/Senior-Advisor--Brand-Sponsorships_R2612950-1",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
+  },
+  "desjardins-senior-advisor-philanthropy-sponsorships-and-experiential-ma": {
+   "company": "Desjardins",
+   "title": "Senior Advisor, Philanthropy, Sponsorships and Experiential Marketing (OAW)",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto / Aurora",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://desjardins.wd10.myworkdayjobs.com/Desjardins/job/Aurora/Senior-Advisor--Philanthropy--Sponsorships-and-Experiential-Marketing--OAW-_R2612926-1",
+   "posted": "2026-10-22",
+   "sector": "Financial services & insurance"
   },
   "diabetes-canada-executive-director-marketing-brand": {
    "company": "Diabetes Canada",
@@ -675,6 +1096,19 @@
    "url": "https://www.linkedin.com/jobs/view/4488192882",
    "posted": "2026-11-06",
    "sector": "Health & hospital"
+  },
+  "directive-consulting-content-strategist": {
+   "company": "Directive Consulting",
+   "title": "Content Strategist (Remote Canada)",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "Salary not stated",
+   "url": "https://jobs.ashbyhq.com/directive/89817dc7-68a0-49ba-837a-e65dd569c3cd",
+   "posted": "2026-11-03",
+   "sector": "PR, marketing & consulting agencies"
   },
   "directive-pr-communications-manager-remote-canada": {
    "company": "Directive",
@@ -697,8 +1131,8 @@
    "level": "Target level",
    "location": "Toronto/GTA — Toronto",
    "work": "Not stated",
-   "salary": "Salary not stated",
-   "url": "https://www.linkedin.com/jobs/view/4443524147",
+   "salary": "$87,300-$113,520 (Toronto)",
+   "url": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?org=GRANTTHORNTON&cws=56&rid=12174",
    "posted": "2026-11-06",
    "sector": "PR, marketing & consulting agencies"
   },
@@ -740,6 +1174,45 @@
    "url": "https://www.linkedin.com/jobs/view/4487568484",
    "posted": "2026-11-04",
    "sector": "PR, marketing & consulting agencies"
+  },
+  "edelman-senior-vice-president-health-digital": {
+   "company": "Edelman",
+   "title": "Senior Vice President, Health Digital",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$162,000 - $200,000 CAD",
+   "url": "https://ca.linkedin.com/jobs/view/senior-vice-president-health-digital-at-edelman-4485389144",
+   "posted": "2026-10-30",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "edelman-vp-creator-marketing": {
+   "company": "Edelman",
+   "title": "VP, Creator Marketing (Health & Financial Services)",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$130,000 - $180,000 CAD",
+   "url": "https://ca.linkedin.com/jobs/view/vp-creator-marketing-health-financial-services-at-edelman-4464076775",
+   "posted": "2026-10-20",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "entain-content-executive": {
+   "company": "Entain (Sports Interaction)",
+   "title": "Content Executive",
+   "cluster": "Sport-Sector Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://jobs.smartrecruiters.com/Entain/744000159405936",
+   "posted": "2026-11-03",
+   "sector": "Alcohol, cannabis & gambling"
   },
   "eq-bank-content-manager-reverse-mortgage": {
    "company": "EQ Bank",
@@ -833,6 +1306,33 @@
    "posted": "2026-09-10",
    "sector": "Consumer goods & retail"
   },
+  "ey-bmc-social-media-specialist": {
+   "company": "EY",
+   "title": "BMC Social Media Specialist",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Vancouver)",
+   "work": "Hybrid",
+   "salary": "$77,200–$115,800",
+   "url": "https://careers.ey.com/ey/job/Toronto-BMC-Social-Media-Specialist-ON-M5H-0B3/1433174033/",
+   "posted": "2026-10-31",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "ey-brand-marketing-and-communications-specialist-service-lines": {
+   "company": "EY",
+   "title": "Brand, Marketing and Communications (BMC) Specialist - Service Lines (3-month contract)",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$75,600–$113,400 (Ontario range)",
+   "contract": true,
+   "url": "https://careers.ey.com/ey/job/Toronto-Brand%2C-Marketing-and-Communications-%28BMC%29-Specialist-Service-Lines-%283-months-contract%29-ON-M5H-0B3/1384742333/",
+   "posted": "2026-10-19",
+   "sector": "PR, marketing & consulting agencies"
+  },
   "ey-internal-communications-specialist-service-lines-contract": {
    "company": "EY",
    "title": "Internal Communications Specialist, Service Lines (12-Month Contract)",
@@ -845,6 +1345,32 @@
    "url": "https://careers.ey.com/ey/job/Toronto-Internal-Communications-Specialist%2C-Service-Lines-%2812-month-contract%29-ON-M5H-0B3/1451751833/",
    "posted": "2026-10-27",
    "sector": "PR, marketing & consulting agencies"
+  },
+  "fidelity-clearing-canada-marketing-communications-manager": {
+   "company": "Fidelity Clearing Canada (Fidelity Investments Canada)",
+   "title": "Marketing & Communications Manager",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (moving to Mississauga late 2026)",
+   "work": "Hybrid",
+   "salary": "$99,000–$135,000 total cash (base + target bonus)",
+   "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Marketing---Communications-Manager_J71004",
+   "posted": "2026-10-02",
+   "sector": "Financial services & insurance"
+  },
+  "fidelity-investments-canada-social-media-community-manager": {
+   "company": "Fidelity Investments Canada",
+   "title": "Social Media Community Manager",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (moving to Mississauga late 2026)",
+   "work": "Hybrid",
+   "salary": "$94,000–$117,000 total cash (base + target bonus)",
+   "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Social-Media-Community-Manager_J72409",
+   "posted": "2026-10-19",
+   "sector": "Financial services & insurance"
   },
   "fidelity-manager-corporate-communications-community-affairs": {
    "company": "Fidelity Investments Canada",
@@ -872,6 +1398,45 @@
    "posted": "2026-11-06",
    "sector": "Technology"
   },
+  "flynn-group-of-companies-communications-brand-manager": {
+   "company": "Flynn Group of Companies",
+   "title": "Communications & Brand Manager",
+   "cluster": "Internal / Employee Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "On-site",
+   "salary": "$110,000–$130,000",
+   "url": "https://jobs.lever.co/flynncompanies/754a391e-4e3a-452b-b2c5-1655a822bb48",
+   "posted": "2026-09-16",
+   "sector": "Consumer goods & retail"
+  },
+  "four-seasons-hotels-and-resorts-manager-public-relations-and-marketing-communications-americ": {
+   "company": "Four Seasons Hotels and Resorts",
+   "title": "Manager, Public Relations and Marketing Communications – Americas",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (Corporate HQ)",
+   "work": "Not stated",
+   "salary": "$105,000–$120,000 CAD",
+   "url": "https://fourseasons.wd3.myworkdayjobs.com/en-US/search/job/Four-Seasons-Corporate-Headquarters-Toronto/Manager--Public-Relations-and-Marketing-Communications---Americas_REQ10396642",
+   "posted": "2026-10-30",
+   "sector": "Consumer goods & retail"
+  },
+  "fundserv-communications-advisor": {
+   "company": "Fundserv",
+   "title": "Communications Advisor",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$70,000–$85,000 base ($80,500–$97,750 incl. bonus)",
+   "url": "https://ca.linkedin.com/jobs/view/4477454078",
+   "posted": "2026-10-08",
+   "sector": "Financial services & insurance"
+  },
   "g-adventures-communications-manager-canada-contract": {
    "company": "G Adventures",
    "title": "Communications Manager, Canada (Contract)",
@@ -885,6 +1450,45 @@
    "url": "https://gadventures.wd3.myworkdayjobs.com/GAdventures/job/Toronto-Canada/Communications-Manager--Canada_JR2035",
    "posted": "2026-11-05",
    "sector": "Consumer goods & retail"
+  },
+  "gestalt-communications-senior-consultant-executive-communications-speechwriting": {
+   "company": "Gestalt Communications",
+   "title": "Senior Consultant, Executive Communications & Speechwriting",
+   "cluster": "Executive Communications / Thought Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Oakville",
+   "work": "Hybrid",
+   "salary": "$75,000–$80,000",
+   "url": "https://ca.linkedin.com/jobs/view/4484134871",
+   "posted": "2026-10-28",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "gilead-sciences-canada-associate-director-public-affairs": {
+   "company": "Gilead Sciences Canada",
+   "title": "Associate Director, Public Affairs",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "CAD $158,355–$204,930",
+   "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/Canada---Ontario---Mississauga/Assoc-Director--Public-Affairs_R0055728-2",
+   "posted": "2026-10-23",
+   "sector": "Health & hospital"
+  },
+  "girl-guides-of-canada-director-brand-marketing": {
+   "company": "Girl Guides of Canada (via Boyden)",
+   "title": "Director, Brand & Marketing",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Remote Canada (access to Toronto)",
+   "work": "Remote",
+   "salary": "$103,000 - $135,000",
+   "url": "https://boyden.thriveapp.ly/job/3450",
+   "posted": "2026-10-28",
+   "sector": "Nonprofit & charity"
   },
   "globe-and-mail-deputy-opinion-editor": {
    "company": "The Globe and Mail",
@@ -912,6 +1516,19 @@
    "posted": "2026-10-25",
    "sector": "Media, telecom & entertainment"
   },
+  "goldblatt-partners-llp-marketing-and-communications-advisor": {
+   "company": "Goldblatt Partners LLP",
+   "title": "Marketing and Communications Advisor",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Ottawa)",
+   "work": "Hybrid",
+   "salary": "$75,000–$95,000",
+   "url": "https://ca.linkedin.com/jobs/view/4479119668",
+   "posted": "2026-10-15",
+   "sector": "Other"
+  },
   "gore-mutual-sr-specialist-content-brand-contract": {
    "company": "Gore Mutual Insurance",
    "title": "Sr Specialist, Marketing Integration, Content & Brand (18-month contract)",
@@ -926,6 +1543,19 @@
    "posted": "2026-11-05",
    "sector": "Financial services & insurance"
   },
+  "gowling-wlg-social-media-coordinator": {
+   "company": "Gowling WLG",
+   "title": "Social Media Coordinator",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Hamilton/Ottawa/Waterloo)",
+   "work": "Hybrid",
+   "salary": "$55,000–$68,000",
+   "url": "https://ca.linkedin.com/jobs/view/4486272382",
+   "posted": "2026-11-06",
+   "sector": "Other"
+  },
   "greenshield-corporate-communications-manager-contract": {
    "company": "GreenShield",
    "title": "Corporate Communications Manager (12-month contract)",
@@ -936,9 +1566,62 @@
    "work": "Not stated",
    "salary": "Salary not stated",
    "contract": true,
-   "url": "https://ca.linkedin.com/jobs/view/corporate-communications-manager-contract-at-greenshield-4487530080",
+   "url": "https://greenshield.csod.com/ux/ats/careersite/4/home/requisition/2540?c=greenshield",
    "posted": "2026-11-04",
    "sector": "Financial services & insurance"
+  },
+  "grow-landscape-ontario-senior-marketing-specialist-workforce-development": {
+   "company": "GROW – Landscape Ontario",
+   "title": "Senior Marketing Specialist – Workforce Development",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Milton",
+   "work": "Not stated",
+   "salary": "$78,000 - $83,000",
+   "contract": true,
+   "url": "https://www.charityvillage.com/job/senior-marketing-specialist-workforce-development-348472",
+   "posted": "2026-09-29",
+   "sector": "Nonprofit & charity"
+  },
+  "hatch-regional-practice-lead-thought-leadership": {
+   "company": "Hatch",
+   "title": "Regional Practice Lead - Thought Leadership",
+   "cluster": "Executive Communications / Thought Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "$74,000–$124,000",
+   "url": "https://jobs.hatch.com/job/Mississauga-Regional-Practice-Lead-Thought-Leadership-ON/1386522300/",
+   "posted": "2026-10-20",
+   "sector": "Energy, engineering & infrastructure"
+  },
+  "hatch-senior-marketing-manager-marketing-communications": {
+   "company": "Hatch",
+   "title": "Senior Marketing Manager, Marketing & Communications",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "$74,000–$124,000",
+   "url": "https://jobs.hatch.com/job/Mississauga-Senior-Marketing-Manager%2C-Marketing-%26-Communications-ON/1413820800/",
+   "posted": "2026-10-31",
+   "sector": "Energy, engineering & infrastructure"
+  },
+  "hatch-storyteller-thought-leadership": {
+   "company": "Hatch",
+   "title": "Storyteller - Thought Leadership",
+   "cluster": "Executive Communications / Thought Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "$83,000–$119,000",
+   "url": "https://jobs.hatch.com/job/Mississauga-Storyteller-Thought-Leadership-ON/1386522500/",
+   "posted": "2026-10-20",
+   "sector": "Energy, engineering & infrastructure"
   },
   "havas-cx-director-content-strategy": {
    "company": "Havas CX Canada",
@@ -965,6 +1648,19 @@
    "url": "https://ca.linkedin.com/jobs/view/content-marketing-manager-at-haystack-4486093456",
    "posted": "2026-11-03",
    "sector": "Other"
+  },
+  "heart-stroke-content-coordinator": {
+   "company": "Heart & Stroke",
+   "title": "Content Coordinator",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$55,000–$66,000",
+   "url": "https://heartandstroke.applytojob.com/apply/6ac8pJ2ezY/Content-Coordinator",
+   "posted": "2026-11-06",
+   "sector": "Health & hospital"
   },
   "helpage-canada-communications-lead-contract": {
    "company": "HelpAge Canada",
@@ -994,6 +1690,45 @@
    "posted": "2026-11-04",
    "sector": "Consumer goods & retail"
   },
+  "homeward-public-affairs-director-of-marketing-and-communications": {
+   "company": "Homeward Public Affairs",
+   "title": "Director of Marketing and Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Remote Canada",
+   "work": "Not stated",
+   "salary": "$105,000–$120,000 base",
+   "url": "https://ca.linkedin.com/jobs/view/4485453916",
+   "posted": "2026-11-02",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "hoopp-director-enterprise-communications": {
+   "company": "HOOPP (Healthcare of Ontario Pension Plan)",
+   "title": "Director, Enterprise Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Domain expertise required",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://hoopp.wd10.myworkdayjobs.com/HOOPP/job/Toronto-Ontario-Canada/Director--Enterprise-Communications_JR102583",
+   "posted": "2026-10-07",
+   "sector": "Financial services & insurance"
+  },
+  "iatse-local-873-communications-coordinator": {
+   "company": "IATSE Local 873",
+   "title": "Communications Coordinator (Health and Welfare)",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "On-site",
+   "salary": "CAD $41.00 - $42.25 per hour",
+   "url": "https://ca.linkedin.com/jobs/view/communications-coordinator-health-and-welfare-at-iatse-local-873-4485742559",
+   "posted": "2026-11-02",
+   "sector": "Other"
+  },
   "ieso-supervisor-marketing": {
    "company": "Independent Electricity System Operator (IESO)",
    "title": "Supervisor, Marketing",
@@ -1003,7 +1738,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Hybrid",
    "salary": "$126,308–$180,388 (MP6)",
-   "url": "https://www.linkedin.com/jobs/view/4488447991",
+   "url": "https://careers.ieso.ca/job/Supervisor-Marketing/1428970000/",
    "posted": "2026-11-06",
    "sector": "Energy, engineering & infrastructure"
   },
@@ -1019,6 +1754,45 @@
    "url": "https://iko.wd3.myworkdayjobs.com/en-US/IKO_Careers/job/Mississauga-ON/Change-and-communication-specialist_REQ-14148",
    "posted": "2026-11-05",
    "sector": "Other"
+  },
+  "independent-electricity-system-operator-coordinator-government-affairs": {
+   "company": "Independent Electricity System Operator (IESO)",
+   "title": "Coordinator, Government Affairs",
+   "cluster": "Public / Crown-Sector Advisory",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "On-site",
+   "salary": "$97,708–$139,568 (Step 1–10, MP2)",
+   "url": "https://careers.ieso.ca/job/Coordinator%2C-Government-Affairs/1444257500/",
+   "posted": "2026-10-27",
+   "sector": "Energy, engineering & infrastructure"
+  },
+  "indspire-research-mobilization-officer": {
+   "company": "Indspire",
+   "title": "Research Mobilization Officer",
+   "cluster": "University / Research Communications",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Ohsweken)",
+   "work": "Hybrid",
+   "salary": "$68,823 - $86,028",
+   "url": "https://indspire.ca/about/job-board/research-mobilization-officer/",
+   "posted": "2026-10-27",
+   "sector": "Nonprofit & charity"
+  },
+  "indspire-senior-communications-advisor-french-language-strategy": {
+   "company": "Indspire",
+   "title": "Senior Communications Advisor – French Language Strategy",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "$77,800 - $97,250",
+   "url": "https://indspire.ca/about/job-board/senior-communications-advisor-french-language-strategy/",
+   "posted": "2026-10-07",
+   "sector": "Nonprofit & charity"
   },
   "infotek-senior-communications-specialist-ciso-contract": {
    "company": "Infotek Consulting Inc. (client: large Canadian financial institution)",
@@ -1203,6 +1977,34 @@
    "posted": "Not stated",
    "sector": "Nonprofit & charity"
   },
+  "loblaw-companies-social-media-content-manager": {
+   "company": "Loblaw Companies (Loblaw Agency)",
+   "title": "Social Media Content Manager (12-Month Contract)",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$40/hour (contract)",
+   "contract": true,
+   "url": "https://ca.linkedin.com/jobs/view/4488487480",
+   "posted": "2026-11-07",
+   "sector": "Consumer goods & retail"
+  },
+  "loblaw-companies-social-media-manager-quo-beauty": {
+   "company": "Loblaw Companies (Loblaw Agency)",
+   "title": "Social Media Manager, Quo Beauty (12-Month Contract)",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$42/hour (contract)",
+   "contract": true,
+   "url": "https://ca.linkedin.com/jobs/view/4485367756",
+   "posted": "2026-10-30",
+   "sector": "Consumer goods & retail"
+  },
   "mackenzie-health-philanthropy-communications-officer": {
    "company": "Mackenzie Health Foundation",
    "title": "Philanthropy Communications Officer",
@@ -1278,7 +2080,7 @@
    "work": "Not stated",
    "salary": "$110,000–$125,000 CAD/year",
    "url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/OpportunityDetail?opportunityId=b158507a-2fee-434f-b62e-5685c7c76f7d",
-   "posted": "2026-11-01",
+   "posted": "2026-09-17",
    "sector": "Technology"
   },
   "mercury-tech-communications-lead": {
@@ -1356,7 +2158,7 @@
    "location": "Remote Canada",
    "work": "Remote",
    "salary": "$75,000–$100,000",
-   "url": "https://www.linkedin.com/jobs/view/4487317810",
+   "url": "https://mitchellwhale.bamboohr.com/careers/74",
    "posted": "2026-11-06",
    "sector": "Financial services & insurance"
   },
@@ -1531,6 +2333,71 @@
    "posted": "2026-10-30",
    "sector": "PR, marketing & consulting agencies"
   },
+  "nba-canada-director-marketing-partnerships-lead-nba-canada": {
+   "company": "NBA Canada",
+   "title": "Director, Marketing Partnerships Lead – NBA Canada",
+   "cluster": "Sport / Sponsorship & Partnerships",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://nba.wd108.myworkdayjobs.com/nbacareers/job/Toronto-Canada/Director--Marketing-Partnerships-Lead---NBA-Canada_JR001127",
+   "posted": "2026-11-02",
+   "sector": "Sport & recreation"
+  },
+  "nestle-canada-vice-president-corporate-affairs-sustainability": {
+   "company": "Nestlé Canada",
+   "title": "Vice President, Corporate Affairs & Sustainability",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — North York",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://jobdetails.nestle.com/job/North-York-Vice-President%2C-Corporate-Affairs-&-Sustainability-ON/1449146833/",
+   "posted": "2026-10-19",
+   "sector": "Consumer goods & retail"
+  },
+  "nieuport-aviation-senior-manager-communications": {
+   "company": "Nieuport Aviation (Billy Bishop Toronto City Airport terminal)",
+   "title": "Senior Manager, Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://secure.collage.co/jobs/nieuportaviation/65240",
+   "posted": "Not stated",
+   "sector": "Energy, engineering & infrastructure"
+  },
+  "north-strategic-account-coordinator-pr": {
+   "company": "North Strategic (Publicis Groupe)",
+   "title": "Account Coordinator, PR",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "CAD $45,000–$55,000",
+   "url": "https://employees-publicisgroupe.icims.com/jobs/181331/account-coordinator%2c-pr/job",
+   "posted": "2026-11-06",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "north-strategic-account-manager-public-relations": {
+   "company": "North Strategic",
+   "title": "Account Manager, Public Relations",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "CAD $70,000 - $75,000",
+   "url": "https://employees-publicisgroupe.icims.com/jobs/181373/account-manager-%28pr%29/job",
+   "posted": "2026-11-06",
+   "sector": "PR, marketing & consulting agencies"
+  },
   "north-strategic-senior-account-manager-pr-contract": {
    "company": "North Strategic",
    "title": "Sr. Account Manager, Public Relations (12-month contract)",
@@ -1541,8 +2408,21 @@
    "work": "Hybrid",
    "salary": "CAD $80,000–$90,000",
    "contract": true,
-   "url": "https://www.linkedin.com/jobs/view/4487346957",
+   "url": "https://careers.publicisgroupe.com/jobs/181572?lang=en-us",
    "posted": "2026-11-06",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "north-strategic-vice-president-influential": {
+   "company": "North Strategic",
+   "title": "Vice President, Influential",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "CAD $140,000 - $160,000",
+   "url": "https://employees-publicisgroupe.icims.com/jobs/178521/vice-president%2c-influential/job",
+   "posted": "2026-10-16",
    "sector": "PR, marketing & consulting agencies"
   },
   "north-york-general-foundation-manager-marketing-communications": {
@@ -1612,6 +2492,19 @@
    "posted": "Not stated",
    "sector": "Higher education & schools"
   },
+  "oceanmd-communications-strategist": {
+   "company": "OceanMD (a WELLSTAR company)",
+   "title": "Communications Strategist",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$90,000–$130,000 CAD plus equity",
+   "url": "https://oceanmd.applytojob.com/apply/sFuj2q7ftO/Communications-Strategist",
+   "posted": "2026-10-22",
+   "sector": "Technology"
+  },
   "oeb-senior-advisor-corporate-communications": {
    "company": "Ontario Energy Board",
    "title": "Senior Advisor, Corporate Communications",
@@ -1637,6 +2530,32 @@
    "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
    "posted": "2026-10-23",
    "sector": "Health & hospital"
+  },
+  "omnicom-media-canada-manager-communications": {
+   "company": "Omnicom Media Canada",
+   "title": "Manager, Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$70,000 - $75,000",
+   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Manager--Communications_R17296",
+   "posted": "2026-10-23",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "omnicom-media-canada-senior-director-communications": {
+   "company": "Omnicom Media Canada",
+   "title": "Senior Director, Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$130,000–$140,000",
+   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Senior-Director--Communications_R15499",
+   "posted": "2026-10-14",
+   "sector": "PR, marketing & consulting agencies"
   },
   "omnicom-media-manager-communications": {
    "company": "Omnicom Media Canada",
@@ -1716,6 +2635,19 @@
    "posted": "2026-10-14",
    "sector": "Government & public agencies"
   },
+  "opentext-director-corporate-communications": {
+   "company": "OpenText",
+   "title": "Director, Corporate Communications (Corporate Internal Communications)",
+   "cluster": "Internal / Employee Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga (also listed Toronto)",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://careers.opentext.com/us/en/job/OPJOPEUS54125EXTERNALENUS/Director-Corporate-Communications",
+   "posted": "2026-10-26",
+   "sector": "Technology"
+  },
   "opentext-manager-communications-public-affairs": {
    "company": "OpenText",
    "title": "Manager, Communications & Public Affairs",
@@ -1728,6 +2660,19 @@
    "url": "https://careers.opentext.com/us/en/job/OPJOPEUS54186EXTERNALENUS/Manager-Communications-Public-Affairs",
    "posted": "2026-10-30",
    "sector": "Technology"
+  },
+  "options-consulting-solutions-pr-and-communications-lead": {
+   "company": "Options Consulting Solutions (for confidential client)",
+   "title": "PR and Communications Lead",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$120,000 - $130,000",
+   "url": "https://ca.linkedin.com/jobs/view/pr-and-communications-lead-at-options-consulting-solutions-4477593736",
+   "posted": "2026-10-12",
+   "sector": "PR, marketing & consulting agencies"
   },
   "optrust-senior-public-affairs-advisor-contract": {
    "company": "OPTrust",
@@ -1752,7 +2697,7 @@
    "location": "Toronto/GTA — Mississauga",
    "work": "Not stated",
    "salary": "$100,000–$110,000 CAD/year",
-   "url": "https://ca.linkedin.com/jobs/view/public-relations-manager-at-osl-retail-services-4486408665",
+   "url": "https://canadaengcareers-oslrs.icims.com/jobs/101994/job",
    "posted": "2026-11-03",
    "sector": "Consumer goods & retail"
   },
@@ -1766,7 +2711,7 @@
    "work": "Not stated",
    "salary": "$75,300–$122,760 total compensation",
    "contract": true,
-   "url": "https://www.linkedin.com/jobs/view/4477016535",
+   "url": "https://www.pepsicojobs.com/jobs/479225?lang=en-us",
    "posted": "2026-11-05",
    "sector": "Consumer goods & retail"
   },
@@ -1808,6 +2753,33 @@
    "url": "https://jobs.dayforcehcm.com/postmedia/postmediacareers/jobs/10201",
    "posted": "2026-10-08",
    "sector": "Media, telecom & entertainment"
+  },
+  "praxis-account-director": {
+   "company": "PRAXIS",
+   "title": "Account Director (12-month contract)",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — GTA (remote-first)",
+   "work": "Remote",
+   "salary": "Salary not stated",
+   "contract": true,
+   "url": "https://ca.linkedin.com/jobs/view/account-director-at-praxis-4487339687",
+   "posted": "2026-11-06",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "ratehub-ca-content-strategist": {
+   "company": "Ratehub.ca",
+   "title": "Content Strategist",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Remote",
+   "salary": "$75,000–$100,000",
+   "url": "https://ratehubinc.applytojob.com/apply/4PJR9C57Ps/Content-Strategist",
+   "posted": "2026-10-21",
+   "sector": "Financial services & insurance"
   },
   "rbc-senior-manager-social-content-communities": {
    "company": "RBC",
@@ -1861,6 +2833,45 @@
    "posted": "Not stated",
    "sector": "Nonprofit & charity"
   },
+  "republic-live-director-of-public-relations": {
+   "company": "Republic Live",
+   "title": "Director of Public Relations",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4484145184",
+   "posted": "2026-11-03",
+   "sector": "Media, telecom & entertainment"
+  },
+  "rethink-account-director-social-content": {
+   "company": "Rethink",
+   "title": "Account Director, Social & Content",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://rethinkcanada.bamboohr.com/careers/217",
+   "posted": "2026-09-28",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "rethink-pr-manager": {
+   "company": "Rethink",
+   "title": "PR Manager",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://rethinkcanada.bamboohr.com/careers/239",
+   "posted": "2026-10-15",
+   "sector": "PR, marketing & consulting agencies"
+  },
   "rogers-multi-media-content-creator-toronto": {
    "company": "Rogers Sports & Media",
    "title": "Multi-Media Content Creator",
@@ -1873,6 +2884,32 @@
    "url": "https://jobs.rogers.com/job/Toronto-Multi-Media-Content-Creator-ON/1442964400/",
    "posted": "2026-10-22",
    "sector": "Media, telecom & entertainment"
+  },
+  "rogers-sports-media-sr-director-rsm-marketing": {
+   "company": "Rogers Sports & Media",
+   "title": "Sr Director, RSM Marketing",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://jobs.rogers.com/job/Toronto-Sr-Director-RSM-Marketing-ON/1445128400/",
+   "posted": "2026-10-29",
+   "sector": "Media, telecom & entertainment"
+  },
+  "rose-pr-inc-account-manager": {
+   "company": "Rose PR Inc.",
+   "title": "Account Manager",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/account-manager-at-rose-pr-inc-4477900465",
+   "posted": "2026-10-12",
+   "sector": "PR, marketing & consulting agencies"
   },
   "rpra-communications-advisor-contract": {
    "company": "Resource Productivity and Recovery Authority (RPRA)",
@@ -1916,6 +2953,19 @@
    "posted": "2026-09-28",
    "sector": "Technology"
   },
+  "scarborough-health-network-communications-coordinator-communications": {
+   "company": "Scarborough Health Network",
+   "title": "Communications Coordinator - Communications (CON)",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Scarborough (Consilium Place)",
+   "work": "Hybrid",
+   "salary": "$38.046 - $44.105/hour",
+   "url": "https://shn.wd10.myworkdayjobs.com/SHN_External_Career_Site/job/300-Consilium-Place/Communications-Coordinator---Communications--CON-_JR107511",
+   "posted": "2026-10-30",
+   "sector": "Health & hospital"
+  },
   "scotiabank-senior-manager-communications-change-management": {
    "company": "Scotiabank",
    "title": "Senior Manager, Communications & Change Management",
@@ -1928,6 +2978,19 @@
    "url": "https://jobs.scotiabank.com/job/Toronto-Senior-Manager%2C-Communications-&-Change-Management-ON-M5H1H1/606333217/",
    "posted": "2026-11-04",
    "sector": "Financial services & insurance"
+  },
+  "scribd-content-lead-social": {
+   "company": "Scribd, Inc.",
+   "title": "Content Lead, Social",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (one of several hub locations)",
+   "work": "Hybrid",
+   "salary": "Salary not stated (US ranges only)",
+   "url": "https://jobs.ashbyhq.com/ScribdInc/016df746-ad56-497a-a51d-0b0a7f17c33c",
+   "posted": "2026-10-12",
+   "sector": "Technology"
   },
   "sdrcc-communications-coordinator": {
    "company": "Sport Dispute Resolution Centre of Canada (SDRCC)",
@@ -1956,6 +3019,19 @@
    "posted": "2026-11-06",
    "sector": "Consumer goods & retail"
   },
+  "sodexo-canada-project-communication-change-manager": {
+   "company": "Sodexo Canada",
+   "title": "Project Communication & Change Manager",
+   "cluster": "Internal / Employee Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga",
+   "work": "Not stated",
+   "salary": "$110,000–$140,000",
+   "url": "https://jobs.smartrecruiters.com/SodexoCanadaLtd/744000154194069",
+   "posted": "2026-10-07",
+   "sector": "Consumer goods & retail"
+  },
   "stingray-manager-content-strategy-operations": {
    "company": "Stingray",
    "title": "Manager, Content Strategy & Operations",
@@ -1969,6 +3045,19 @@
    "posted": "Not stated",
    "sector": "Media, telecom & entertainment"
   },
+  "summit-search-group-senior-director-marketing-corporate-communications": {
+   "company": "Summit Search Group (for client)",
+   "title": "Senior Director, Marketing & Corporate Communications",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$140,000 - $160,000",
+   "url": "https://ca.linkedin.com/jobs/view/senior-director-marketing-corporate-communications-at-summit-search-group-4477874288",
+   "posted": "2026-10-09",
+   "sector": "Other"
+  },
   "sun-life-manager-organic-social-media-community": {
    "company": "Sun Life",
    "title": "Manager, Organic Social Media & Community",
@@ -1981,6 +3070,19 @@
    "url": "https://maplestack.ca/jobs/sunlife-com/manager-organic-social-media-community",
    "posted": "2026-10-13",
    "sector": "Financial services & insurance"
+  },
+  "superior-propane-marketing-communications-manager": {
+   "company": "Superior Propane",
+   "title": "Marketing Communications Manager",
+   "cluster": "Brand Storytelling / Brand Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — GTA (remote until new GTA office, then hybrid)",
+   "work": "Remote",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4477395510",
+   "posted": "2026-10-16",
+   "sector": "Energy, engineering & infrastructure"
   },
   "swimming-canada-communications-lead": {
    "company": "Swimming Canada",
@@ -2007,6 +3109,19 @@
    "url": "https://job-boards.greenhouse.io/tailscale/jobs/4746913005",
    "posted": "Not stated",
    "sector": "Technology"
+  },
+  "talk-shop-media-director-digital-social-media": {
+   "company": "Talk Shop Media",
+   "title": "Director, Digital & Social Media",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "$95,000 - $125,000",
+   "url": "https://talkshop.bamboohr.com/careers/108",
+   "posted": "2026-10-07",
+   "sector": "PR, marketing & consulting agencies"
   },
   "tangerine-senior-manager-global-sponsorships-contract": {
    "company": "Tangerine (Scotiabank)",
@@ -2087,6 +3202,19 @@
    "posted": "2026-10-27",
    "sector": "Financial services & insurance"
   },
+  "technical-standards-safety-authority-communications-advisor-digital-communication-and-website-man": {
+   "company": "Technical Standards & Safety Authority (TSSA)",
+   "title": "Communications Advisor, Digital Communication and Website Management",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$80,741–$100,927",
+   "url": "https://recruiting.ultipro.ca/TEC5002TECS/JobBoard/d42f4eb0-deb2-4bb0-874b-b574273d04ce/OpportunityDetail?opportunityId=4ee57d86-e71b-4623-8df4-e8870f32a495",
+   "posted": "2026-10-28",
+   "sector": "Government & public agencies"
+  },
   "the-519-coordinator-communications": {
    "company": "The 519",
    "title": "Coordinator, Communications",
@@ -2099,6 +3227,20 @@
    "url": "https://www.charityvillage.com/job/coordinator-communications-357069",
    "posted": "2026-10-27",
    "sector": "Nonprofit & charity"
+  },
+  "thomson-reuters-social-media-manager": {
+   "company": "Thomson Reuters",
+   "title": "Social Media Manager (Contract)",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "contract": true,
+   "url": "https://ca.linkedin.com/jobs/view/4486752980",
+   "posted": "2026-11-05",
+   "sector": "Media, telecom & entertainment"
   },
   "tim-hortons-marketing-communications-specialist": {
    "company": "Restaurant Brands International — Tim Hortons",
@@ -2127,6 +3269,32 @@
    "posted": "2026-10-21",
    "sector": "Consumer goods & retail"
   },
+  "time-doctor-director-of-ai-content-systems-marketing": {
+   "company": "Time Doctor",
+   "title": "Director of AI Content Systems, Marketing",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Remote Canada",
+   "work": "Remote",
+   "salary": "Salary not stated",
+   "url": "https://timedoctor.careers/o/director-of-ai-content-systems-marketing",
+   "posted": "2026-10-14",
+   "sector": "Technology"
+  },
+  "tmx-group-specialist-investor-experience-content-and-governance": {
+   "company": "TMX Group",
+   "title": "Specialist, Investor Experience Content and Governance",
+   "cluster": "Digital Communications / Digital Content",
+   "tier": "Domain expertise required",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto (or Montreal)",
+   "work": "Hybrid",
+   "salary": "$70,000–$75,000",
+   "url": "https://tmx.wd3.myworkdayjobs.com/TMX_Careers/job/Toronto---100-Adelaide-St-W/Specialist--Investor-Experience-Content-and-Governance_R-6423",
+   "posted": "2026-10-29",
+   "sector": "Financial services & insurance"
+  },
   "toronto-cat-rescue-fundraising-communications-manager": {
    "company": "Toronto Cat Rescue",
    "title": "Fundraising and Communications Manager",
@@ -2139,6 +3307,45 @@
    "url": "https://www.charityvillage.com/job/fundraising-and-communications-manager-359421",
    "posted": "2026-11-03",
    "sector": "Nonprofit & charity"
+  },
+  "toronto-pearson-head-of-public-affairs": {
+   "company": "Toronto Pearson (Greater Toronto Airports Authority)",
+   "title": "Head of Public Affairs (Head of Corporate & Stakeholder Relations)",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Mississauga/Toronto Pearson",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4483660313",
+   "posted": "2026-10-27",
+   "sector": "Government & public agencies"
+  },
+  "toronto-region-board-of-trade-senior-vice-president-marketing-communications": {
+   "company": "Toronto Region Board of Trade",
+   "title": "Senior Vice President, Marketing & Communications",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=44815761-f721-49f5-a130-de3b4fe44e2e&ccId=2632555064_1521&type=MP&lang=en_CA",
+   "posted": "2026-10-14",
+   "sector": "Nonprofit & charity"
+  },
+  "toronto-regional-real-estate-board-content-writer": {
+   "company": "Toronto Regional Real Estate Board (TRREB)",
+   "title": "Content Writer",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — North York",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4474364489",
+   "posted": "2026-10-29",
+   "sector": "Other"
   },
   "transperfect-content-marketing-lead": {
    "company": "TransPerfect",
@@ -2202,7 +3409,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Hybrid",
    "salary": "$55,000–$62,000",
-   "url": "https://www.linkedin.com/jobs/view/4485775285",
+   "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4e7b1f8b-27a2-4cb6-9ca2-d2b448976d39&ccId=19000101_000003&jobId=601706&lang=en_CA",
    "posted": "2026-11-02",
    "sector": "Nonprofit & charity"
   },
@@ -2230,6 +3437,19 @@
    "salary": "Salary not stated",
    "url": "https://ca.linkedin.com/jobs/view/senior-communications-specialist-map-at-st-michael-s-hospital-4480473546",
    "posted": "2026-10-29",
+   "sector": "Health & hospital"
+  },
+  "unity-health-toronto-st-michael-s-hospital-director-public-affairs-communications-strategic-partnership": {
+   "company": "Unity Health Toronto — St. Michael's Hospital",
+   "title": "Director, Public Affairs, Communications & Strategic Partnerships",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4480712776",
+   "posted": "2026-10-23",
    "sector": "Health & hospital"
   },
   "uoft-digital-content-coordinator-utsc": {
@@ -2324,6 +3544,97 @@
    "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
    "posted": "2026-10-07",
    "sector": "Technology"
+  },
+  "veritas-communications-account-director": {
+   "company": "Veritas Communications",
+   "title": "Account Director",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/9023/job",
+   "posted": "2026-10-22",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-account-manager": {
+   "company": "Veritas Communications",
+   "title": "Account Manager",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/9024/job",
+   "posted": "2026-10-22",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-ai-visibility-and-systems-strategist": {
+   "company": "Veritas Communications",
+   "title": "AI Visibility and Systems Strategist",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/8519/job",
+   "posted": "2026-09-28",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-consultant": {
+   "company": "Veritas Communications",
+   "title": "Consultant",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/9015/job",
+   "posted": "2026-10-26",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-content-specialist": {
+   "company": "Veritas Communications",
+   "title": "Content Specialist",
+   "cluster": "Content Marketing / Content Strategy",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4433530145",
+   "posted": "2026-11-03",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-senior-account-director": {
+   "company": "Veritas Communications",
+   "title": "Senior Account Director",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/9025/job",
+   "posted": "2026-10-22",
+   "sector": "PR, marketing & consulting agencies"
+  },
+  "veritas-communications-senior-consultant": {
+   "company": "Veritas Communications",
+   "title": "Senior Consultant",
+   "cluster": "Agency PR / Account Leadership",
+   "tier": "Good fit with stretch",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Hybrid",
+   "salary": "Salary not stated",
+   "url": "https://careers-veritasinc.icims.com/jobs/9022/job",
+   "posted": "2026-10-22",
+   "sector": "PR, marketing & consulting agencies"
   },
   "viral-nation-director-content-marketing": {
    "company": "Viral Nation",
@@ -2455,6 +3766,19 @@
    "posted": "2026-09-08",
    "sector": "PR, marketing & consulting agencies"
   },
+  "weirfoulds-llp-communications-specialist": {
+   "company": "WeirFoulds LLP",
+   "title": "Communications Specialist",
+   "cluster": "Corporate / Internal & External Communications",
+   "tier": "Strongest fit",
+   "level": "Below target level",
+   "location": "Toronto/GTA — Toronto",
+   "work": "Not stated",
+   "salary": "$60,000–$80,000",
+   "url": "https://weirfouldsllp.bamboohr.com/careers/78",
+   "posted": "2026-10-29",
+   "sector": "Other"
+  },
   "wireless-dna-social-media-video-content-manager": {
    "company": "Wireless DNA",
    "title": "Social Media & Video Content Manager",
@@ -2477,7 +3801,7 @@
    "location": "Toronto/GTA — Etobicoke",
    "work": "Not stated",
    "salary": "$102,000–$110,000",
-   "url": "https://www.linkedin.com/jobs/view/4414666801",
+   "url": "https://woodbineentertainment.wd10.myworkdayjobs.com/EXT/job/Etobicoke-Ontario/Senior-Manager-Content-Distribution_JR1156",
    "posted": "2026-11-02",
    "sector": "Alcohol, cannabis & gambling"
   },
@@ -2490,7 +3814,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Not stated",
    "salary": "$80,000–$100,000 + equity",
-   "url": "https://www.linkedin.com/jobs/view/4488451863",
+   "url": "https://xanadu.careers.hibob.com/jobs/199c7d85-cab4-4b81-9935-8c225fbad7cc",
    "posted": "2026-11-06",
    "sector": "Technology"
   },
@@ -2503,7 +3827,7 @@
    "location": "Toronto/GTA — Toronto",
    "work": "Not stated",
    "salary": "Salary not stated (equity eligible)",
-   "url": "https://www.linkedin.com/jobs/view/4487373535",
+   "url": "https://xanadu.careers.hibob.com/jobs/505dfa9e-04ba-4194-bfc7-63a18e4b1b5b",
    "posted": "2026-11-06",
    "sector": "Technology"
   },
@@ -2584,6 +3908,19 @@
    "url": "https://www.charityvillage.com/job/digital-fundraising-and-donor-relations-officer-343300",
    "posted": "2026-10-31",
    "sector": "Higher education & schools"
+  },
+  "zeekr-international-public-relations-manager": {
+   "company": "Zeekr International (Geely Auto)",
+   "title": "Public Relations Manager (Canada)",
+   "cluster": "Executive / External Communications",
+   "tier": "Good fit with stretch",
+   "level": "Target level",
+   "location": "Toronto/GTA — GTA",
+   "work": "Not stated",
+   "salary": "Salary not stated",
+   "url": "https://ca.linkedin.com/jobs/view/4482404382",
+   "posted": "2026-10-22",
+   "sector": "Consumer goods & retail"
   }
  }
 }
