@@ -1,32 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T09:34:16-05:00",
+  "generatedAt": "2026-11-08T09:30:00-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
-  "excludedClosed": [
-    {
-      "id": "transperfect-content-marketing-lead",
-      "company": "TransPerfect",
-      "title": "Content Marketing Lead",
-      "reason": "Employer Recruitee posting lists Chicago and Durham, North Carolina (LinkedIn \"Durham, Ontario\" was a misread) — outside the search region",
-      "checkedOn": "2026-11-07"
-    },
-    {
-      "id": "postmedia-communications-specialist",
-      "company": "Postmedia",
-      "title": "Communications Specialist",
-      "reason": "Employer Dayforce posting now reads \"This job posting is no longer available\"",
-      "checkedOn": "2026-11-07"
-    },
-    {
-      "id": "caubo-project-coordinator-communications",
-      "company": "Canadian Association of University Business Officers (CAUBO)",
-      "title": "Project Coordinator, Communications",
-      "reason": "Posting requires living within 200 km of Ottawa and strong English and French writing — outside region / French required",
-      "checkedOn": "2026-11-07"
-    }
-  ],
-  "notes": "Run 2026-11-07: all 78 carried-over postings re-checked against employer pages/ATS APIs (Workday, Lever, Greenhouse, Ashby, BambooHR, Oracle HCM, UltiPro, Dayforce, iCIMS, PDFs) or live LinkedIn/CharityVillage copies; 1 closed and 2 removed as out of region (see excludedClosed); 15 job-board links moved to employer application pages. 102 new roles added from employer ATS boards, LinkedIn guest search, CharityVillage, Eluta and the SIRC RSS feed. McMaster Director, Communications kept as an unconfirmed lead (job board blocks automated access; McMaster's careers system requires sign-in). Blocked this run (not bypassed): Ontario Public Service gojobs (CAPTCHA), SIRC job pages, Indeed, Glassdoor, Workopolis, jobs.ca, teamworkonline.com (PWHL/CFL/team boards), Sunnybrook (login). Contract/term roles are flagged contract:true and downgraded one fit tier (full-time preferred).",
+  "excludedClosed": [],
+  "notes": "Run 2026-11-08 (Sunday, lean run): all 44 carried-over postings liveness-checked (HTTP status, expiry markers, BambooHR list API); none found closed. LinkedIn guest search was rate-limited so no new roles were added today. McMaster Director, Communications remains an unconfirmed lead (deadline 2026-11-08).",
   "jobs": [
     {
       "id": "erinoakkids-director-communications-engagement",
@@ -46,7 +24,7 @@
       "url": "https://erinoakkidscenterfortreatmentanddevelopment.applytojob.com/apply/lbgIx7c2wD/Director-Communications-And-Engagement",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "Health & hospital",
       "rank": 1,
@@ -70,7 +48,7 @@
       "url": "https://www.d2l.com/careers/jobs/?job_id=8243583&gh_jid=8243583",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Technology",
       "rank": 2,
@@ -94,7 +72,7 @@
       "url": "https://jobs.ashbyhq.com/1password/08cb1ce3-984a-4878-b445-45632020d221",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Technology",
       "rank": 3,
@@ -118,7 +96,7 @@
       "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Marketing---Communications-Manager_J71004",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Financial services & insurance",
       "rank": 4
@@ -141,7 +119,7 @@
       "url": "https://amgen.wd1.myworkdayjobs.com/en-US/Careers/job/Canada---Mississauga/Senior-Manager--Corporate-Affairs--Canada_R-251833-1",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "Health & hospital",
       "rank": 5
@@ -164,7 +142,7 @@
       "url": "https://jobs.ashbyhq.com/Float/0accef50-dcbc-4826-8da7-9d60cffb5dc7",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "Technology",
       "rank": 6,
@@ -187,7 +165,7 @@
       "gap": "SaaS/veterinary sector and product-led growth content are new; recruiter listing, so employer page not available.",
       "url": "https://ca.linkedin.com/jobs/view/content-manager-at-the-leadership-agency-4485005702",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 7,
       "sector": "Technology",
       "urlSource": "aggregator",
@@ -211,7 +189,7 @@
       "url": "https://ehtc.fa.ca2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/117459/",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "Government & public agencies",
       "rank": 8
@@ -233,7 +211,7 @@
       "gap": "Director-level enterprise employee comms for a large, field-based workforce is a step up; construction sector is new (not stated as required).",
       "url": "https://jobs.aecon.com/job/Toronto-Director,-Internal-Communications-ON/606290417/",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 9,
       "sector": "Energy, engineering & infrastructure",
       "urlSource": "employer"
@@ -256,7 +234,7 @@
       "url": "https://ca.linkedin.com/jobs/view/4485453916",
       "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 10
@@ -278,7 +256,7 @@
       "gap": "Asks for 5+ years specifically in corporate internal communications; Bolton commute from Toronto.",
       "url": "https://mars.wd3.myworkdayjobs.com/External/job/CAN-Ontario-Bolton/Internal-Communications-Manager---Mars-Snacking_R170829",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 11,
       "sector": "Consumer goods & retail",
       "urlSource": "employer"
@@ -301,7 +279,7 @@
       "url": "https://ca.linkedin.com/jobs/view/pr-and-communications-lead-at-options-consulting-solutions-4477593736",
       "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 12
@@ -324,7 +302,7 @@
       "url": "https://csmc.bamboohr.com/careers/62",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Other",
       "rank": 13
@@ -347,7 +325,7 @@
       "fit": "Nine years running publications, content calendars and media relations (AthletesCAN primary media contact) fit a corporate communications manager remit.",
       "gap": "Standards/testing-sector context is new; posting is ~6 weeks old with a high applicant count.",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 14,
       "sector": "Other"
     },
@@ -369,7 +347,7 @@
       "url": "https://jobs.lever.co/flynncompanies/754a391e-4e3a-452b-b2c5-1655a822bb48",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
       "rank": 15
@@ -392,7 +370,7 @@
       "url": "https://secure.collage.co/jobs/nieuportaviation/65240",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
       "rank": 16
@@ -415,7 +393,7 @@
       "fit": "Current Content Manager title and campaign content strategy for a $78M+ annual campaign translate directly to an always-on acquisition content program.",
       "gap": "Reverse-mortgage/financial product marketing is new; employer apply page not found — LinkedIn link.",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 17,
       "sector": "Financial services & insurance"
     },
@@ -437,7 +415,7 @@
       "fit": "Flagship publications and plain-language content for a large donor/member base at UJA align with member education at scale.",
       "gap": "Pension/retirement subject knowledge is new; employer portal (Dayforce) not machine-readable — LinkedIn link.",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 18,
       "sector": "Financial services & insurance"
     },
@@ -459,7 +437,7 @@
       "url": "https://ca.linkedin.com/jobs/view/4480712776",
       "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Health & hospital",
       "rank": 19,
@@ -482,7 +460,7 @@
       "gap": "Direct global ESG/CSR and digital-inclusion subject experience is not established; the posting treats this background as a plus rather than a requirement.",
       "url": "https://careers.equinix.com/jobs/communications-manager-equinix-foundation-toronto-ontario-canada-dallas-texas-united-states-redwood-city-california",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 20,
       "sector": "Technology",
       "urlSource": "employer"
@@ -504,7 +482,7 @@
       "gap": "Events are the primary portfolio focus; the role has no direct reports and requires substantial hands-on project execution.",
       "url": "https://nyghfoundation.ca/wp-content/uploads/2026/10/NYGF-Manager-Marketing-Communications.pdf",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 21,
       "sector": "Health & hospital",
       "urlSource": "employer"
@@ -526,7 +504,7 @@
       "gap": "The posting asks for 10 years of progressive experience versus approximately nine documented; frequent travel is required.",
       "url": "https://swimmingcanada.bamboohr.com/careers/59",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 22,
       "sector": "Sport & recreation",
       "urlSource": "employer"
@@ -548,7 +526,7 @@
       "gap": "Direct ownership of large-scale corporate change communications is not explicit in the resume details.",
       "url": "https://jobs.adp.com/en/jobs/6013159010232026/communications-manager/",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 23,
       "sector": "Technology",
       "urlSource": "employer"
@@ -570,7 +548,7 @@
       "gap": "Financial-services/regulated-industry experience preferred (not required); office relocating to Mississauga.",
       "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Manager-Corporate-Communications-and-Community-Affairs_J71275",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 24,
       "sector": "Financial services & insurance",
       "urlSource": "employer"
@@ -592,7 +570,7 @@
       "gap": "Asks for 5–8 years specifically in internal/change communications; aerospace context is new; French a strong asset.",
       "url": "https://recruiting.ultipro.ca/MAC5000MCDW/JobBoard/664818ff-3594-4bec-9f30-3394e59e19f3/OpportunityDetail?opportunityId=b158507a-2fee-434f-b62e-5685c7c76f7d",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 25,
       "sector": "Technology",
       "urlSource": "employer"
@@ -614,7 +592,7 @@
       "gap": "Tech/fintech press network and AI product storytelling are new.",
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6223723004",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 26,
       "sector": "Technology",
       "urlSource": "employer",
@@ -638,7 +616,7 @@
       "url": "https://jobs.ashbyhq.com/cohere/e645a8bc-73de-47e6-9600-3f418e6f5c8b",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "Technology",
       "rank": 27,
@@ -661,7 +639,7 @@
       "gap": "Direct B2B SaaS product marketing and sales-performance-management subject expertise are not established.",
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 28,
       "sector": "Technology",
       "urlSource": "employer",
@@ -685,7 +663,7 @@
       "url": "https://phh.tbe.taleo.net/phh01/ats/careers/v2/viewRequisition?org=GRANTTHORNTON&cws=56&rid=12174",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "PR, marketing & consulting agencies",
       "rank": 29
@@ -707,7 +685,7 @@
       "gap": "Director scope and HIV/health-equity research translation are a stretch; French is an asset only; minimum three office days a week.",
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 30,
       "sector": "Health & hospital",
       "urlSource": "employer"
@@ -730,7 +708,7 @@
       "url": "https://ca.linkedin.com/jobs/view/4484145184",
       "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Media, telecom & entertainment",
       "rank": 31
@@ -752,7 +730,7 @@
       "gap": "Retail/brand-marketing sector is new; Mississauga location.",
       "url": "https://canadaengcareers-oslrs.icims.com/jobs/101994/job",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 32,
       "sector": "Consumer goods & retail",
       "urlSource": "employer"
@@ -774,7 +752,7 @@
       "gap": "Senior large-agency account P&L and consumer-brand roster experience not established.",
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 33,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator"
@@ -797,7 +775,7 @@
       "url": "https://fourseasons.wd3.myworkdayjobs.com/en-US/search/job/Four-Seasons-Corporate-Headquarters-Toronto/Manager--Public-Relations-and-Marketing-Communications---Americas_REQ10396642",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
       "rank": 34
@@ -819,7 +797,7 @@
       "gap": "The posting asks for at least 10 years of progressively responsible experience and senior leadership in complex organizations; approximately nine years are documented.",
       "url": "https://www.simplyhired.ca/job/N0V5Z-SfndvvmZG9yrUd94CgMVBO6gJv0hVEdsCDSD_TRjILUIKDuQ",
       "verified": false,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 35,
       "sector": "Higher education & schools",
       "urlSource": "aggregator"
@@ -842,7 +820,7 @@
       "url": "https://ca.linkedin.com/jobs/view/4482404382",
       "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
       "rank": 36
@@ -865,7 +843,7 @@
       "url": "https://careers-veritasinc.icims.com/jobs/9023/job",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 37
@@ -888,7 +866,7 @@
       "url": "https://careers-veritasinc.icims.com/jobs/9025/job",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 38
@@ -910,7 +888,7 @@
       "gap": "Large-agency account P&L and consumer-brand roster experience not established.",
       "url": "https://ca.linkedin.com/jobs/view/account-director-pr-at-citizen-relations-4480156824",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
       "rank": 39,
       "sector": "PR, marketing & consulting agencies",
@@ -934,7 +912,7 @@
       "url": "https://rethinkcanada.bamboohr.com/careers/239",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 40
@@ -956,7 +934,7 @@
       "gap": "Agency-scale major-account ownership, direct team management and corporate-affairs client experience are not fully established.",
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Account-Director--Earned-Media-Strategy_R14886",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 41,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "employer"
@@ -978,7 +956,7 @@
       "gap": "Direct athlete portfolio ownership, brand-marketing strategy, partnership negotiations, budgets and team leadership are not fully established.",
       "url": "https://jobs.redbull.com/en/toronto-senior-manager-athlete-marketing-ref31358n",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "rank": 42,
       "sector": "Consumer goods & retail",
       "urlSource": "employer"
@@ -1001,7 +979,7 @@
       "url": "https://employees-publicisgroupe.icims.com/jobs/180699/job",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-06",
       "sector": "PR, marketing & consulting agencies",
       "rank": 43
@@ -1024,7 +1002,7 @@
       "url": "https://boyden.thriveapp.ly/job/3450",
       "urlSource": "employer",
       "verified": true,
-      "verifiedOn": "2026-11-07",
+      "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
       "rank": 44,
