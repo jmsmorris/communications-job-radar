@@ -226,8 +226,18 @@ def main():
                 j['tierBeforeFeedbackDowngrade'] = j['tier']; j['tier'] = 'Good fit with stretch'; lowered.append(j['id'])
                 j['feedbackAdjustment'] = j.get('feedbackAdjustment', 'Ranked lower') + '; fit tier lowered: you have not picked any ' + label
                 break
+    # Title seniority vs Jacob's highest title held (Manager): director-level titles are never
+    # Strongest fit and rank after manager-level roles; Senior Manager ranks after Manager.
+    def title_step(j):
+        t = (j.get('title') or '').lower()
+        if re.search(r'\b(director|head)\b', t): return 2
+        if re.search(r'\bsenior manager\b|\bsr\.? manager\b', t): return 1
+        return 0
+    for j in d['jobs']:
+        if title_step(j) == 2 and j['tier'] == 'Strongest fit':
+            j['tierBeforeSeniorityDowngrade'] = j['tier']; j['tier'] = 'Good fit with stretch'
     tier_order = {'Strongest fit': 0, 'Good fit with stretch': 1, 'Domain expertise required': 2}
-    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, -j['_score'], j['rank']))
+    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, title_step(j), -j['_score'], j['rank']))
     for i, j in enumerate(d['jobs'], 1):
         j['rank'] = i; j.pop('_score')
 
