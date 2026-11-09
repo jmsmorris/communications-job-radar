@@ -1,10 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T09:30:00-05:00",
+  "generatedAt": "2026-11-08T20:30:00-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
-  "excludedClosed": [],
-  "notes": "Run 2026-11-08 (Sunday, lean run): all 44 carried-over postings liveness-checked (HTTP status, expiry markers, BambooHR list API); none found closed. LinkedIn guest search was rate-limited so no new roles were added today. McMaster Director, Communications remains an unconfirmed lead (deadline 2026-11-08). Ranking rule (2026-11-09): director-level titles are a step above the highest title held (Manager), so they sit in 'Good fit with stretch' and rank after manager-level roles.",
+  "excludedClosed": [
+    {
+      "id": "redbull-senior-manager-athlete-marketing",
+      "company": "Red Bull",
+      "title": "Senior Manager, Athlete Marketing",
+      "reason": "Posting page says no longer available",
+      "checkedOn": "2026-11-08"
+    },
+    {
+      "id": "upp-associate-director-member-education-communications",
+      "company": "University Pension Plan Ontario",
+      "title": "Associate Director, Member Education & Communications",
+      "reason": "Posting page 404",
+      "checkedOn": "2026-11-08"
+    }
+  ],
+  "notes": "Run 2026-11-08 (on-demand, lean): liveness check on all carried-over roles; 2 closed and removed. Targeted searches (digital comms, hospital foundations, sport boards) surfaced no new qualifying open roles.",
   "jobs": [
     {
       "id": "mars-internal-communications-manager-mars-snacking-r170829",
@@ -455,29 +470,6 @@
       "titleSeniority": "manager-level"
     },
     {
-      "id": "redbull-senior-manager-athlete-marketing",
-      "company": "Red Bull",
-      "title": "Senior Manager, Athlete Marketing",
-      "cluster": "Sport / Athlete Marketing & Partnerships",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "Not stated",
-      "deadline": "Not stated",
-      "salary": "$117,135–$129,465 CAD/year, plus bonus",
-      "summary": "Lead national athlete marketing strategy, athlete portfolio, partnerships with teams, leagues and federations, athlete storytelling, content and a team of athlete-marketing staff.",
-      "fit": "AthletesCAN and Canadian Olympic Committee experience provide strong Canadian sport-system knowledge, athlete relationships and media/content experience.",
-      "gap": "Direct athlete portfolio ownership, brand-marketing strategy, partnership negotiations, budgets and team leadership are not fully established.",
-      "url": "https://jobs.redbull.com/en/toronto-senior-manager-athlete-marketing-ref31358n",
-      "verified": true,
-      "verifiedOn": "2026-11-08",
-      "rank": 20,
-      "sector": "Consumer goods & retail",
-      "urlSource": "employer",
-      "titleSeniority": "senior manager (one step above past titles)"
-    },
-    {
       "id": "republic-live-director-of-public-relations",
       "company": "Republic Live",
       "title": "Director of Public Relations",
@@ -498,7 +490,7 @@
       "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Media, telecom & entertainment",
-      "rank": 21,
+      "rank": 20,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -519,7 +511,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-08",
-      "rank": 22,
+      "rank": 21,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -545,31 +537,7 @@
       "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 23,
-      "titleSeniority": "director-level (above past titles)",
-      "tierBeforeSeniorityDowngrade": "Strongest fit"
-    },
-    {
-      "id": "upp-associate-director-member-education-communications",
-      "company": "University Pension Plan Ontario",
-      "title": "Associate Director, Member Education & Communications",
-      "cluster": "Content Marketing / Content Strategy",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-11-05",
-      "deadline": "Not stated",
-      "salary": "Salary not stated",
-      "url": "https://jobs.dayforcehcm.com/en-US/upp/ExternalCANDIDATEPORTAL/jobs/2311",
-      "urlSource": "employer",
-      "summary": "Leads member education and communications to build pension understanding, retirement confidence and trust for 46,000+ UPP members; downtown Toronto hybrid (~2 days/week in office), existing vacancy.",
-      "fit": "Flagship publications and plain-language content for a large donor/member base at UJA align with member education at scale.",
-      "gap": "Pension/retirement subject knowledge is new; employer portal (Dayforce) not machine-readable — LinkedIn link. Director-level title: a step above your highest title so far (Manager).",
-      "verified": true,
-      "verifiedOn": "2026-11-08",
-      "rank": 24,
-      "sector": "Financial services & insurance",
+      "rank": 22,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit"
     },
@@ -591,7 +559,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-08",
-      "rank": 25,
+      "rank": 23,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -614,7 +582,7 @@
       "url": "https://www.simplyhired.ca/job/N0V5Z-SfndvvmZG9yrUd94CgMVBO6gJv0hVEdsCDSD_TRjILUIKDuQ",
       "verified": false,
       "verifiedOn": "2026-11-08",
-      "rank": 26,
+      "rank": 24,
       "sector": "Higher education & schools",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -640,7 +608,7 @@
       "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 27,
+      "rank": 25,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -664,7 +632,7 @@
       "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 28,
+      "rank": 26,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -686,7 +654,7 @@
       "verified": true,
       "verifiedOn": "2026-11-08",
       "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
-      "rank": 29,
+      "rank": 27,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -709,7 +677,7 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Account-Director--Earned-Media-Strategy_R14886",
       "verified": true,
       "verifiedOn": "2026-11-08",
-      "rank": 30,
+      "rank": 28,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -735,7 +703,7 @@
       "verifiedOn": "2026-11-08",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
-      "rank": 31,
+      "rank": 29,
       "titleSeniority": "director-level (above past titles)"
     }
   ],
@@ -748,10 +716,6 @@
       "withNotes": 22
     },
     "adjustments": [
-      {
-        "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
-        "basis": "13 removed this run"
-      },
       {
         "effect": "Employers you ruled out are excluded",
         "basis": "1 employers"
