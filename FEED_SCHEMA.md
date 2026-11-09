@@ -39,3 +39,5 @@ Only mark `isSampleData` false after replacing the starter feed with verified cu
 Optional per-job fields written by `scripts/learn_feedback.py`: `sector` (from `taxonomy.json`), `feedbackAdjustment` (one public reason line), `tierBeforeFeedbackDowngrade`. Top-level: `excludedSectors`, `feedbackLearning`. `archive.json` maps every job id ever listed to its public posting details.
 
 `url` must be the employer's own application page (careers site or ATS such as Workday, Lever, Greenhouse, iCIMS, Dayforce, UltiPro, Oracle, SuccessFactors) whenever one exists — not LinkedIn or a job board. Set `urlSource` to `"employer"` or `"aggregator"`; an aggregator link is kept only when no employer page can be found, and the portal labels it "job board".
+
+Seniority ranking: Jacob's highest title so far is Manager. Director / Associate Director / Senior Director / Account Director / Head roles are never "Strongest fit"; use `Good fit with stretch` (optional `tierBeforeSeniorityDowngrade`) and rank them after manager-level roles. Senior Manager roles rank after Manager roles within a tier. `learn_feedback.py` reorders ranks, so re-apply this order after running it.
