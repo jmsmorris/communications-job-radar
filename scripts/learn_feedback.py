@@ -139,6 +139,27 @@ def main():
         j['sector'] = sector_of(j)
         hist[j['id']] = j
 
+    # "New Postings": roles that were not in the previous run's feed. The previous run is the newest
+    # "Refresh daily communications job feed" commit with a different generatedAt than this feed
+    # (so re-running the script on an already-committed run still compares against the run before).
+    prev_ids, prev_at = None, None
+    runs = subprocess.run(['git', 'log', '--format=%H', '--grep=^Refresh daily communications job feed', '--', 'feed.json'],
+                          capture_output=True, text=True).stdout.split()
+    for h in runs:
+        try:
+            pd = json.loads(subprocess.run(['git', 'show', h + ':feed.json'], capture_output=True, text=True).stdout)
+        except Exception:
+            continue
+        if pd.get('generatedAt') == d.get('generatedAt'):
+            continue
+        prev_ids, prev_at = {j['id'] for j in pd.get('jobs', [])}, pd.get('generatedAt')
+        break
+    for j in d['jobs']:
+        j.pop('newSinceLastRun', None)
+        if prev_ids is not None and j['id'] not in prev_ids:
+            j['newSinceLastRun'] = True
+    d['previousRunAt'] = prev_at
+
     # Rule-outs: the portal stores each one as a block entry (Undo deletes it).
     sector_slugs = {norm(s['name']).replace(' ', '-'): s['name'] for s in TAX['sectors']}
     blocked_employers, blocked_sectors = set(), set(TAX['excludedSectors'])
