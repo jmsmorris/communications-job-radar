@@ -1,31 +1,9 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T10:25:00-05:00",
+  "generatedAt": "2026-11-10T15:31:44-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
-  "excludedClosed": [
-    {
-      "id": "swimming-canada-communications-lead",
-      "company": "Swimming Canada",
-      "title": "Communications Lead",
-      "reason": "Posting removed from Swimming Canada board; deadline 2026-11-09 passed",
-      "checkedOn": "2026-11-10"
-    },
-    {
-      "id": "mda-space-internal-communications-manager",
-      "company": "MDA Space",
-      "title": "Internal Communications Manager – Corporate Communications",
-      "reason": "No longer listed on MDA job board",
-      "checkedOn": "2026-11-10"
-    },
-    {
-      "id": "republic-live-director-of-public-relations",
-      "company": "Republic Live",
-      "title": "Director of Public Relations",
-      "reason": "Posting states no longer accepting applications",
-      "checkedOn": "2026-11-10"
-    }
-  ],
+  "excludedClosed": [],
   "notes": "Run 2026-11-10 (lean): liveness check on carried-over roles; 3 closed and removed. Targeted searches (digital comms, sport, donor comms, hospital foundations) surfaced no new verifiable qualifying open roles.",
   "jobs": [
     {
@@ -431,6 +409,31 @@
       "titleSeniority": "manager-level"
     },
     {
+      "id": "directive-consulting-pr-communications-manager-remote-canada",
+      "company": "Directive Consulting",
+      "title": "PR & Communications Manager (Remote Canada)",
+      "cluster": "Executive / External Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-11-06",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Leads day-to-day PR delivery for B2B client accounts: earned media, media relations, press releases, executive positioning and thought leadership.",
+      "fit": "Mile 27 PR agency experience, AthletesCAN media-contact work and thought-leadership content at UJA map to agency-side PR delivery; asks 4–7 years.",
+      "gap": "B2B tech/marketing-agency client work and hands-on account execution, not nonprofit or sport.",
+      "url": "https://jobs.ashbyhq.com/directive/0a6dc8dd-f81c-4045-940a-36b5e63b947c/application",
+      "urlSource": "employer",
+      "verified": true,
+      "verifiedOn": "2026-11-10",
+      "newOn": "2026-11-10",
+      "sector": "PR, marketing & consulting agencies",
+      "rank": 18,
+      "titleSeniority": "manager-level",
+      "newSinceLastRun": true
+    },
+    {
       "id": "ohtn-director-communications",
       "company": "Ontario HIV Treatment Network (OHTN)",
       "title": "Director, Communications",
@@ -448,7 +451,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 18,
+      "rank": 19,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -474,7 +477,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 19,
+      "rank": 20,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit"
     },
@@ -496,7 +499,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 20,
+      "rank": 21,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -522,7 +525,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 21,
+      "rank": 22,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -546,7 +549,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 22,
+      "rank": 23,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -568,7 +571,7 @@
       "verified": true,
       "verifiedOn": "2026-11-10",
       "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
-      "rank": 23,
+      "rank": 24,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -591,7 +594,7 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Account-Director--Earned-Media-Strategy_R14886",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 24,
+      "rank": 25,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -617,7 +620,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
-      "rank": 25,
+      "rank": 26,
       "titleSeniority": "director-level (above past titles)"
     }
   ],
@@ -630,6 +633,10 @@
       "withNotes": 22
     },
     "adjustments": [
+      {
+        "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
+        "basis": "1 removed this run"
+      },
       {
         "effect": "Employers you ruled out are excluded",
         "basis": "1 employers"
@@ -700,5 +707,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-09T09:40:00-05:00"
+  "previousRunAt": "2026-11-10T10:25:00-05:00"
 }
