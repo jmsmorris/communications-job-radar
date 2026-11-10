@@ -1,0 +1,166 @@
+{
+  "boards": {
+    "mozilla": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "changedotorgsourcing": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "maintainx": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "mercury": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "varicent": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "wealthsimple": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "faire": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "clio": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "ada": {
+      "url": "",
+      "method": "ashby",
+      "lastChecked": "2026-11-10",
+      "lastResult": "blocked"
+    },
+    "1password": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "shopify": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "hootsuite": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "thescore": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "cloudbeds": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "remotewoman": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "axiom": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "stackadapt": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "achievers": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "ecobee": {
+      "url": "",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "eqbank": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "flynncompanies": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "Black-White-Zebra": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "neo": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "paymentus": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "lightspeedhq": {
+      "url": "",
+      "method": "lever",
+      "lastChecked": "2026-11-10",
+      "lastResult": "empty"
+    },
+    "cohere": {
+      "url": "",
+      "method": "ashby",
+      "lastChecked": "2026-11-10",
+      "lastResult": "ok"
+    },
+    "knockri": {
+      "url": "",
+      "method": "ashby",
+      "lastChecked": "2026-11-10",
+      "lastResult": "blocked"
+    }
+  }
+}
