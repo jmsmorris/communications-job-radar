@@ -341,34 +341,6 @@
       "priority": 3.0
     },
     {
-      "id": "varicent-manager-content-marketing",
-      "company": "Varicent",
-      "title": "Manager, Content Marketing",
-      "cluster": "Content Marketing / Editorial Strategy",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "2026-10-07",
-      "deadline": "Not stated",
-      "salary": "$115,200–$151,200 CAD/year",
-      "summary": "Lead Varicent's content function and team, own content strategy and SEO/AEO, manage editorial priorities and partner with product marketing, sales and other business teams.",
-      "fit": "UJA content strategy, flagship publications and campaign storytelling, plus AthletesCAN digital content and analytics, align with editorial leadership and measurement.",
-      "gap": "Direct B2B SaaS product marketing and sales-performance-management subject expertise are not established.",
-      "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
-      "verified": true,
-      "verifiedOn": "2026-11-10",
-      "rank": 13,
-      "sector": "Technology",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "roleTarget": "A",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Not stated",
-      "priority": 6.0
-    },
-    {
       "id": "mercury-tech-communications-lead",
       "company": "Mercury",
       "title": "Tech Communications Lead",
@@ -386,7 +358,7 @@
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6223723004",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 14,
+      "rank": 13,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
@@ -394,6 +366,33 @@
       "payStatus": "meets target",
       "arrangement": "Remote",
       "priority": 5.0
+    },
+    {
+      "id": "varicent-manager-content-marketing",
+      "company": "Varicent",
+      "title": "Manager, Content Marketing",
+      "cluster": "Content Marketing / Editorial Strategy",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-10-07",
+      "deadline": "Not stated",
+      "salary": "$115,200–$151,200 CAD/year",
+      "summary": "Lead Varicent's content function and team, own content strategy and SEO/AEO, manage editorial priorities and partner with product marketing, sales and other business teams.",
+      "fit": "UJA content strategy, flagship publications and campaign storytelling, plus AthletesCAN digital content and analytics, align with editorial leadership and measurement.",
+      "gap": "Direct B2B SaaS product marketing and sales-performance-management subject expertise are not established.",
+      "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
+      "verified": true,
+      "verifiedOn": "2026-11-10",
+      "rank": 14,
+      "sector": "Technology",
+      "urlSource": "employer",
+      "titleSeniority": "manager-level",
+      "peopleLeadership": "likely",
+      "payStatus": "meets target",
+      "arrangement": "Not stated",
+      "priority": 3.0
     },
     {
       "id": "four-seasons-hotels-and-resorts-manager-public-relations-and-marketing-communications-americ",
@@ -798,10 +797,6 @@
       },
       {
         "effect": "Government & public agencies employers ranked higher",
-        "basis": "2 of 5 picks were Fit or Applied, vs 20% overall"
-      },
-      {
-        "effect": "Editorial & publications leadership roles ranked higher",
         "basis": "2 of 5 picks were Fit or Applied, vs 20% overall"
       },
       {

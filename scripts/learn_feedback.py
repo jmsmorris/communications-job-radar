@@ -106,7 +106,7 @@ def target_of(j):
     """Role target A/B/C: the routine's own value wins; otherwise inferred from the title and cluster."""
     if j.get('roleTarget') in ('A', 'B', 'C'): return j['roleTarget']
     title = norm(j.get('title')); head = norm((j.get('title') or '') + ' ' + (j.get('cluster') or ''))
-    if re.search(r'managing editor|editorial director|editor in chief|(head|director) of (content|publications?|editorial)|publications? (manager|director|lead)|editorial (manager|lead|strategy)', head): return 'A'
+    if re.search(r'managing editor|editorial director|editor in chief|(head|director) of (content|publications?|editorial)|publications? (manager|director|lead)|editorial (manager|lead|strategy)', title): return 'A'
     if re.search(r'(director|head) of (corporate |external |strategic |marketing and )?communications|communications director|director communications', title) \
             and (sector_of(j) == 'Sport & recreation' or has_kw(norm(j.get('company')), 'sport') or has_kw(norm(j.get('company')), 'athletics')):
         return 'B'
