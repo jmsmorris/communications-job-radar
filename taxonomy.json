@@ -2,7 +2,8 @@
  "about": "Shared traits for feedback learning. Read by app.js (portal tags/ranking) and scripts/learn_feedback.py (daily search). Employer keys and keywords are matched against lower-case text with punctuation replaced by spaces; employer keys match the start of the employer name.",
  "excludedSectors": [
   "Religious organization",
-  "Tobacco"
+  "Tobacco",
+  "Gambling"
  ],
  "sectors": [
   {
@@ -33,17 +34,29 @@
    ]
   },
   {
-   "name": "Alcohol, cannabis & gambling",
+   "name": "Gambling",
+   "keywords": [
+    "casino",
+    "betting",
+    "sportsbook",
+    "lottery",
+    "gambling",
+    "wagering",
+    "igaming",
+    "online gaming",
+    "poker",
+    "olg",
+    "ontario lottery"
+   ]
+  },
+  {
+   "name": "Alcohol & cannabis",
    "keywords": [
     "spirit and wine",
     "brewing",
     "brewery",
     "beverage company",
-    "cannabis",
-    "casino",
-    "betting",
-    "sportsbook",
-    "lottery"
+    "cannabis"
    ]
   },
   {
@@ -209,7 +222,7 @@
   "av communications": "PR, marketing & consulting agencies",
   "bdo canada": "PR, marketing & consulting agencies",
   "benevity": "Technology",
-  "betstamp": "Alcohol, cannabis & gambling",
+  "betstamp": "Gambling",
   "blacksmith agency": "PR, marketing & consulting agencies",
   "bladder cancer canada": "Health & hospital",
   "blue ant media": "Media, telecom & entertainment",
@@ -241,7 +254,7 @@
   "cohere": "Technology",
   "colorectal cancer": "Health & hospital",
   "condominium authority of ontario": "Government & public agencies",
-  "corby spirit": "Alcohol, cannabis & gambling",
+  "corby spirit": "Alcohol & cannabis",
   "corpay": "Financial services & insurance",
   "credit counselling society": "Nonprofit & charity",
   "d2l": "Technology",
@@ -255,7 +268,7 @@
   "easter seals canada": "Nonprofit & charity",
   "edelman": "PR, marketing & consulting agencies",
   "electrical safety authority": "Government & public agencies",
-  "entain": "Alcohol, cannabis & gambling",
+  "entain": "Gambling",
   "eq bank": "Financial services & insurance",
   "equinix": "Technology",
   "erinoakkids centre for treatment and development": "Health & hospital",
@@ -306,7 +319,7 @@
   "metrolinx": "Government & public agencies",
   "mitch insurance brokers": "Financial services & insurance",
   "mlse": "Sport & recreation",
-  "molson coors": "Alcohol, cannabis & gambling",
+  "molson coors": "Alcohol & cannabis",
   "movable ink": "Technology",
   "msl": "PR, marketing & consulting agencies",
   "national public relations": "PR, marketing & consulting agencies",
@@ -390,7 +403,7 @@
   "wajax": "Energy, engineering & infrastructure",
   "weber shandwick": "PR, marketing & consulting agencies",
   "wireless dna": "Technology",
-  "woodbine entertainment": "Alcohol, cannabis & gambling",
+  "woodbine entertainment": "Gambling",
   "xanadu": "Technology",
   "xero": "Technology",
   "ymca": "Nonprofit & charity",
@@ -399,7 +412,9 @@
   "zeekr international": "Consumer goods & retail",
   "TD Bank Group": "Financial services & insurance",
   "EQ Bank": "Financial services & insurance",
-  "Viral Nation": "PR, marketing & consulting agencies"
+  "Viral Nation": "PR, marketing & consulting agencies",
+  "olg": "Gambling",
+  "ontario lottery and gaming": "Gambling"
  },
  "clusterFamilies": [
   {
@@ -568,5 +583,77 @@
   "higherRatio": 1.6,
   "tagHigherRatio": 2.0,
   "negativeWeight": 2
+ },
+ "legacySectors": {
+  "Alcohol, cannabis & gambling": null
+ },
+ "roleTargets": [
+  {
+   "id": "A",
+   "name": "Editorial & publications leadership",
+   "tag": "Target A: editorial & publications"
+  },
+  {
+   "id": "B",
+   "name": "Sport communications leadership",
+   "tag": "Target B: sport communications leadership"
+  },
+  {
+   "id": "C",
+   "name": "Health content & plain language",
+   "tag": "Target C: health content",
+   "newCategory": true
+  }
+ ],
+ "missions": [
+  "Sport",
+  "Jewish community",
+  "Health & wellness"
+ ],
+ "pay": {
+  "floor": 75000,
+  "target": 100000
+ },
+ "priority": {
+  "target": {
+   "A": 3,
+   "B": 3,
+   "C": 2
+  },
+  "mission": {
+   "Sport": 3,
+   "Jewish community": 2,
+   "Health & wellness": 2
+  },
+  "leadership": {
+   "yes": 1.5,
+   "likely": 1,
+   "no": -2
+  },
+  "arrangement": {
+   "Hybrid": 2,
+   "Remote": 2,
+   "On-site": -2
+  },
+  "pay": {
+   "meets target": 2,
+   "above floor": 1,
+   "below floor": -2
+  },
+  "benefits": {
+   "pension": 1,
+   "extended health": 0.5,
+   "RRSP match": 0.5
+  },
+  "labels": {
+   "social-heavy": -1.5,
+   "sales duties": -1.5,
+   "small or early-stage": -2,
+   "sole communicator": -1.5
+  },
+  "orgSize": {
+   "large": 1,
+   "small": -2
+  }
  }
 }

@@ -32,7 +32,7 @@ def has_kw(text, kw):
 
 
 def sector_of(j):
-    if j.get('sector'):
+    if j.get('sector') and j['sector'] not in TAX.get('legacySectors', {}):
         return j['sector']
     company = norm(j.get('company'))
     for key, sector in TAX['employerSectors'].items():
@@ -75,6 +75,75 @@ def pay_band_of(j):
     return TAX['payBands'][-1]['name']
 
 
+def salary_top(j):
+    sal = j.get('salary') or ''
+    if re.search(r'hour|/hr|per hr', sal, re.I):
+        return None
+    nums = [int(n.replace(',', '')) for n in re.findall(r'\d{2,3}(?:,\d{3})+', sal)]
+    nums += [int(float(n) * 1000) for n in re.findall(r'(\d{2,3}(?:\.\d)?)\s*[kK]\b', sal)]
+    nums = [n for n in nums if n >= 20000]
+    return max(nums) if nums else None
+
+
+def pay_status_of(j):
+    """Jacob's floor ($75K) and target ($100K) are judged on the top of the posted range."""
+    top = salary_top(j)
+    if top is None: return 'pay not stated'
+    if top < TAX['pay']['floor']: return 'below floor'
+    if top >= TAX['pay']['target']: return 'meets target'
+    return 'above floor'
+
+
+def arrangement_of(j):
+    w = (j.get('work') or '').lower()
+    if 'hybrid' in w: return 'Hybrid'
+    if 'remote' in w: return 'Remote'
+    if re.search(r'on-?site|office|in-person', w): return 'On-site'
+    return 'Not stated'
+
+
+def target_of(j):
+    """Role target A/B/C: the routine's own value wins; otherwise inferred from the title and cluster."""
+    if j.get('roleTarget') in ('A', 'B', 'C'): return j['roleTarget']
+    title = norm(j.get('title')); head = norm((j.get('title') or '') + ' ' + (j.get('cluster') or ''))
+    if re.search(r'managing editor|editorial director|editor in chief|(head|director) of (content|publications?|editorial)|publications? (manager|director|lead)|editorial (manager|lead|strategy)', head): return 'A'
+    if re.search(r'(director|head) of (corporate |external |strategic |marketing and )?communications|communications director|director communications', title) \
+            and (sector_of(j) == 'Sport & recreation' or has_kw(norm(j.get('company')), 'sport') or has_kw(norm(j.get('company')), 'athletics')):
+        return 'B'
+    if re.search(r'health content|content designer|patient education|plain language|health communications|knowledge translation|health information|health literacy', head): return 'C'
+    return None
+
+
+def mission_of(j):
+    if j.get('mission') in TAX['missions']: return j['mission']
+    co = norm(' '.join([j.get('company') or '', j.get('title') or '']))
+    if sector_of(j) == 'Sport & recreation' or any(has_kw(co, k) for k in ('sport', 'olympic', 'paralympic', 'athletics')): return 'Sport'
+    if re.search(r'\bjewish\b|\buja\b|\bhillel\b|\bjcc\b', co): return 'Jewish community'
+    if sector_of(j) == 'Health & hospital' or any(has_kw(co, k) for k in ('health', 'wellness', 'hospital')): return 'Health & wellness'
+    return None
+
+
+def leadership_of(j):
+    v = j.get('peopleLeadership')
+    if v in ('yes', 'no', 'not stated'): return v
+    # Not read from the posting: a Manager/Director/Head title only suggests it.
+    return 'likely' if re.search(r'\b(manager|director|head|managing|lead)\b', (j.get('title') or '').lower()) else 'not stated'
+
+
+def priority_of(j):
+    """Preference score used to order roles inside a tier (weights in taxonomy.json priority)."""
+    P = TAX['priority']; score = 0.0
+    score += P['target'].get(j.get('roleTarget'), 0)
+    score += P['mission'].get(j.get('mission'), 0)
+    score += P['leadership'].get(j.get('peopleLeadership'), 0)
+    score += P['arrangement'].get(j.get('arrangement'), 0)
+    score += P['pay'].get(j.get('payStatus'), 0)
+    score += min(2, sum(P['benefits'].get(b, 0) for b in (j.get('benefits') or [])))
+    score += sum(P['labels'].get(l, 0) for l in (j.get('labels') or []))
+    score += P['orgSize'].get(j.get('orgSize'), 0)
+    return round(score, 2)
+
+
 def work_of(j):
     w = (j.get('work') or '').lower()
     if 'hybrid' in w: return 'hybrid roles'
@@ -96,6 +165,10 @@ def traits(j):
     if f: out.append(('family:' + f, f + ' roles'))
     sec = sector_of(j)
     out.append(('sector:' + sec, sec + ' employers'))
+    t = target_of(j)
+    if t: out.append(('target:' + t, next(x['name'] for x in TAX['roleTargets'] if x['id'] == t) + ' roles'))
+    m = mission_of(j)
+    if m: out.append(('mission:' + m, m + ' employers'))
     w = work_of(j)
     if w: out.append(('work:' + w, w))
     p = pay_band_of(j)
@@ -104,7 +177,7 @@ def traits(j):
 
 
 # Which traits a Not-a-fit reason points at.
-REASON_PREFIXES = {'junior': ('level:', 'seniority:'), 'pay': ('pay:',), 'work': ('work:',), 'role': ('family:', 'seniority:')}
+REASON_PREFIXES = {'junior': ('level:', 'seniority:'), 'pay': ('pay:',), 'work': ('work:',), 'role': ('family:', 'seniority:', 'target:')}
 
 
 def signal_weight(f):
@@ -137,6 +210,15 @@ def main():
     d = json.load(open('feed.json'))
     for j in d['jobs']:
         j['sector'] = sector_of(j)
+        # Role target, mission, people leadership, pay and work arrangement (the daily routine supplies
+        # roleTarget / mission / peopleLeadership / labels / benefits / orgSize from the posting; gaps are inferred).
+        for key, val in (('roleTarget', target_of(j)), ('mission', mission_of(j))):
+            if val: j[key] = val
+            else: j.pop(key, None)
+        j['peopleLeadership'] = leadership_of(j)
+        j['payStatus'] = pay_status_of(j)
+        j['arrangement'] = arrangement_of(j)
+        j['priority'] = priority_of(j)
         hist[j['id']] = j
 
     # "New Postings": roles that were not in the previous run's feed. The previous run is the newest
@@ -258,7 +340,7 @@ def main():
         if title_step(j) == 2 and j['tier'] == 'Strongest fit':
             j['tierBeforeSeniorityDowngrade'] = j['tier']; j['tier'] = 'Good fit with stretch'
     tier_order = {'Strongest fit': 0, 'Good fit with stretch': 1, 'Domain expertise required': 2}
-    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, title_step(j), -j['_score'], j['rank']))
+    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, title_step(j), -j['priority'], -j['_score'], j['rank']))
     for i, j in enumerate(d['jobs'], 1):
         j['rank'] = i; j.pop('_score')
 
@@ -274,19 +356,25 @@ def main():
         label = labels.get(t, t)
         adj.append({'effect': label[0].upper() + label[1:] + (' ranked lower' if v < 0 else ' ranked higher'),
                     'basis': '%d of %d picks were Fit or Applied, vs %d%% overall' % (pos[t], n[t], round(base * 100))})
+    # Categories Jacob keeps passing on move down (the traits above); say so in the feed and the portal.
+    notices = []
+    for t, v in sorted(active.items(), key=lambda x: x[1]):
+        if v < 0 and t.startswith(('target:', 'mission:', 'family:')):
+            notices.append('Moved down: %s. You passed on %d of the %d you rated.' % (labels.get(t, t), n[t] - pos[t], n[t]))
     d['excludedSectors'] = sorted(blocked_sectors)
     d['feedbackLearning'] = {'available': bool(export_path), 'exportedAt': exp.get('exportedAt'),
                              'signals': {'fit': sum(1 for f in fb.values() if f.get('status') == 'fit'),
                                          'notFit': sum(1 for k, f in fb.items() if f.get('status') == 'not-fit' and not k.startswith('block:')),
                                          'withNotes': sum(1 for f in fb.values() if f.get('notes'))},
                              'adjustments': adj}
+    d['feedbackLearning']['notices'] = notices
     if not export_path:
         d['feedbackLearning']['note'] = 'No feedback export found — click Export feedback in the portal.'
     with open('feed.json', 'w') as f:
         json.dump(d, f, indent=2, ensure_ascii=False); f.write('\n')
 
     # Public archive of every posting the feed has listed, so old feedback ids keep their details.
-    fields = ['company', 'title', 'cluster', 'tier', 'level', 'location', 'work', 'salary', 'contract', 'url', 'posted']
+    fields = ['company', 'title', 'cluster', 'tier', 'level', 'location', 'work', 'salary', 'contract', 'url', 'posted', 'roleTarget', 'mission']
     archive = {k: dict({f: j.get(f) for f in fields if j.get(f) is not None}, sector=sector_of(j))
                for k, j in sorted(hist.items()) if j.get('company') and j.get('title')}
     with open('archive.json', 'w') as f:
@@ -295,6 +383,7 @@ def main():
     print('excluded:', {k: len(v) for k, v in removed.items()}, '| tier lowered:', lowered)
     for a in adj: print(' -', a['effect'], '|', a['basis'])
     print('tags:', collections.Counter(j.get('feedbackAdjustment', 'none').split(':')[0] for j in d['jobs']), 'of', len(d['jobs']))
+    for n_ in notices: print(' !', n_)
     for j in d['jobs']: print('  ', j['rank'], j['title'][:45], '|', j.get('feedbackAdjustment', ''))
 
 
