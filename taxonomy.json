@@ -1,569 +1,572 @@
 {
-  "about": "Shared traits for feedback learning. Read by app.js (portal tags/ranking) and scripts/learn_feedback.py (daily search). Employer keys and keywords are matched against lower-case text with punctuation replaced by spaces; employer keys match the start of the employer name.",
-  "excludedSectors": [
-    "Religious organization",
-    "Tobacco"
-  ],
-  "sectors": [
-    {
-      "name": "Religious organization",
-      "keywords": [
-        "church",
-        "christian",
-        "catholic",
-        "ministry",
-        "ministries",
-        "diocese",
-        "latter day",
-        "evangelical",
-        "bible",
-        "gospel",
-        "parish"
-      ]
-    },
-    {
-      "name": "Tobacco",
-      "keywords": [
-        "tobacco",
-        "philip morris",
-        "rothmans",
-        "jti macdonald",
-        "vaping",
-        "vape"
-      ]
-    },
-    {
-      "name": "Alcohol, cannabis & gambling",
-      "keywords": [
-        "spirit and wine",
-        "brewing",
-        "brewery",
-        "beverage company",
-        "cannabis",
-        "casino",
-        "betting",
-        "sportsbook",
-        "lottery"
-      ]
-    },
-    {
-      "name": "Sport & recreation",
-      "keywords": [
-        "sport",
-        "olympic",
-        "paralympic",
-        "athlet",
-        "swimming",
-        "hockey",
-        "soccer",
-        "football",
-        "basketball",
-        "baseball",
-        "blue jays",
-        "raptors",
-        "maple leafs",
-        "ymca"
-      ]
-    },
-    {
-      "name": "Health & hospital",
-      "keywords": [
-        "hospital",
-        "health",
-        "cancer",
-        "foundation for",
-        "medical",
-        "medicine",
-        "clinic",
-        "camh",
-        "audiology",
-        "hiv"
-      ]
-    },
-    {
-      "name": "Higher education & schools",
-      "keywords": [
-        "university",
-        "college",
-        "school",
-        "polytechnic",
-        "academy"
-      ]
-    },
-    {
-      "name": "Government & public agencies",
-      "keywords": [
-        "city of",
-        "town of",
-        "region of",
-        "ontario public service",
-        "government",
-        "ministry of",
-        "board",
-        "authority",
-        "agency of"
-      ]
-    },
-    {
-      "name": "Financial services & insurance",
-      "keywords": [
-        "bank",
-        "financial",
-        "insurance",
-        "investments",
-        "capital",
-        "pension",
-        "credit union",
-        "mutual",
-        "life"
-      ]
-    },
-    {
-      "name": "PR, marketing & consulting agencies",
-      "keywords": [
-        "agency",
-        "public relations",
-        "communications inc",
-        "consulting",
-        "recruiting",
-        "korn ferry"
-      ]
-    },
-    {
-      "name": "Media, telecom & entertainment",
-      "keywords": [
-        "media",
-        "news",
-        "broadcast",
-        "radio",
-        "television",
-        "telecom",
-        "entertainment"
-      ]
-    },
-    {
-      "name": "Technology",
-      "keywords": [
-        "software",
-        "technolog",
-        "tech",
-        "ai",
-        "cloud",
-        "data",
-        "cyber",
-        "vpn",
-        "app"
-      ]
-    },
-    {
-      "name": "Energy, engineering & infrastructure",
-      "keywords": [
-        "energy",
-        "engineering",
-        "infrastructure",
-        "construction",
-        "nuclear",
-        "mining",
-        "utilities"
-      ]
-    },
-    {
-      "name": "Consumer goods & retail",
-      "keywords": [
-        "foods",
-        "retail",
-        "restaurant",
-        "consumer",
-        "snacking",
-        "apparel"
-      ]
-    },
-    {
-      "name": "Nonprofit & charity",
-      "keywords": [
-        "foundation",
-        "charity",
-        "association",
-        "society",
-        "alliance",
-        "network",
-        "rescue",
-        "canada inc"
-      ]
-    }
-  ],
-  "employerSectors": {
-    "1password": "Technology",
-    "4 h canada": "Nonprofit & charity",
-    "achev": "Nonprofit & charity",
-    "adp": "Technology",
-    "advocis": "Financial services & insurance",
-    "aecon": "Energy, engineering & infrastructure",
-    "aerovect": "Technology",
-    "aethovpn": "Technology",
-    "agility pr": "PR, marketing & consulting agencies",
-    "allstate insurance company of canada": "Financial services & insurance",
-    "amgen": "Health & hospital",
-    "arc teryx": "Consumer goods & retail",
-    "atkinsrealis": "Energy, engineering & infrastructure",
-    "av communications": "PR, marketing & consulting agencies",
-    "bdo canada": "PR, marketing & consulting agencies",
-    "benevity": "Technology",
-    "betstamp": "Alcohol, cannabis & gambling",
-    "blacksmith agency": "PR, marketing & consulting agencies",
-    "bladder cancer canada": "Health & hospital",
-    "blue ant media": "Media, telecom & entertainment",
-    "blue door agency": "PR, marketing & consulting agencies",
-    "bmo": "Financial services & insurance",
-    "brafton": "PR, marketing & consulting agencies",
-    "brock university": "Higher education & schools",
-    "brodie sports group": "Sport & recreation",
-    "burson": "PR, marketing & consulting agencies",
-    "camh": "Health & hospital",
-    "canada soccer": "Sport & recreation",
-    "canadian association of university business officers": "Higher education & schools",
-    "canadian blood services": "Health & hospital",
-    "canadian hearing services": "Health & hospital",
-    "canadian hockey league": "Sport & recreation",
-    "canadian institute for health information": "Health & hospital",
-    "canadian investment regulatory organization": "Financial services & insurance",
-    "canadian olympic": "Sport & recreation",
-    "canadian partnership against cancer": "Health & hospital",
-    "canadian veterinary medical association": "Nonprofit & charity",
-    "canadian wildlife federation": "Nonprofit & charity",
-    "celestica": "Technology",
-    "cibc": "Financial services & insurance",
-    "citizen relations": "PR, marketing & consulting agencies",
-    "city of brampton": "Government & public agencies",
-    "city of hamilton": "Government & public agencies",
-    "clio": "Technology",
-    "cogeco": "Media, telecom & entertainment",
-    "cohere": "Technology",
-    "colorectal cancer": "Health & hospital",
-    "condominium authority of ontario": "Government & public agencies",
-    "corby spirit": "Alcohol, cannabis & gambling",
-    "corpay": "Financial services & insurance",
-    "credit counselling society": "Nonprofit & charity",
-    "d2l": "Technology",
-    "danone": "Consumer goods & retail",
-    "definity": "Financial services & insurance",
-    "deloitte": "PR, marketing & consulting agencies",
-    "desjardins": "Financial services & insurance",
-    "diabetes canada": "Health & hospital",
-    "directive": "PR, marketing & consulting agencies",
-    "doane grant thornton llp": "PR, marketing & consulting agencies",
-    "easter seals canada": "Nonprofit & charity",
-    "edelman": "PR, marketing & consulting agencies",
-    "electrical safety authority": "Government & public agencies",
-    "entain": "Alcohol, cannabis & gambling",
-    "eq bank": "Financial services & insurance",
-    "equinix": "Technology",
-    "erinoakkids centre for treatment and development": "Health & hospital",
-    "everist": "Consumer goods & retail",
-    "ey": "PR, marketing & consulting agencies",
-    "fidelity clearing canada": "Financial services & insurance",
-    "fidelity investments": "Financial services & insurance",
-    "float": "Technology",
-    "flynn group of companies": "Consumer goods & retail",
-    "four seasons hotels and resorts": "Consumer goods & retail",
-    "fundserv": "Financial services & insurance",
-    "g adventures": "Consumer goods & retail",
-    "gestalt communications": "PR, marketing & consulting agencies",
-    "gilead sciences canada": "Health & hospital",
-    "girl guides of canada": "Nonprofit & charity",
-    "gore mutual": "Financial services & insurance",
-    "greenshield": "Financial services & insurance",
-    "grow landscape ontario": "Nonprofit & charity",
-    "hatch": "Energy, engineering & infrastructure",
-    "havas cx canada": "PR, marketing & consulting agencies",
-    "haystack": "Other",
-    "heart stroke": "Health & hospital",
-    "helpage canada": "Nonprofit & charity",
-    "high liner foods": "Consumer goods & retail",
-    "homeward public affairs": "PR, marketing & consulting agencies",
-    "hoopp": "Financial services & insurance",
-    "independent electricity system operator": "Energy, engineering & infrastructure",
-    "indspire": "Nonprofit & charity",
-    "infotek consulting": "Financial services & insurance",
-    "intact financial": "Financial services & insurance",
-    "kepler communications": "Technology",
-    "kg a": "PR, marketing & consulting agencies",
-    "kin canada": "Nonprofit & charity",
-    "korn ferry": "Other",
-    "kpmg": "PR, marketing & consulting agencies",
-    "kraken": "Financial services & insurance",
-    "letsstopaids": "Nonprofit & charity",
-    "loblaw companies": "Consumer goods & retail",
-    "mackenzie health foundation": "Health & hospital",
-    "maple leaf sports": "Sport & recreation",
-    "mars": "Consumer goods & retail",
-    "mastercard": "Financial services & insurance",
-    "mckesson": "Health & hospital",
-    "mcmaster university": "Higher education & schools",
-    "mda space": "Technology",
-    "mercury": "Technology",
-    "meridian credit union": "Financial services & insurance",
-    "metrolinx": "Government & public agencies",
-    "mitch insurance brokers": "Financial services & insurance",
-    "mlse": "Sport & recreation",
-    "molson coors": "Alcohol, cannabis & gambling",
-    "movable ink": "Technology",
-    "msl": "PR, marketing & consulting agencies",
-    "national public relations": "PR, marketing & consulting agencies",
-    "nba canada": "Sport & recreation",
-    "nestle canada": "Consumer goods & retail",
-    "nieuport aviation": "Energy, engineering & infrastructure",
-    "north strategic": "PR, marketing & consulting agencies",
-    "north york general foundation": "Health & hospital",
-    "ocad university": "Higher education & schools",
-    "oceanmd": "Technology",
-    "omnicom": "PR, marketing & consulting agencies",
-    "ontario council on articulation": "Higher education & schools",
-    "ontario energy board": "Government & public agencies",
-    "ontario hiv treatment network": "Health & hospital",
-    "ontario public service": "Government & public agencies",
-    "ontario teachers pension plan": "Financial services & insurance",
-    "opentext": "Technology",
-    "options consulting solutions": "PR, marketing & consulting agencies",
-    "optrust": "Financial services & insurance",
-    "osl retail": "Consumer goods & retail",
-    "pepsico canada": "Consumer goods & retail",
-    "pontosense": "Technology",
-    "postmedia": "Media, telecom & entertainment",
-    "praxis": "PR, marketing & consulting agencies",
-    "procter gamble": "Consumer goods & retail",
-    "ratehub ca": "Financial services & insurance",
-    "rbc": "Financial services & insurance",
-    "recruiting in motion": "Other",
-    "red bull": "Consumer goods & retail",
-    "reel canada": "Nonprofit & charity",
-    "republic live": "Media, telecom & entertainment",
-    "resource productivity and recovery authority": "Government & public agencies",
-    "restaurant brands international": "Consumer goods & retail",
-    "rethink": "PR, marketing & consulting agencies",
-    "rogers sports media": "Media, telecom & entertainment",
-    "rose pr inc": "PR, marketing & consulting agencies",
-    "samsung electronics canada": "Technology",
-    "scarborough health network": "Health & hospital",
-    "scotiabank": "Financial services & insurance",
-    "scribd": "Technology",
-    "shangri la toronto": "Consumer goods & retail",
-    "sodexo canada": "Consumer goods & retail",
-    "speech language audiology canada": "Health & hospital",
-    "sport dispute resolution centre": "Sport & recreation",
-    "stingray": "Media, telecom & entertainment",
-    "sun life": "Financial services & insurance",
-    "superior propane": "Energy, engineering & infrastructure",
-    "swimming canada": "Sport & recreation",
-    "tailscale": "Technology",
-    "talk shop media": "PR, marketing & consulting agencies",
-    "tangerine": "Financial services & insurance",
-    "td": "Financial services & insurance",
-    "technical standards safety authority": "Government & public agencies",
-    "the 519": "Nonprofit & charity",
-    "the black women s institute for health": "Health & hospital",
-    "the church of jesus christ": "Religious organization",
-    "the globe and mail": "Media, telecom & entertainment",
-    "the leadership agency": "Technology",
-    "the mrg group": "Media, telecom & entertainment",
-    "the york school": "Higher education & schools",
-    "thomson reuters": "Media, telecom & entertainment",
-    "tim hortons": "Consumer goods & retail",
-    "time doctor": "Technology",
-    "tmx group": "Financial services & insurance",
-    "toronto cat rescue": "Nonprofit & charity",
-    "toronto pearson": "Government & public agencies",
-    "toronto region board of trade": "Nonprofit & charity",
-    "town of oakville": "Government & public agencies",
-    "transperfect": "PR, marketing & consulting agencies",
-    "turo": "Technology",
-    "tvo": "Media, telecom & entertainment",
-    "unicef canada": "Nonprofit & charity",
-    "unity health toronto": "Health & hospital",
-    "university health network": "Health & hospital",
-    "university of toronto": "Higher education & schools",
-    "university pension plan": "Financial services & insurance",
-    "varicent": "Technology",
-    "veritas communications": "PR, marketing & consulting agencies",
-    "viral nation": "PR, marketing & consulting agencies",
-    "von canada": "Health & hospital",
-    "wajax": "Energy, engineering & infrastructure",
-    "weber shandwick": "PR, marketing & consulting agencies",
-    "wireless dna": "Technology",
-    "woodbine entertainment": "Alcohol, cannabis & gambling",
-    "xanadu": "Technology",
-    "xero": "Technology",
-    "ymca": "Nonprofit & charity",
-    "york university": "Higher education & schools",
-    "youth media alliance": "Nonprofit & charity",
-    "zeekr international": "Consumer goods & retail"
+ "about": "Shared traits for feedback learning. Read by app.js (portal tags/ranking) and scripts/learn_feedback.py (daily search). Employer keys and keywords are matched against lower-case text with punctuation replaced by spaces; employer keys match the start of the employer name.",
+ "excludedSectors": [
+  "Religious organization",
+  "Tobacco"
+ ],
+ "sectors": [
+  {
+   "name": "Religious organization",
+   "keywords": [
+    "church",
+    "christian",
+    "catholic",
+    "ministry",
+    "ministries",
+    "diocese",
+    "latter day",
+    "evangelical",
+    "bible",
+    "gospel",
+    "parish"
+   ]
   },
-  "clusterFamilies": [
-    {
-      "name": "fundraising & philanthropic communications",
-      "keywords": [
-        "fundrais",
-        "philanthrop",
-        "donor",
-        "development"
-      ]
-    },
-    {
-      "name": "sport-sector communications",
-      "keywords": [
-        "sport",
-        "athlete",
-        "fan"
-      ]
-    },
-    {
-      "name": "internal & employee communications",
-      "keywords": [
-        "internal",
-        "employee"
-      ]
-    },
-    {
-      "name": "public & Crown-sector advisory",
-      "keywords": [
-        "public",
-        "crown",
-        "government"
-      ]
-    },
-    {
-      "name": "executive & thought-leadership communications",
-      "keywords": [
-        "executive",
-        "thought leadership"
-      ]
-    },
-    {
-      "name": "agency PR",
-      "keywords": [
-        "agency",
-        "account"
-      ]
-    },
-    {
-      "name": "research & knowledge-translation communications",
-      "keywords": [
-        "research",
-        "university",
-        "knowledge"
-      ]
-    },
-    {
-      "name": "content marketing & editorial",
-      "keywords": [
-        "content marketing",
-        "editorial",
-        "content strategy"
-      ]
-    },
-    {
-      "name": "digital & social communications",
-      "keywords": [
-        "digital",
-        "social",
-        "email"
-      ]
-    },
-    {
-      "name": "corporate & external communications",
-      "keywords": [
-        "corporate",
-        "external",
-        "media relations",
-        "pr"
-      ]
-    },
-    {
-      "name": "brand & marketing communications",
-      "keywords": [
-        "brand",
-        "marketing"
-      ]
-    }
-  ],
-  "seniority": [
-    {
-      "name": "VP / head titles",
-      "keywords": [
-        "vice president",
-        "vp",
-        "head of",
-        "chief"
-      ]
-    },
-    {
-      "name": "director titles",
-      "keywords": [
-        "director"
-      ]
-    },
-    {
-      "name": "senior manager titles",
-      "keywords": [
-        "senior manager",
-        "sr manager",
-        "sr. manager"
-      ]
-    },
-    {
-      "name": "manager titles",
-      "keywords": [
-        "manager"
-      ]
-    },
-    {
-      "name": "lead / advisor titles",
-      "keywords": [
-        "lead",
-        "advisor",
-        "adviser",
-        "strategist",
-        "consultant"
-      ]
-    },
-    {
-      "name": "coordinator / specialist / officer titles",
-      "keywords": [
-        "coordinator",
-        "specialist",
-        "officer",
-        "associate",
-        "assistant",
-        "creator",
-        "writer",
-        "editor"
-      ]
-    }
-  ],
-  "payBands": [
-    {
-      "name": "pay topping out under $80K",
-      "max": 80000
-    },
-    {
-      "name": "pay topping out at $80K–$100K",
-      "max": 100000
-    },
-    {
-      "name": "pay topping out at $100K–$120K",
-      "max": 120000
-    },
-    {
-      "name": "pay topping out above $120K",
-      "max": 100000000
-    }
-  ],
-  "learning": {
-    "minPicks": 3,
-    "smoothing": 2,
-    "lowerRatio": 0.6,
-    "higherRatio": 1.6,
-    "tagHigherRatio": 2.0,
-    "negativeWeight": 2
+  {
+   "name": "Tobacco",
+   "keywords": [
+    "tobacco",
+    "philip morris",
+    "rothmans",
+    "jti macdonald",
+    "vaping",
+    "vape"
+   ]
+  },
+  {
+   "name": "Alcohol, cannabis & gambling",
+   "keywords": [
+    "spirit and wine",
+    "brewing",
+    "brewery",
+    "beverage company",
+    "cannabis",
+    "casino",
+    "betting",
+    "sportsbook",
+    "lottery"
+   ]
+  },
+  {
+   "name": "Sport & recreation",
+   "keywords": [
+    "sport",
+    "olympic",
+    "paralympic",
+    "athlet",
+    "swimming",
+    "hockey",
+    "soccer",
+    "football",
+    "basketball",
+    "baseball",
+    "blue jays",
+    "raptors",
+    "maple leafs",
+    "ymca"
+   ]
+  },
+  {
+   "name": "Health & hospital",
+   "keywords": [
+    "hospital",
+    "health",
+    "cancer",
+    "foundation for",
+    "medical",
+    "medicine",
+    "clinic",
+    "camh",
+    "audiology",
+    "hiv"
+   ]
+  },
+  {
+   "name": "Higher education & schools",
+   "keywords": [
+    "university",
+    "college",
+    "school",
+    "polytechnic",
+    "academy"
+   ]
+  },
+  {
+   "name": "Government & public agencies",
+   "keywords": [
+    "city of",
+    "town of",
+    "region of",
+    "ontario public service",
+    "government",
+    "ministry of",
+    "board",
+    "authority",
+    "agency of"
+   ]
+  },
+  {
+   "name": "Financial services & insurance",
+   "keywords": [
+    "bank",
+    "financial",
+    "insurance",
+    "investments",
+    "capital",
+    "pension",
+    "credit union",
+    "mutual",
+    "life"
+   ]
+  },
+  {
+   "name": "PR, marketing & consulting agencies",
+   "keywords": [
+    "agency",
+    "public relations",
+    "communications inc",
+    "consulting",
+    "recruiting",
+    "korn ferry"
+   ]
+  },
+  {
+   "name": "Media, telecom & entertainment",
+   "keywords": [
+    "media",
+    "news",
+    "broadcast",
+    "radio",
+    "television",
+    "telecom",
+    "entertainment"
+   ]
+  },
+  {
+   "name": "Technology",
+   "keywords": [
+    "software",
+    "technolog",
+    "tech",
+    "ai",
+    "cloud",
+    "data",
+    "cyber",
+    "vpn",
+    "app"
+   ]
+  },
+  {
+   "name": "Energy, engineering & infrastructure",
+   "keywords": [
+    "energy",
+    "engineering",
+    "infrastructure",
+    "construction",
+    "nuclear",
+    "mining",
+    "utilities"
+   ]
+  },
+  {
+   "name": "Consumer goods & retail",
+   "keywords": [
+    "foods",
+    "retail",
+    "restaurant",
+    "consumer",
+    "snacking",
+    "apparel"
+   ]
+  },
+  {
+   "name": "Nonprofit & charity",
+   "keywords": [
+    "foundation",
+    "charity",
+    "association",
+    "society",
+    "alliance",
+    "network",
+    "rescue",
+    "canada inc"
+   ]
   }
+ ],
+ "employerSectors": {
+  "1password": "Technology",
+  "4 h canada": "Nonprofit & charity",
+  "achev": "Nonprofit & charity",
+  "adp": "Technology",
+  "advocis": "Financial services & insurance",
+  "aecon": "Energy, engineering & infrastructure",
+  "aerovect": "Technology",
+  "aethovpn": "Technology",
+  "agility pr": "PR, marketing & consulting agencies",
+  "allstate insurance company of canada": "Financial services & insurance",
+  "amgen": "Health & hospital",
+  "arc teryx": "Consumer goods & retail",
+  "atkinsrealis": "Energy, engineering & infrastructure",
+  "av communications": "PR, marketing & consulting agencies",
+  "bdo canada": "PR, marketing & consulting agencies",
+  "benevity": "Technology",
+  "betstamp": "Alcohol, cannabis & gambling",
+  "blacksmith agency": "PR, marketing & consulting agencies",
+  "bladder cancer canada": "Health & hospital",
+  "blue ant media": "Media, telecom & entertainment",
+  "blue door agency": "PR, marketing & consulting agencies",
+  "bmo": "Financial services & insurance",
+  "brafton": "PR, marketing & consulting agencies",
+  "brock university": "Higher education & schools",
+  "brodie sports group": "Sport & recreation",
+  "burson": "PR, marketing & consulting agencies",
+  "camh": "Health & hospital",
+  "canada soccer": "Sport & recreation",
+  "canadian association of university business officers": "Higher education & schools",
+  "canadian blood services": "Health & hospital",
+  "canadian hearing services": "Health & hospital",
+  "canadian hockey league": "Sport & recreation",
+  "canadian institute for health information": "Health & hospital",
+  "canadian investment regulatory organization": "Financial services & insurance",
+  "canadian olympic": "Sport & recreation",
+  "canadian partnership against cancer": "Health & hospital",
+  "canadian veterinary medical association": "Nonprofit & charity",
+  "canadian wildlife federation": "Nonprofit & charity",
+  "celestica": "Technology",
+  "cibc": "Financial services & insurance",
+  "citizen relations": "PR, marketing & consulting agencies",
+  "city of brampton": "Government & public agencies",
+  "city of hamilton": "Government & public agencies",
+  "clio": "Technology",
+  "cogeco": "Media, telecom & entertainment",
+  "cohere": "Technology",
+  "colorectal cancer": "Health & hospital",
+  "condominium authority of ontario": "Government & public agencies",
+  "corby spirit": "Alcohol, cannabis & gambling",
+  "corpay": "Financial services & insurance",
+  "credit counselling society": "Nonprofit & charity",
+  "d2l": "Technology",
+  "danone": "Consumer goods & retail",
+  "definity": "Financial services & insurance",
+  "deloitte": "PR, marketing & consulting agencies",
+  "desjardins": "Financial services & insurance",
+  "diabetes canada": "Health & hospital",
+  "directive": "PR, marketing & consulting agencies",
+  "doane grant thornton llp": "PR, marketing & consulting agencies",
+  "easter seals canada": "Nonprofit & charity",
+  "edelman": "PR, marketing & consulting agencies",
+  "electrical safety authority": "Government & public agencies",
+  "entain": "Alcohol, cannabis & gambling",
+  "eq bank": "Financial services & insurance",
+  "equinix": "Technology",
+  "erinoakkids centre for treatment and development": "Health & hospital",
+  "everist": "Consumer goods & retail",
+  "ey": "PR, marketing & consulting agencies",
+  "fidelity clearing canada": "Financial services & insurance",
+  "fidelity investments": "Financial services & insurance",
+  "float": "Technology",
+  "flynn group of companies": "Consumer goods & retail",
+  "four seasons hotels and resorts": "Consumer goods & retail",
+  "fundserv": "Financial services & insurance",
+  "g adventures": "Consumer goods & retail",
+  "gestalt communications": "PR, marketing & consulting agencies",
+  "gilead sciences canada": "Health & hospital",
+  "girl guides of canada": "Nonprofit & charity",
+  "gore mutual": "Financial services & insurance",
+  "greenshield": "Financial services & insurance",
+  "grow landscape ontario": "Nonprofit & charity",
+  "hatch": "Energy, engineering & infrastructure",
+  "havas cx canada": "PR, marketing & consulting agencies",
+  "haystack": "Other",
+  "heart stroke": "Health & hospital",
+  "helpage canada": "Nonprofit & charity",
+  "high liner foods": "Consumer goods & retail",
+  "homeward public affairs": "PR, marketing & consulting agencies",
+  "hoopp": "Financial services & insurance",
+  "independent electricity system operator": "Energy, engineering & infrastructure",
+  "indspire": "Nonprofit & charity",
+  "infotek consulting": "Financial services & insurance",
+  "intact financial": "Financial services & insurance",
+  "kepler communications": "Technology",
+  "kg a": "PR, marketing & consulting agencies",
+  "kin canada": "Nonprofit & charity",
+  "korn ferry": "Other",
+  "kpmg": "PR, marketing & consulting agencies",
+  "kraken": "Financial services & insurance",
+  "letsstopaids": "Nonprofit & charity",
+  "loblaw companies": "Consumer goods & retail",
+  "mackenzie health foundation": "Health & hospital",
+  "maple leaf sports": "Sport & recreation",
+  "mars": "Consumer goods & retail",
+  "mastercard": "Financial services & insurance",
+  "mckesson": "Health & hospital",
+  "mcmaster university": "Higher education & schools",
+  "mda space": "Technology",
+  "mercury": "Technology",
+  "meridian credit union": "Financial services & insurance",
+  "metrolinx": "Government & public agencies",
+  "mitch insurance brokers": "Financial services & insurance",
+  "mlse": "Sport & recreation",
+  "molson coors": "Alcohol, cannabis & gambling",
+  "movable ink": "Technology",
+  "msl": "PR, marketing & consulting agencies",
+  "national public relations": "PR, marketing & consulting agencies",
+  "nba canada": "Sport & recreation",
+  "nestle canada": "Consumer goods & retail",
+  "nieuport aviation": "Energy, engineering & infrastructure",
+  "north strategic": "PR, marketing & consulting agencies",
+  "north york general foundation": "Health & hospital",
+  "ocad university": "Higher education & schools",
+  "oceanmd": "Technology",
+  "omnicom": "PR, marketing & consulting agencies",
+  "ontario council on articulation": "Higher education & schools",
+  "ontario energy board": "Government & public agencies",
+  "ontario hiv treatment network": "Health & hospital",
+  "ontario public service": "Government & public agencies",
+  "ontario teachers pension plan": "Financial services & insurance",
+  "opentext": "Technology",
+  "options consulting solutions": "PR, marketing & consulting agencies",
+  "optrust": "Financial services & insurance",
+  "osl retail": "Consumer goods & retail",
+  "pepsico canada": "Consumer goods & retail",
+  "pontosense": "Technology",
+  "postmedia": "Media, telecom & entertainment",
+  "praxis": "PR, marketing & consulting agencies",
+  "procter gamble": "Consumer goods & retail",
+  "ratehub ca": "Financial services & insurance",
+  "rbc": "Financial services & insurance",
+  "recruiting in motion": "Other",
+  "red bull": "Consumer goods & retail",
+  "reel canada": "Nonprofit & charity",
+  "republic live": "Media, telecom & entertainment",
+  "resource productivity and recovery authority": "Government & public agencies",
+  "restaurant brands international": "Consumer goods & retail",
+  "rethink": "PR, marketing & consulting agencies",
+  "rogers sports media": "Media, telecom & entertainment",
+  "rose pr inc": "PR, marketing & consulting agencies",
+  "samsung electronics canada": "Technology",
+  "scarborough health network": "Health & hospital",
+  "scotiabank": "Financial services & insurance",
+  "scribd": "Technology",
+  "shangri la toronto": "Consumer goods & retail",
+  "sodexo canada": "Consumer goods & retail",
+  "speech language audiology canada": "Health & hospital",
+  "sport dispute resolution centre": "Sport & recreation",
+  "stingray": "Media, telecom & entertainment",
+  "sun life": "Financial services & insurance",
+  "superior propane": "Energy, engineering & infrastructure",
+  "swimming canada": "Sport & recreation",
+  "tailscale": "Technology",
+  "talk shop media": "PR, marketing & consulting agencies",
+  "tangerine": "Financial services & insurance",
+  "td": "Financial services & insurance",
+  "technical standards safety authority": "Government & public agencies",
+  "the 519": "Nonprofit & charity",
+  "the black women s institute for health": "Health & hospital",
+  "the church of jesus christ": "Religious organization",
+  "the globe and mail": "Media, telecom & entertainment",
+  "the leadership agency": "Technology",
+  "the mrg group": "Media, telecom & entertainment",
+  "the york school": "Higher education & schools",
+  "thomson reuters": "Media, telecom & entertainment",
+  "tim hortons": "Consumer goods & retail",
+  "time doctor": "Technology",
+  "tmx group": "Financial services & insurance",
+  "toronto cat rescue": "Nonprofit & charity",
+  "toronto pearson": "Government & public agencies",
+  "toronto region board of trade": "Nonprofit & charity",
+  "town of oakville": "Government & public agencies",
+  "transperfect": "PR, marketing & consulting agencies",
+  "turo": "Technology",
+  "tvo": "Media, telecom & entertainment",
+  "unicef canada": "Nonprofit & charity",
+  "unity health toronto": "Health & hospital",
+  "university health network": "Health & hospital",
+  "university of toronto": "Higher education & schools",
+  "university pension plan": "Financial services & insurance",
+  "varicent": "Technology",
+  "veritas communications": "PR, marketing & consulting agencies",
+  "viral nation": "PR, marketing & consulting agencies",
+  "von canada": "Health & hospital",
+  "wajax": "Energy, engineering & infrastructure",
+  "weber shandwick": "PR, marketing & consulting agencies",
+  "wireless dna": "Technology",
+  "woodbine entertainment": "Alcohol, cannabis & gambling",
+  "xanadu": "Technology",
+  "xero": "Technology",
+  "ymca": "Nonprofit & charity",
+  "york university": "Higher education & schools",
+  "youth media alliance": "Nonprofit & charity",
+  "zeekr international": "Consumer goods & retail",
+  "TD Bank Group": "Financial services & insurance",
+  "EQ Bank": "Financial services & insurance",
+  "Viral Nation": "PR, marketing & consulting agencies"
+ },
+ "clusterFamilies": [
+  {
+   "name": "fundraising & philanthropic communications",
+   "keywords": [
+    "fundrais",
+    "philanthrop",
+    "donor",
+    "development"
+   ]
+  },
+  {
+   "name": "sport-sector communications",
+   "keywords": [
+    "sport",
+    "athlete",
+    "fan"
+   ]
+  },
+  {
+   "name": "internal & employee communications",
+   "keywords": [
+    "internal",
+    "employee"
+   ]
+  },
+  {
+   "name": "public & Crown-sector advisory",
+   "keywords": [
+    "public",
+    "crown",
+    "government"
+   ]
+  },
+  {
+   "name": "executive & thought-leadership communications",
+   "keywords": [
+    "executive",
+    "thought leadership"
+   ]
+  },
+  {
+   "name": "agency PR",
+   "keywords": [
+    "agency",
+    "account"
+   ]
+  },
+  {
+   "name": "research & knowledge-translation communications",
+   "keywords": [
+    "research",
+    "university",
+    "knowledge"
+   ]
+  },
+  {
+   "name": "content marketing & editorial",
+   "keywords": [
+    "content marketing",
+    "editorial",
+    "content strategy"
+   ]
+  },
+  {
+   "name": "digital & social communications",
+   "keywords": [
+    "digital",
+    "social",
+    "email"
+   ]
+  },
+  {
+   "name": "corporate & external communications",
+   "keywords": [
+    "corporate",
+    "external",
+    "media relations",
+    "pr"
+   ]
+  },
+  {
+   "name": "brand & marketing communications",
+   "keywords": [
+    "brand",
+    "marketing"
+   ]
+  }
+ ],
+ "seniority": [
+  {
+   "name": "VP / head titles",
+   "keywords": [
+    "vice president",
+    "vp",
+    "head of",
+    "chief"
+   ]
+  },
+  {
+   "name": "director titles",
+   "keywords": [
+    "director"
+   ]
+  },
+  {
+   "name": "senior manager titles",
+   "keywords": [
+    "senior manager",
+    "sr manager",
+    "sr. manager"
+   ]
+  },
+  {
+   "name": "manager titles",
+   "keywords": [
+    "manager"
+   ]
+  },
+  {
+   "name": "lead / advisor titles",
+   "keywords": [
+    "lead",
+    "advisor",
+    "adviser",
+    "strategist",
+    "consultant"
+   ]
+  },
+  {
+   "name": "coordinator / specialist / officer titles",
+   "keywords": [
+    "coordinator",
+    "specialist",
+    "officer",
+    "associate",
+    "assistant",
+    "creator",
+    "writer",
+    "editor"
+   ]
+  }
+ ],
+ "payBands": [
+  {
+   "name": "pay topping out under $80K",
+   "max": 80000
+  },
+  {
+   "name": "pay topping out at $80K–$100K",
+   "max": 100000
+  },
+  {
+   "name": "pay topping out at $100K–$120K",
+   "max": 120000
+  },
+  {
+   "name": "pay topping out above $120K",
+   "max": 100000000
+  }
+ ],
+ "learning": {
+  "minPicks": 3,
+  "smoothing": 2,
+  "lowerRatio": 0.6,
+  "higherRatio": 1.6,
+  "tagHigherRatio": 2.0,
+  "negativeWeight": 2
+ }
 }

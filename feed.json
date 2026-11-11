@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T15:31:44-05:00",
+  "generatedAt": "2026-11-11T09:22:15-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
   "excludedClosed": [],
@@ -243,6 +243,31 @@
       "feedbackAdjustment": "Often passed on: Other employers (0 of 5 picked)"
     },
     {
+      "level": "Target level",
+      "verified": true,
+      "verifiedOn": "2026-11-11",
+      "urlSource": "employer",
+      "rank": 11,
+      "id": "td-senior-manager-audit-stakeholder-communications-r1485597",
+      "company": "TD Bank Group",
+      "title": "Senior Manager, Audit Stakeholder Communications",
+      "cluster": "Internal / Employee Communications",
+      "tier": "Strongest fit",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Not stated",
+      "posted": "2026-10-28",
+      "deadline": "Not stated",
+      "salary": "CAD $115,600–$163,200",
+      "summary": "Leads a team delivering the Audit Division's multi-channel communications to boards, senior management and regulators, and sets division-wide communications standards.",
+      "fit": "Stakeholder and leadership communications, team-leading and content standards match your UJA senior-leadership advisory and flagship content work.",
+      "gap": "Asks for 10+ years including people management; audit or communications background preferred; Senior Manager title is a step above Manager.",
+      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Audit-Stakeholder-Communications--900-_R_1485597",
+      "sector": "Financial services & insurance",
+      "titleSeniority": "senior-manager",
+      "newSinceLastRun": true,
+      "feedbackAdjustment": "Like your picks: Financial services & insurance employers (9 of 20 picked)"
+    },
+    {
       "id": "nieuport-aviation-senior-manager-communications",
       "company": "Nieuport Aviation (Billy Bishop Toronto City Airport terminal)",
       "title": "Senior Manager, Communications",
@@ -263,7 +288,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
-      "rank": 11,
+      "rank": 12,
       "titleSeniority": "senior manager (one step above past titles)"
     },
     {
@@ -284,7 +309,7 @@
       "url": "https://job-boards.greenhouse.io/mercury/jobs/6223723004",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 12,
+      "rank": 13,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level"
@@ -310,7 +335,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-06",
       "sector": "Technology",
-      "rank": 13,
+      "rank": 14,
       "titleSeniority": "manager-level"
     },
     {
@@ -331,7 +356,7 @@
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 14,
+      "rank": 15,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level"
@@ -357,7 +382,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
-      "rank": 15,
+      "rank": 16,
       "titleSeniority": "manager-level"
     },
     {
@@ -381,7 +406,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
-      "rank": 16,
+      "rank": 17,
       "titleSeniority": "manager-level"
     },
     {
@@ -405,7 +430,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 17,
+      "rank": 18,
       "titleSeniority": "manager-level"
     },
     {
@@ -429,9 +454,8 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-10",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 18,
-      "titleSeniority": "manager-level",
-      "newSinceLastRun": true
+      "rank": 19,
+      "titleSeniority": "manager-level"
     },
     {
       "id": "ohtn-director-communications",
@@ -451,7 +475,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 19,
+      "rank": 20,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -477,7 +501,7 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 20,
+      "rank": 21,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit"
     },
@@ -499,7 +523,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 21,
+      "rank": 22,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -525,7 +549,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 22,
+      "rank": 23,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -549,7 +573,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 23,
+      "rank": 24,
       "titleSeniority": "director-level (above past titles)"
     },
     {
@@ -571,7 +595,7 @@
       "verified": true,
       "verifiedOn": "2026-11-10",
       "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
-      "rank": 24,
+      "rank": 25,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)"
@@ -594,7 +618,7 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Account-Director--Earned-Media-Strategy_R14886",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 25,
+      "rank": 26,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)"
@@ -620,7 +644,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
-      "rank": 26,
+      "rank": 27,
       "titleSeniority": "director-level (above past titles)"
     }
   ],
@@ -635,7 +659,7 @@
     "adjustments": [
       {
         "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
-        "basis": "1 removed this run"
+        "basis": "3 removed this run"
       },
       {
         "effect": "Employers you ruled out are excluded",
@@ -707,5 +731,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-10T10:25:00-05:00"
+  "previousRunAt": "2026-11-10T15:31:44-05:00"
 }
