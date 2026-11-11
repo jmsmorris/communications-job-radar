@@ -333,6 +333,8 @@ def main():
     # Strongest fit and rank after manager-level roles; Senior Manager ranks after Manager.
     def title_step(j):
         t = (j.get('title') or '').lower()
+        # Role targets A and B are Director/Head titles by design (2026-11-11): treated as manager-level.
+        if j.get('roleTarget') in ('A', 'B'): return 0
         if re.search(r'\b(director|head)\b', t): return 2
         if re.search(r'\bsenior manager\b|\bsr\.? manager\b', t): return 1
         return 0
