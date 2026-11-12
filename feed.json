@@ -29,7 +29,7 @@
   "notes": "Run 2026-11-10 (lean): liveness check on carried-over roles; 3 closed and removed. Targeted searches (digital comms, sport, donor comms, hospital foundations) surfaced no new verifiable qualifying open roles.",
   "jobs": [
     {
-      "id": "canadian-olympic-foundation-associate-manager-communications",
+      "id": "cof-associate-manager-communications",
       "company": "Canadian Olympic Foundation (COC)",
       "title": "Associate Manager, Communications",
       "cluster": "Sport communications / Fundraising communications",
@@ -43,8 +43,8 @@
       "summary": "Lead COF communications projects: donor stewardship and fundraising copy, impact reports, speaking notes and digital content, working with the COC communications team.",
       "fit": "Matches sport-sector and philanthropic communications at UJA (annual and impact reports, donor storytelling, speaking notes) plus COC and AthletesCAN experience.",
       "gap": "Associate Manager title and a top salary around $90K; 4-6 years required, so a step down in title scope; no direct reports stated.",
-      "url": "https://sportswork.ca/job/associate-manager-communications-cof/",
-      "urlSource": "aggregator",
+      "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d7c4caa8-0371-4bbf-8980-c1cdc2738eec&ccId=19000101_000001&jobId=570565&lang=en_CA",
+      "urlSource": "employer",
       "verified": true,
       "verifiedOn": "2026-11-12",
       "rank": 1,
@@ -62,8 +62,7 @@
       "payStatus": "above floor",
       "arrangement": "Hybrid",
       "priority": 11.5,
-      "newSinceLastRun": true,
-      "feedbackAdjustment": "Like your picks: fundraising & philanthropic communications roles (5 of 9 picked)"
+      "newSinceLastRun": true
     },
     {
       "id": "mars-internal-communications-manager-mars-snacking-r170829",
@@ -742,10 +741,6 @@
     },
     "adjustments": [
       {
-        "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
-        "basis": "1 removed this run"
-      },
-      {
         "effect": "Employers you ruled out are excluded",
         "basis": "1 employers"
       },
@@ -767,7 +762,7 @@
       },
       {
         "effect": "Below-target-level roles ranked lower",
-        "basis": "4 of 56 picks were Fit or Applied, vs 20% overall"
+        "basis": "3 of 55 picks were Fit or Applied, vs 20% overall"
       },
       {
         "effect": "Coordinator / specialist / officer titles ranked lower",

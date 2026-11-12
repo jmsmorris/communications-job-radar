@@ -553,21 +553,6 @@
    "posted": "2026-10-22",
    "sector": "Financial services & insurance"
   },
-  "canadian-olympic-foundation-associate-manager-communications": {
-   "company": "Canadian Olympic Foundation (COC)",
-   "title": "Associate Manager, Communications",
-   "cluster": "Sport communications / Fundraising communications",
-   "tier": "Strongest fit",
-   "level": "Target level",
-   "location": "Toronto/GTA — Toronto (or Montreal)",
-   "work": "Hybrid",
-   "salary": "$65,400–$89,900 CAD/year",
-   "url": "https://sportswork.ca/job/associate-manager-communications-cof/",
-   "posted": "2026-11-10",
-   "roleTarget": "B",
-   "mission": "Sport",
-   "sector": "Sport & recreation"
-  },
   "canadian-olympic-foundation-manager-fund-development": {
    "company": "Canadian Olympic Foundation",
    "title": "Manager, Fund Development (21-month contract)",
@@ -823,16 +808,18 @@
    "sector": "Sport & recreation"
   },
   "cof-associate-manager-communications": {
-   "company": "Canadian Olympic Foundation",
+   "company": "Canadian Olympic Foundation (COC)",
    "title": "Associate Manager, Communications",
-   "cluster": "Fundraising / Philanthropic Communications",
+   "cluster": "Sport communications / Fundraising communications",
    "tier": "Strongest fit",
-   "level": "Below target level",
-   "location": "Toronto/GTA — Toronto",
+   "level": "Target level",
+   "location": "Toronto/GTA — Toronto (or Montreal)",
    "work": "Hybrid",
    "salary": "$65,400–$89,900 CAD/year",
    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=d7c4caa8-0371-4bbf-8980-c1cdc2738eec&ccId=19000101_000001&jobId=570565&lang=en_CA",
-   "posted": "2026-11-04",
+   "posted": "2026-11-10",
+   "roleTarget": "B",
+   "mission": "Sport",
    "sector": "Sport & recreation"
   },
   "cogeco-senior-director-communications": {
@@ -1245,14 +1232,14 @@
   "eq-bank-content-manager-reverse-mortgage": {
    "company": "EQ Bank",
    "title": "Content Manager, Reverse Mortgage",
-   "cluster": "Content Marketing Manager",
+   "cluster": "Content Marketing / Content Strategy",
    "tier": "Strongest fit",
    "level": "Target level",
    "location": "Toronto/GTA — Toronto",
    "work": "Hybrid",
-   "salary": "Not stated",
+   "salary": "Salary not stated",
    "url": "https://jobs.lever.co/eqbank/a6d75eff-2555-4cf2-b36e-c4f0413331ca",
-   "posted": "2026-09-23",
+   "posted": "2026-11-06",
    "sector": "Financial services & insurance"
   },
   "eqbank-content-manager-reverse-mortgage": {

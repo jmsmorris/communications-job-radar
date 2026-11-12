@@ -61,6 +61,25 @@ def seniority_of(j):
     return None
 
 
+AGG = re.compile(r'sportswork|sirc\.ca|linkedin|indeed|glassdoor|charityvillage|jobbank|workopolis|eluta|goodwork|gcjobs|jobs\.gc\.ca|ziprecruiter|talent\.com', re.I)
+
+
+def ckey(j):
+    """Employer + title identity used to spot the same posting listed twice (e.g. employer page and job board)."""
+    co = re.sub(r'\([^)]*\)', ' ', j.get('company') or '')
+    co = norm(co)
+    co = re.sub(r'\b(the|inc|ltd|limited|corp|corporation|canada|canadian)\b', ' ', co)
+    co = re.sub(r'\s+', ' ', co).strip()
+    ti = re.sub(r'\([^)]*\)', ' ', j.get('title') or '')
+    ti = re.sub(r'\s+', ' ', norm(ti)).strip()
+    return co, ti
+
+
+def same_place(a, b):
+    ta, tb = set(norm(a.get('location')).split()) - {'gta', 'canada', 'ontario', 'on', 'or', 'and'}, set(norm(b.get('location')).split()) - {'gta', 'canada', 'ontario', 'on', 'or', 'and'}
+    return not ta or not tb or bool(ta & tb)
+
+
 def pay_band_of(j):
     sal = j.get('salary') or ''
     nums = [int(n.replace(',', '')) for n in re.findall(r'\d{2,3}(?:,\d{3})+', sal)]
@@ -208,6 +227,36 @@ def main():
         hist.setdefault(k, j)
 
     d = json.load(open('feed.json'))
+
+    # Duplicates: the same employer + title listed twice (employer page and a job board, or a new id for a role
+    # that was already listed/tracked). Keep one record under the oldest known id (so feedback and applications stay
+    # attached), preferring the employer's own application page.
+    by_key = collections.defaultdict(list)
+    for k, h in hist.items():
+        if h.get('company') and h.get('title'): by_key[ckey(h)].append(k)
+    merged, drop_ids = [], set()
+    for j in d['jobs']:
+        known = [k for k in by_key.get(ckey(j), []) if k != j['id'] and same_place(hist[k], j) and (k in fb or hist[k].get('url'))]
+        known = sorted(known, key=lambda k: (k not in fb,))  # an id with your feedback wins, else oldest first
+        if known and j['id'] not in fb:
+            old = known[0]; old_url = hist[old].get('url') or ''
+            drop_ids.add(j['id']); merged.append((j['id'], old))
+            if old_url and AGG.search(j.get('url') or '') and not AGG.search(old_url):
+                j['url'], j['urlSource'] = old_url, 'employer'
+            j['id'] = old
+    seen = {}
+    for j in d['jobs']:
+        key = ckey(j)
+        prior = seen.get(key)
+        if prior is not None and same_place(prior, j):
+            keep, lose = (j, prior) if (AGG.search(prior.get('url') or '') and not AGG.search(j.get('url') or '')) else (prior, j)
+            if keep is j: seen[key] = j
+            merged.append((lose['id'], keep['id'])); lose['_dup'] = True
+        else:
+            seen[key] = j
+    d['jobs'] = [j for j in d['jobs'] if not j.get('_dup')]
+    for k in drop_ids: hist.pop(k, None)
+    for a, b in merged: print('merged duplicate:', a, '->', b)
     for j in d['jobs']:
         j['sector'] = sector_of(j)
         # Role target, mission, people leadership, pay and work arrangement (the daily routine supplies
@@ -262,7 +311,7 @@ def main():
         if k.startswith('block:') or not j or not w:
             continue
         signals += 1
-        key = (norm(j['company']), norm(j['title']))
+        key = ckey(j)
         if f.get('applicationStage') == 'Not moving ahead': closed_out.add(key)
         if w < 0:
             nf_keys.add(key)
@@ -293,7 +342,7 @@ def main():
     removed = {'notfit': [], 'reposts': [], 'employer': [], 'sector': []}
     kept_jobs = []
     for j in d['jobs']:
-        key = (norm(j['company']), norm(j['title']))
+        key = ckey(j)
         if j['id'] in keep: kept_jobs.append(j); continue
         if fb.get(j['id'], {}).get('status') == 'not-fit' or key in nf_keys: removed['notfit'].append(j['id']); continue
         if key in closed_out: removed['reposts'].append(j['id']); continue
