@@ -63,6 +63,13 @@
       "priority": 8.5,
       "rescoredOn": "2026-11-12",
       "flags": [],
+      "employerCheck": {
+        "layoffs": "No layoffs reported in searches; funding shortfall and sport-system strain covered (CTV, 2026)",
+        "leadershipTenure": "Director, Communications and Media Relations named June 2025 (COC news release); remit later folded into a chief external affairs officer",
+        "internalPromotion": "That director was hired from broadcasting, not promoted from within (COC release, 2025)",
+        "staffReviews": "Indeed rates the COC 4.2/5; no advancement-specific review text found (no COC Glassdoor page)"
+      },
+      "employerCheckOn": "2026-11-12",
       "newSinceLastRun": true
     },
     {
@@ -97,7 +104,14 @@
         "extended health"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "Global cut of about 800-1,000 mostly tech/product roles, May 2026 (Bloomberg); nothing Canada-specific found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor career opportunities 3.9/5 (all locations); lateral moves easy, upward promotion often called slow"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "equinix-communications-manager-foundation",
@@ -130,7 +144,14 @@
         "pension"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "About 3% staff cut reported, date unconfirmed; thin sourcing (trade press); Equinix Metal sunset June 2026",
+        "leadershipTenure": "New CMO DD Dasgupta named Sept 2026, succeeding Adam Berlew (CMO since 2023) (Equinix newsroom)",
+        "internalPromotion": "New CMO was promoted from VP, Product and Solution Marketing (Equinix newsroom, Sept 2026)",
+        "staffReviews": "Glassdoor 3.8/5; mixed: some cite progression, others slow internal mobility and title-only promotions"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "fidelity-clearing-canada-marketing-communications-manager",
@@ -165,7 +186,14 @@
         "extended health"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "Global cut of about 800-1,000 mostly tech/product roles, May 2026 (Bloomberg); nothing Canada-specific found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor career opportunities 3.9/5 (all locations); lateral moves easy, upward promotion often called slow"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "mars-internal-communications-manager-mars-snacking-r170829",
@@ -198,7 +226,14 @@
       "flags": [
         "no pension",
         "no benefits mentioned"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "HQ move to Chicago cuts about 307 US jobs, 2026 (Food Business); no Canadian cuts found",
+        "leadershipTenure": "Corporate affairs director hired Nov 2020; a Head of Corporate Affairs, Mars Snacking Canada, is now posted (Canadian Grocer, job boards)",
+        "internalPromotion": "2020 corporate affairs director was an external hire from Coca-Cola (Canadian Grocer)",
+        "staffReviews": "Glassdoor 4.3/5 overall; a 2025 Canada review says advancement is limited because the Canadian team is small"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "adp-communications-manager-canada",
@@ -229,7 +264,14 @@
       "orgSize": "large",
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "WARN notice for 76 New Jersey jobs effective Sept 2026 (WARNTracker); nothing Canada-specific found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor career opportunities 3.7/5 (June 2026); promotions described as slow by some reviewers"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "nieuport-aviation-senior-manager-communications",
@@ -263,7 +305,14 @@
         "extended health"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "level": "Target level",
@@ -297,6 +346,13 @@
         "no pension",
         "no benefits mentioned"
       ],
+      "employerCheck": {
+        "layoffs": "Restructuring announced May 2025 cutting about 2% of staff (~2,000 roles) (The Logic); no new 2026 program found",
+        "leadershipTenure": "Head of corporate and executive communications role created Nov 2023; current holders unconfirmed (TD news)",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor 3.8/5; mixed: some praise internal moves, others say promotion waits on headcount"
+      },
+      "employerCheckOn": "2026-11-12",
       "feedbackAdjustment": "Like your picks: Financial services & insurance employers (9 of 20 picked)"
     },
     {
@@ -334,7 +390,14 @@
       "flags": [
         "heavy on-site",
         "on-site outside Hamilton"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "canadian-strategic-missions-corporation-marketing-communication-manager",
@@ -369,6 +432,13 @@
         "heavy on-site",
         "on-site outside Hamilton"
       ],
+      "employerCheck": {
+        "layoffs": "No layoffs reported in searches; company rebranded from Canadian Space Mining Corp in Dec 2025 (Built In)",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12",
       "feedbackAdjustment": "Often passed on: Other employers (0 of 5 picked)"
     },
     {
@@ -401,7 +471,14 @@
       "orgSize": "large",
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "No 2026 layoffs found; last large cuts were 2020 pandemic (WARN trackers)",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor 3.8/5, mostly hotel staff; mixed: promotion from within possible, high turnover noted"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "varicent-manager-content-marketing",
@@ -435,7 +512,14 @@
       "rescoredOn": "2026-11-12",
       "flags": [
         "no pension"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "No layoffs reported in searches; staff grew from 120 to 700+ since going independent (Varicent)",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor 4.1/5; a recent review says progression and pay transparency lag, advancement paths limited"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "directive-consulting-pr-communications-manager-remote-canada",
@@ -466,7 +550,14 @@
       "priority": 3.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "cohere-executive-producer-executive-communications",
@@ -497,7 +588,14 @@
       "priority": 2.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "About 20 jobs cut July 2024 after funding round; no 2026 cuts found (Fortune, CNBC)",
+        "leadershipTenure": "Marketing leadership posts (VP Marketing, Head of Brand) are open; no hire found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor 3.0/5 (33 reviews); an aggregator rates career opportunities 2.5/5, paths unclear"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "mercury-tech-communications-lead",
@@ -532,7 +630,14 @@
       "flags": [
         "no pension",
         "no benefits mentioned"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "zeekr-international-public-relations-manager",
@@ -563,7 +668,14 @@
       "priority": 1.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "Parent Geely is restructuring; Zeekr reportedly cut ~40% of European staff (date unclear); nothing for Canada",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "rethink-pr-manager",
@@ -594,7 +706,14 @@
       "priority": 1.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "About 30 laid off in 2020 pandemic, salaries later restored (Strategy); no recent cuts found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor, small sample: favouritism and tenure over merit cited (Jan-Feb 2026), some praise team and work"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "ohtn-director-communications",
@@ -625,7 +744,14 @@
       "priority": 7.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "No OHTN layoffs reported in searches",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "girl-guides-of-canada-director-brand-marketing",
@@ -656,7 +782,14 @@
       "priority": 5.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "No layoffs reported in searches",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "veritas-communications-senior-account-director",
@@ -687,7 +820,14 @@
       "priority": 3.5,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "citizen-relations-senior-director-pr",
@@ -719,7 +859,14 @@
       "flags": [
         "no pension",
         "no benefits mentioned"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor, small sample: mixed to negative; titles hard to carry elsewhere, understaffing and long hours cited"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "weber-shandwick-account-director-earned-media-strategy",
@@ -755,7 +902,14 @@
       "flags": [
         "no pension",
         "no benefits mentioned"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "Parent Omnicom cut 4,000+ jobs after Interpublic deal (Dec 2025); Weber Shandwick reportedly kept intact (Campaign)",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor 3.7/5; promotion can be quick but favouritism and post-Omnicom culture change noted"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "veritas-communications-account-director",
@@ -786,7 +940,14 @@
       "priority": 3.0,
       "rescoredOn": "2026-11-12",
       "benefitsChecked": false,
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "homeward-public-affairs-director-of-marketing-and-communications",
@@ -824,7 +985,14 @@
         "extended health"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": []
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "citizen-relations-account-director-pr",
@@ -860,7 +1028,14 @@
       "flags": [
         "no pension",
         "no benefits mentioned"
-      ]
+      ],
+      "employerCheck": {
+        "layoffs": "not found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor, small sample: mixed to negative; titles hard to carry elsewhere, understaffing and long hours cited"
+      },
+      "employerCheckOn": "2026-11-12"
     }
   ],
   "feedbackLearning": {
