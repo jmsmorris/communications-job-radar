@@ -51,7 +51,6 @@
       "titleSeniority": "Associate Manager: manager-band",
       "sector": "Sport & recreation",
       "mission": "Sport",
-      "roleTarget": "B",
       "peopleLeadership": "not stated",
       "orgSize": "large",
       "labels": [],
@@ -61,35 +60,42 @@
       ],
       "payStatus": "above floor",
       "arrangement": "Hybrid",
-      "priority": 11.5,
+      "priority": 8.5,
+      "rescoredOn": "2026-11-12",
       "newSinceLastRun": true
     },
     {
-      "id": "mars-internal-communications-manager-mars-snacking-r170829",
-      "company": "Mars",
-      "title": "Internal Communications Manager - Mars Snacking",
-      "cluster": "Internal / Employee Communications",
+      "id": "fidelity-manager-corporate-communications-community-affairs",
+      "company": "Fidelity Investments Canada",
+      "title": "Manager Corporate Communications and Community Affairs",
+      "cluster": "Corporate / Internal & External Communications",
       "tier": "Strongest fit",
       "level": "Target level",
-      "location": "Toronto/GTA — Bolton (Caledon)",
+      "location": "Toronto/GTA — Toronto (moving to Mississauga)",
       "work": "Hybrid",
-      "posted": "2026-10-27",
-      "deadline": "2026-11-14 (Workday posting end date)",
-      "salary": "CAD $87,791–$115,226/year plus bonus",
-      "summary": "Plan and execute internal communications for Mars Snacking North America from the Bolton office: leadership messaging, two-way associate engagement, channels (apps, podcasts, video) and story-mining across offices and factories.",
-      "fit": "Nine years of editorial storytelling, leadership advisory at UJA and multi-channel content production line up with associate engagement and leadership communications.",
-      "gap": "Asks for 5+ years specifically in corporate internal communications; Bolton commute from Toronto.",
-      "url": "https://mars.wd3.myworkdayjobs.com/External/job/CAN-Ontario-Bolton/Internal-Communications-Manager---Mars-Snacking_R170829",
+      "posted": "2026-10-21",
+      "deadline": "Not stated",
+      "salary": "$140,000–$165,000 total annual cash (base + target bonus)",
+      "summary": "Leads corporate and internal communications plus community-affairs programming; work location moves from Bay St. to Mississauga in late 2026.",
+      "fit": "Combines Jacob's nonprofit/community storytelling with corporate communications and senior-leader advisory.",
+      "gap": "Financial-services/regulated-industry experience preferred (not required); office relocating to Mississauga.",
+      "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Manager-Corporate-Communications-and-Community-Affairs_J71275",
       "verified": true,
       "verifiedOn": "2026-11-12",
       "rank": 2,
-      "sector": "Consumer goods & retail",
+      "sector": "Financial services & insurance",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
+      "peopleLeadership": "yes",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 7.5,
+      "orgSize": "large",
+      "benefits": [
+        "RRSP match",
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "fidelity-clearing-canada-marketing-communications-manager",
@@ -117,7 +123,13 @@
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 7.0,
+      "orgSize": "large",
+      "benefits": [
+        "RRSP match",
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "equinix-communications-manager-foundation",
@@ -144,34 +156,41 @@
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 7.0,
+      "orgSize": "large",
+      "benefits": [
+        "pension"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
-      "id": "fidelity-manager-corporate-communications-community-affairs",
-      "company": "Fidelity Investments Canada",
-      "title": "Manager Corporate Communications and Community Affairs",
-      "cluster": "Corporate / Internal & External Communications",
+      "id": "mars-internal-communications-manager-mars-snacking-r170829",
+      "company": "Mars",
+      "title": "Internal Communications Manager - Mars Snacking",
+      "cluster": "Internal / Employee Communications",
       "tier": "Strongest fit",
       "level": "Target level",
-      "location": "Toronto/GTA — Toronto (moving to Mississauga)",
+      "location": "Toronto/GTA — Bolton (Caledon)",
       "work": "Hybrid",
-      "posted": "2026-10-21",
-      "deadline": "Not stated",
-      "salary": "$140,000–$165,000 total annual cash (base + target bonus)",
-      "summary": "Leads corporate and internal communications plus community-affairs programming; work location moves from Bay St. to Mississauga in late 2026.",
-      "fit": "Combines Jacob's nonprofit/community storytelling with corporate communications and senior-leader advisory.",
-      "gap": "Financial-services/regulated-industry experience preferred (not required); office relocating to Mississauga.",
-      "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Manager-Corporate-Communications-and-Community-Affairs_J71275",
+      "posted": "2026-10-27",
+      "deadline": "2026-11-14 (Workday posting end date)",
+      "salary": "CAD $87,791–$115,226/year plus bonus",
+      "summary": "Plan and execute internal communications for Mars Snacking North America from the Bolton office: leadership messaging, two-way associate engagement, channels (apps, podcasts, video) and story-mining across offices and factories.",
+      "fit": "Nine years of editorial storytelling, leadership advisory at UJA and multi-channel content production line up with associate engagement and leadership communications.",
+      "gap": "Asks for 5+ years specifically in corporate internal communications; Bolton commute from Toronto.",
+      "url": "https://mars.wd3.myworkdayjobs.com/External/job/CAN-Ontario-Bolton/Internal-Communications-Manager---Mars-Snacking_R170829",
       "verified": true,
       "verifiedOn": "2026-11-12",
       "rank": 5,
-      "sector": "Financial services & insurance",
+      "sector": "Consumer goods & retail",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 6.0,
+      "orgSize": "large",
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "adp-communications-manager-canada",
@@ -198,7 +217,9 @@
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Not stated",
-      "priority": 3.0
+      "priority": 4.0,
+      "orgSize": "large",
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "flynn-group-of-companies-communications-brand-manager",
@@ -223,10 +244,15 @@
       "sector": "Consumer goods & retail",
       "rank": 7,
       "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
+      "peopleLeadership": "yes",
       "payStatus": "meets target",
       "arrangement": "On-site",
-      "priority": 1.0
+      "priority": 2.5,
+      "benefits": [
+        "RRSP match",
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "canadian-strategic-missions-corporation-marketing-communication-manager",
@@ -255,6 +281,7 @@
       "payStatus": "pay not stated",
       "arrangement": "On-site",
       "priority": -1.0,
+      "rescoredOn": "2026-11-12",
       "feedbackAdjustment": "Often passed on: Other employers (0 of 5 picked)"
     },
     {
@@ -279,10 +306,12 @@
       "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Manager--Audit-Stakeholder-Communications--900-_R_1485597",
       "sector": "Financial services & insurance",
       "titleSeniority": "senior-manager",
-      "peopleLeadership": "likely",
+      "peopleLeadership": "yes",
       "payStatus": "meets target",
       "arrangement": "Not stated",
-      "priority": 3.0,
+      "priority": 4.5,
+      "orgSize": "large",
+      "rescoredOn": "2026-11-12",
       "feedbackAdjustment": "Like your picks: Financial services & insurance employers (9 of 20 picked)"
     },
     {
@@ -311,34 +340,12 @@
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
       "arrangement": "Hybrid",
-      "priority": 3.0
-    },
-    {
-      "id": "mercury-tech-communications-lead",
-      "company": "Mercury",
-      "title": "Tech Communications Lead",
-      "cluster": "Executive / External Communications",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Remote Canada",
-      "work": "Remote",
-      "posted": "2026-11-04",
-      "deadline": "Not stated",
-      "salary": "$149,500–$186,900 CAD/year (Canadian employees)",
-      "summary": "Shape and own Mercury's technology and AI-innovation narrative, partnering with the co-founder and product/AI leaders.",
-      "fit": "Thought-leadership and earned-media skills from Mile 27 PR and AthletesCAN.",
-      "gap": "Tech/fintech press network and AI product storytelling are new.",
-      "url": "https://job-boards.greenhouse.io/mercury/jobs/6223723004",
-      "verified": true,
-      "verifiedOn": "2026-11-12",
-      "rank": 11,
-      "sector": "Technology",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Remote",
-      "priority": 5.0
+      "priority": 4.0,
+      "benefits": [
+        "RRSP match",
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "varicent-manager-content-marketing",
@@ -358,14 +365,18 @@
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
       "verified": true,
       "verifiedOn": "2026-11-12",
-      "rank": 12,
+      "rank": 11,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
+      "peopleLeadership": "yes",
       "payStatus": "meets target",
       "arrangement": "Not stated",
-      "priority": 3.0
+      "priority": 4.0,
+      "benefits": [
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "four-seasons-hotels-and-resorts-manager-public-relations-and-marketing-communications-americ",
@@ -388,12 +399,45 @@
       "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "Consumer goods & retail",
-      "rank": 13,
+      "rank": 12,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Not stated",
-      "priority": 3.0
+      "priority": 4.0,
+      "orgSize": "large",
+      "rescoredOn": "2026-11-12"
+    },
+    {
+      "id": "mercury-tech-communications-lead",
+      "company": "Mercury",
+      "title": "Tech Communications Lead",
+      "cluster": "Executive / External Communications",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Remote Canada",
+      "work": "Remote",
+      "posted": "2026-11-04",
+      "deadline": "Not stated",
+      "salary": "$149,500–$186,900 CAD/year (Canadian employees)",
+      "summary": "Shape and own Mercury's technology and AI-innovation narrative, partnering with the co-founder and product/AI leaders.",
+      "fit": "Thought-leadership and earned-media skills from Mile 27 PR and AthletesCAN.",
+      "gap": "Tech/fintech press network and AI product storytelling are new.",
+      "url": "https://job-boards.greenhouse.io/mercury/jobs/6223723004",
+      "verified": true,
+      "verifiedOn": "2026-11-12",
+      "rank": 13,
+      "sector": "Technology",
+      "urlSource": "employer",
+      "titleSeniority": "manager-level",
+      "peopleLeadership": "likely",
+      "payStatus": "meets target",
+      "arrangement": "Remote",
+      "priority": 3.0,
+      "labels": [
+        "small or early-stage"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "directive-consulting-pr-communications-manager-remote-canada",
@@ -421,7 +465,8 @@
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
       "arrangement": "Remote",
-      "priority": 3.0
+      "priority": 3.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "cohere-executive-producer-executive-communications",
@@ -449,7 +494,8 @@
       "peopleLeadership": "not stated",
       "payStatus": "meets target",
       "arrangement": "Not stated",
-      "priority": 2.0
+      "priority": 2.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "zeekr-international-public-relations-manager",
@@ -477,7 +523,8 @@
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
-      "priority": 1.0
+      "priority": 1.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "rethink-pr-manager",
@@ -505,7 +552,8 @@
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
-      "priority": 1.0
+      "priority": 1.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "ohtn-director-communications",
@@ -533,7 +581,8 @@
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 7.0
+      "priority": 7.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "citizen-relations-senior-director-pr",
@@ -560,35 +609,8 @@
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
-    },
-    {
-      "id": "citizen-relations-account-director-pr",
-      "company": "Citizen Relations",
-      "title": "Account Director (PR)",
-      "cluster": "Agency PR / Account Leadership",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-10-15",
-      "deadline": "Not stated",
-      "salary": "$105,000–$130,000 CAD/year",
-      "summary": "Owns a client portfolio, integrated PR campaigns and team mentoring at a global consumer PR agency.",
-      "fit": "Founded and ran Mile 27 PR and served as primary media contact at AthletesCAN.",
-      "gap": "Large-agency account P&L and consumer-brand roster experience not established.",
-      "url": "https://ca.linkedin.com/jobs/view/account-director-pr-at-citizen-relations-4480156824",
-      "verified": true,
-      "verifiedOn": "2026-11-10",
-      "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
-      "rank": 20,
-      "sector": "PR, marketing & consulting agencies",
-      "urlSource": "aggregator",
-      "titleSeniority": "director-level (above past titles)",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 5.0,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "weber-shandwick-account-director-earned-media-strategy",
@@ -608,14 +630,19 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Toronto-Ontario-Canada/Account-Director--Earned-Media-Strategy_R14886",
       "verified": true,
       "verifiedOn": "2026-11-10",
-      "rank": 21,
+      "rank": 20,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)",
-      "peopleLeadership": "likely",
+      "peopleLeadership": "yes",
       "payStatus": "meets target",
       "arrangement": "Hybrid",
-      "priority": 5.0
+      "priority": 5.0,
+      "orgSize": "large",
+      "labels": [
+        "sales duties"
+      ],
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "girl-guides-of-canada-director-brand-marketing",
@@ -638,41 +665,74 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
-      "rank": 22,
+      "rank": 21,
       "titleSeniority": "director-level (above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "meets target",
       "arrangement": "Remote",
-      "priority": 5.0
+      "priority": 5.0,
+      "rescoredOn": "2026-11-12"
     },
     {
-      "id": "homeward-public-affairs-director-of-marketing-and-communications",
-      "company": "Homeward Public Affairs",
-      "title": "Director of Marketing and Communications",
-      "cluster": "Corporate / Internal & External Communications",
+      "id": "citizen-relations-account-director-pr",
+      "company": "Citizen Relations",
+      "title": "Account Director (PR)",
+      "cluster": "Agency PR / Account Leadership",
       "tier": "Good fit with stretch",
       "level": "Target level",
-      "location": "Remote Canada",
-      "work": "Not stated",
-      "posted": "2026-11-02",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-10-15",
       "deadline": "Not stated",
-      "salary": "$105,000–$120,000 base",
-      "summary": "Builds marketplace presence and growth for a public affairs consultancy serving nonprofits, First Nations and mission-driven clients (Ottawa location noted as ideal).",
-      "fit": "Content leadership at UJA, digital communications and media relations at AthletesCAN and agency PR at Mile 27 PR cover a broad corporate communications mandate.",
-      "gap": "Posting asks for: Marketing/communications leadership; nonprofit sector experience an asset. Director-level title: a step above your highest title so far (Manager).",
-      "url": "https://ca.linkedin.com/jobs/view/4485453916",
-      "urlSource": "aggregator",
+      "salary": "$105,000–$130,000 CAD/year",
+      "summary": "Owns a client portfolio, integrated PR campaigns and team mentoring at a global consumer PR agency.",
+      "fit": "Founded and ran Mile 27 PR and served as primary media contact at AthletesCAN.",
+      "gap": "Large-agency account P&L and consumer-brand roster experience not established.",
+      "url": "https://ca.linkedin.com/jobs/view/account-director-pr-at-citizen-relations-4480156824",
       "verified": true,
       "verifiedOn": "2026-11-10",
+      "verificationNote": "Talent.com copy now says no longer accepting applications, but Citizen Relations reposted the role on LinkedIn on 2026-11-03 and it is open; link switched to the live LinkedIn posting.",
+      "rank": 22,
+      "sector": "PR, marketing & consulting agencies",
+      "urlSource": "aggregator",
+      "titleSeniority": "director-level (above past titles)",
+      "peopleLeadership": "yes",
+      "payStatus": "meets target",
+      "arrangement": "Hybrid",
+      "priority": 4.0,
+      "labels": [
+        "sales duties"
+      ],
+      "rescoredOn": "2026-11-12"
+    },
+    {
+      "id": "veritas-communications-senior-account-director",
+      "company": "Veritas Communications",
+      "title": "Senior Account Director",
+      "cluster": "Agency PR / Account Leadership",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-10-22",
+      "deadline": "Not stated",
+      "salary": "Salary not stated",
+      "summary": "Executive-level client lead overseeing major accounts or multi-brand portfolios in Veritas's integrated communications practice, driving strategy and leading a team.",
+      "fit": "Co-founding Mile 27 PR plus serving as AthletesCAN's primary media contact give direct agency PR and client-service experience.",
+      "gap": "Posting asks for: Executive-level agency client leadership and strategic communications expertise (years not stated).",
+      "url": "https://careers-veritasinc.icims.com/jobs/9025/job",
+      "urlSource": "employer",
+      "verified": true,
+      "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 23,
       "titleSeniority": "director-level (above past titles)",
-      "tierBeforeSeniorityDowngrade": "Strongest fit",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Not stated",
-      "priority": 3.0
+      "peopleLeadership": "yes",
+      "payStatus": "pay not stated",
+      "arrangement": "Hybrid",
+      "priority": 3.5,
+      "rescoredOn": "2026-11-12"
     },
     {
       "id": "veritas-communications-account-director",
@@ -700,35 +760,45 @@
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
       "arrangement": "Hybrid",
-      "priority": 3.0
+      "priority": 3.0,
+      "rescoredOn": "2026-11-12"
     },
     {
-      "id": "veritas-communications-senior-account-director",
-      "company": "Veritas Communications",
-      "title": "Senior Account Director",
-      "cluster": "Agency PR / Account Leadership",
+      "id": "homeward-public-affairs-director-of-marketing-and-communications",
+      "company": "Homeward Public Affairs",
+      "title": "Director of Marketing and Communications",
+      "cluster": "Corporate / Internal & External Communications",
       "tier": "Good fit with stretch",
       "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-10-22",
+      "location": "Remote Canada",
+      "work": "Not stated",
+      "posted": "2026-11-02",
       "deadline": "Not stated",
-      "salary": "Salary not stated",
-      "summary": "Executive-level client lead overseeing major accounts or multi-brand portfolios in Veritas's integrated communications practice, driving strategy and leading a team.",
-      "fit": "Co-founding Mile 27 PR plus serving as AthletesCAN's primary media contact give direct agency PR and client-service experience.",
-      "gap": "Posting asks for: Executive-level agency client leadership and strategic communications expertise (years not stated).",
-      "url": "https://careers-veritasinc.icims.com/jobs/9025/job",
-      "urlSource": "employer",
+      "salary": "$105,000–$120,000 base",
+      "summary": "Builds marketplace presence and growth for a public affairs consultancy serving nonprofits, First Nations and mission-driven clients (Ottawa location noted as ideal).",
+      "fit": "Content leadership at UJA, digital communications and media relations at AthletesCAN and agency PR at Mile 27 PR cover a broad corporate communications mandate.",
+      "gap": "Posting asks for: Marketing/communications leadership; nonprofit sector experience an asset. Director-level title: a step above your highest title so far (Manager).",
+      "url": "https://ca.linkedin.com/jobs/view/4485453916",
+      "urlSource": "aggregator",
       "verified": true,
-      "verifiedOn": "2026-11-09",
+      "verifiedOn": "2026-11-10",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
       "rank": 25,
       "titleSeniority": "director-level (above past titles)",
+      "tierBeforeSeniorityDowngrade": "Strongest fit",
       "peopleLeadership": "likely",
-      "payStatus": "pay not stated",
-      "arrangement": "Hybrid",
-      "priority": 3.0
+      "payStatus": "meets target",
+      "arrangement": "Not stated",
+      "priority": 2.5,
+      "labels": [
+        "sales duties"
+      ],
+      "benefits": [
+        "RRSP match",
+        "extended health"
+      ],
+      "rescoredOn": "2026-11-12"
     }
   ],
   "feedbackLearning": {
