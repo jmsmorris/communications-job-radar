@@ -25,3 +25,5 @@ body.signed-out .auth-panel #syncState{display:none}
 .tag.new{background:#e3eefa;color:#2f5683;font-weight:700;border:1px solid #bcd0ea}
 
 .meta-tags{margin:8px 0 2px}.tag.target{background:#e9e4f3;color:#4b3a7a;font-weight:700}.tag.newcat{background:#fff3cf;color:#7a5a05;font-weight:700;border:1px solid #ecd48a}.tag.mission{background:#e0eff0;color:#1f5a60}.tag.good{background:#e5f1e8;color:#235c40}.tag.warn{background:#fbeee0;color:#9a4f12}.tag.muted{background:#f0f3ef;color:#7a857e}.notices:not(:empty){margin:0 5.5% 18px;padding:12px 16px;background:#fff3cf;border:1px solid #ecd48a;border-radius:10px;color:#6b4f05;font-size:12px}.notices p{margin:2px 0}
+
+.ec{margin:8px 0 0;font-size:.85rem}.ec summary{cursor:pointer;color:#245c46;font-weight:600}.ec ul{margin:6px 0 0;padding-left:18px}.ec .muted{color:#6b6b63;margin:6px 0 0}

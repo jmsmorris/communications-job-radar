@@ -654,6 +654,31 @@
   "orgSize": {
    "large": 1,
    "small": -2
+  },
+  "flags": {
+   "no pension": -1,
+   "no benefits mentioned": -1,
+   "heavy on-site": -1.5,
+   "on-site outside Hamilton": -3
   }
+ },
+ "hamiltonArea": [
+  "hamilton",
+  "ancaster",
+  "dundas",
+  "stoney creek",
+  "waterdown",
+  "flamborough",
+  "binbrook",
+  "glanbrook",
+  "burlington",
+  "grimsby",
+  "caledonia"
+ ],
+ "titleRule": {
+  "sidewaysOkPay": [
+   "meets target"
+  ],
+  "note": "A sideways title (same level as a Manager role) is not marked down when the top of the posted range meets the $100K target."
  }
 }

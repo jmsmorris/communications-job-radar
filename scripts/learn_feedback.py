@@ -121,6 +121,38 @@ def arrangement_of(j):
     return 'Not stated'
 
 
+def hamilton_area(j):
+    loc = (j.get('location') or '').lower()
+    return any(k in loc for k in TAX['hamiltonArea'])
+
+
+def onsite_days(j):
+    """Days a week in the office: the routine's onsiteDays, else 5 for fully on-site roles, else unknown."""
+    v = j.get('onsiteDays')
+    if isinstance(v, (int, float)) and 0 <= v <= 5: return int(v)
+    return 5 if arrangement_of(j) == 'On-site' else None
+
+
+def flags_of(j):
+    """Computed labels (not routine-supplied): pension/benefits gaps and on-site load.
+    Benefit flags need a posting that was actually read (benefitsChecked is not false)."""
+    out = []
+    if j.get('benefitsChecked') is not False:
+        ben = j.get('benefits') or []
+        if 'pension' not in ben and 'RRSP match' not in ben: out.append('no pension')  # an employer RRSP match counts as retirement cover
+        if not ben: out.append('no benefits mentioned')
+    days = onsite_days(j)
+    if days is not None and days >= 4: out.append('heavy on-site')
+    if arrangement_of(j) == 'On-site' and not hamilton_area(j): out.append('on-site outside Hamilton')
+    return out
+
+
+def sideways_ok(j):
+    """A sideways title is fine when the pay is higher: no title-seniority markdown for non-step-up titles."""
+    if j.get('payStatus') not in TAX['titleRule']['sidewaysOkPay']: return False
+    return not re.search(r'\b(director|head|senior manager|sr\.? manager|vice president|vp)\b', (j.get('title') or '').lower())
+
+
 def target_of(j):
     """Role target A/B/C: the routine's own value wins; otherwise inferred from the title and cluster."""
     if j.get('roleTarget') in ('A', 'B', 'C'): return j['roleTarget']
@@ -155,7 +187,12 @@ def priority_of(j):
     score += P['target'].get(j.get('roleTarget'), 0)
     score += P['mission'].get(j.get('mission'), 0)
     score += P['leadership'].get(j.get('peopleLeadership'), 0)
-    score += P['arrangement'].get(j.get('arrangement'), 0)
+    heavy = 'heavy on-site' in (j.get('flags') or [])
+    if j.get('arrangement') == 'On-site':
+        score += 0 if hamilton_area(j) else P['arrangement']['On-site']  # five days is acceptable in the Hamilton area only
+    elif not heavy:
+        score += P['arrangement'].get(j.get('arrangement'), 0)
+    score += sum(P['flags'].get(f, 0) for f in (j.get('flags') or []))
     score += P['pay'].get(j.get('payStatus'), 0)
     score += min(2, sum(P['benefits'].get(b, 0) for b in (j.get('benefits') or [])))
     score += sum(P['labels'].get(l, 0) for l in (j.get('labels') or []))
@@ -267,6 +304,7 @@ def main():
         j['peopleLeadership'] = leadership_of(j)
         j['payStatus'] = pay_status_of(j)
         j['arrangement'] = arrangement_of(j)
+        j['flags'] = flags_of(j)
         j['priority'] = priority_of(j)
         hist[j['id']] = j
 
@@ -360,7 +398,7 @@ def main():
     for j in d['jobs']:
         if j['id'] in fb:  # your own pick: no similarity note, keep the normal order
             j['_score'] = 0; continue
-        tr = [(t, label) for t, label in traits(j) if t in active]
+        tr = [(t, label) for t, label in traits(j) if t in active and not (t.startswith('seniority:') and sideways_ok(j))]
         weights = dict((t, active[t]) for t, _ in tr)
         if french and french_req.search(' '.join([j.get('gap', ''), j.get('summary', ''), j.get('title', '')])):
             tr.append(('french', 'roles requiring French fluency')); weights['french'] = math.log(LEARN['lowerRatio'])
@@ -391,7 +429,7 @@ def main():
         if title_step(j) == 2 and j['tier'] == 'Strongest fit':
             j['tierBeforeSeniorityDowngrade'] = j['tier']; j['tier'] = 'Good fit with stretch'
     tier_order = {'Strongest fit': 0, 'Good fit with stretch': 1, 'Domain expertise required': 2}
-    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, title_step(j), -j['priority'], -j['_score'], j['rank']))
+    d['jobs'].sort(key=lambda j: (tier_order[j['tier']], 1 if j.get('contract') else 0, 1 if 'on-site outside Hamilton' in j.get('flags', []) else 0, title_step(j), -j['priority'], -j['_score'], j['rank']))
     for i, j in enumerate(d['jobs'], 1):
         j['rank'] = i; j.pop('_score')
 
