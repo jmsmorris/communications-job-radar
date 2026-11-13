@@ -3,20 +3,20 @@
   "mozilla": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "changedotorgsourcing": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-10",
-   "lastResult": "empty"
+   "lastChecked": "2026-11-13",
+   "lastResult": "blocked"
   },
   "maintainx": {
    "url": "",
    "method": "greenhouse",
    "lastChecked": "2026-11-13",
-   "lastResult": "ok"
+   "lastResult": "blocked"
   },
   "mercury": {
    "url": "",
@@ -58,7 +58,7 @@
    "url": "",
    "method": "greenhouse",
    "lastChecked": "2026-11-13",
-   "lastResult": "ok"
+   "lastResult": "blocked"
   },
   "shopify": {
    "url": "",
@@ -81,13 +81,13 @@
   "cloudbeds": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "remotewoman": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "axiom": {
@@ -117,7 +117,7 @@
   "eqbank": {
    "url": "",
    "method": "lever",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "flynncompanies": {
@@ -129,8 +129,8 @@
   "Black-White-Zebra": {
    "url": "",
    "method": "lever",
-   "lastChecked": "2026-11-12",
-   "lastResult": "empty"
+   "lastChecked": "2026-11-13",
+   "lastResult": "ok"
   },
   "neo": {
    "url": "",
@@ -231,7 +231,7 @@
   "caseware": {
    "url": "https://jobs.lever.co/caseware",
    "method": "lever",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "viral-nation": {
@@ -291,14 +291,14 @@
   "viralnation": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-11",
+   "lastChecked": "2026-11-13",
    "lastResult": "ok"
   },
   "colab": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-11",
-   "lastResult": "ok"
+   "lastChecked": "2026-11-13",
+   "lastResult": "blocked"
   },
   "knak": {
    "url": "",
@@ -317,6 +317,12 @@
    "method": "bamboohr",
    "lastChecked": "2026-11-13",
    "lastResult": "empty"
+  },
+  "halton-healthcare": {
+   "url": "https://jobs.smartrecruiters.com/HaltonHealthcare1",
+   "method": "smartrecruiters",
+   "lastChecked": "2026-11-13",
+   "lastResult": "ok"
   }
  }
 }
