@@ -3,7 +3,7 @@
   "mozilla": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "changedotorgsourcing": {
@@ -33,13 +33,13 @@
   "wealthsimple": {
    "url": "",
    "method": "lever",
-   "lastChecked": "2026-11-13",
-   "lastResult": "blocked"
+   "lastChecked": "2026-11-16",
+   "lastResult": "empty"
   },
   "faire": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "clio": {
@@ -57,7 +57,7 @@
   "1password": {
    "url": "https://jobs.ashbyhq.com/1password",
    "method": "ashby",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "shopify": {
@@ -81,19 +81,19 @@
   "cloudbeds": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "remotewoman": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "axiom": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "stackadapt": {
@@ -129,8 +129,8 @@
   "Black-White-Zebra": {
    "url": "",
    "method": "lever",
-   "lastChecked": "2026-11-13",
-   "lastResult": "ok"
+   "lastChecked": "2026-11-16",
+   "lastResult": "empty"
   },
   "neo": {
    "url": "",
@@ -153,7 +153,7 @@
   "cohere": {
    "url": "",
    "method": "ashby",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "knockri": {
@@ -165,19 +165,19 @@
   "td": {
    "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "cibc": {
    "url": "https://cibc.wd3.myworkdayjobs.com/search",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "manulife": {
    "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "rogers": {
@@ -189,7 +189,7 @@
   "mlse": {
    "url": "https://mlse.wd3.myworkdayjobs.com/mlse",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "mars": {
@@ -201,7 +201,7 @@
   "fidelity-canada": {
    "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "four-seasons": {
@@ -213,25 +213,25 @@
   "interpublic-omc": {
    "url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "brock": {
    "url": "https://brocku.wd3.myworkdayjobs.com/brocku_careers",
    "method": "workday",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "aip-connect": {
    "url": "https://jobs.lever.co/aipconnect",
    "method": "lever",
-   "lastChecked": "2026-11-12",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "caseware": {
    "url": "https://jobs.lever.co/caseware",
    "method": "lever",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "viral-nation": {
@@ -243,7 +243,7 @@
   "directive": {
    "url": "https://jobs.ashbyhq.com/directive",
    "method": "ashby",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "csmc": {
@@ -261,7 +261,7 @@
   "sportswork": {
    "url": "https://sportswork.ca/wp-json/wp/v2/job-listings",
    "method": "html",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "league": {
@@ -273,25 +273,25 @@
   "workleap": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "roofr": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "practicebetter": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "empty"
   },
   "viralnation": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "colab": {
@@ -303,20 +303,20 @@
   "knak": {
    "url": "",
    "method": "greenhouse",
-   "lastChecked": "2026-11-13",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "jobs.toronto.ca": {
    "url": "https://jobs.toronto.ca/jobsatcity/search/",
    "method": "html",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   },
   "paralympic": {
    "url": "https://paralympic.bamboohr.com/careers",
    "method": "bamboohr",
-   "lastChecked": "2026-11-15",
-   "lastResult": "ok"
+   "lastChecked": "2026-11-16",
+   "lastResult": "empty"
   },
   "halton-healthcare": {
    "url": "https://jobs.smartrecruiters.com/HaltonHealthcare1",
@@ -327,7 +327,13 @@
   "bmo": {
    "url": "https://bmo.wd3.myworkdayjobs.com/External",
    "method": "workday",
-   "lastChecked": "2026-11-15",
+   "lastChecked": "2026-11-16",
+   "lastResult": "ok"
+  },
+  "questrade": {
+   "url": "https://job-boards.greenhouse.io/questrade",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-16",
    "lastResult": "ok"
   }
  }
