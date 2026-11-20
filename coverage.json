@@ -7,16 +7,16 @@
       "lastResult": "ok"
     },
     "changedotorgsourcing": {
-      "url": "",
-      "method": "greenhouse",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/change",
+      "method": "ashby",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "maintainx": {
-      "url": "",
-      "method": "greenhouse",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/maintainx",
+      "method": "ashby",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "mercury": {
       "url": "",
@@ -31,10 +31,10 @@
       "lastResult": "ok"
     },
     "wealthsimple": {
-      "url": "",
-      "method": "lever",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/wealthsimple",
+      "method": "ashby",
       "lastChecked": "2026-11-16",
-      "lastResult": "empty"
+      "lastResult": "unchecked"
     },
     "faire": {
       "url": "",
@@ -43,16 +43,16 @@
       "lastResult": "ok"
     },
     "clio": {
-      "url": "",
-      "method": "greenhouse",
+      "url": "https://www.clio.com/about/careers/",
+      "method": "html",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "ada": {
-      "url": "",
-      "method": "ashby",
+      "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
+      "method": "greenhouse",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "1password": {
       "url": "https://jobs.ashbyhq.com/1password",
@@ -61,10 +61,10 @@
       "lastResult": "ok"
     },
     "shopify": {
-      "url": "",
-      "method": "greenhouse",
+      "url": "https://www.shopify.com/careers",
+      "method": "html",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "hootsuite": {
       "url": "",
@@ -103,10 +103,10 @@
       "lastResult": "ok"
     },
     "achievers": {
-      "url": "",
-      "method": "greenhouse",
+      "url": "https://api.lever.co/v0/postings/achievers?mode=json",
+      "method": "lever",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "ecobee": {
       "url": "",
@@ -133,10 +133,10 @@
       "lastResult": "empty"
     },
     "neo": {
-      "url": "",
-      "method": "lever",
+      "url": "https://api.ashbyhq.com/posting-api/job-board/neofinancial",
+      "method": "ashby",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "paymentus": {
       "url": "",
@@ -181,10 +181,10 @@
       "lastResult": "ok"
     },
     "rogers": {
-      "url": "",
-      "method": "workday",
+      "url": "https://jobs.rogers.com/",
+      "method": "html",
       "lastChecked": "2026-11-12",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "mlse": {
       "url": "https://mlse.wd3.myworkdayjobs.com/mlse",
@@ -265,10 +265,10 @@
       "lastResult": "ok"
     },
     "league": {
-      "url": "",
+      "url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
       "method": "greenhouse",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "workleap": {
       "url": "",
@@ -295,10 +295,10 @@
       "lastResult": "ok"
     },
     "colab": {
-      "url": "",
+      "url": "https://boards-api.greenhouse.io/v1/boards/colabsoftware/jobs",
       "method": "greenhouse",
       "lastChecked": "2026-11-13",
-      "lastResult": "blocked"
+      "lastResult": "unchecked"
     },
     "knak": {
       "url": "",
