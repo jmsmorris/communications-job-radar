@@ -9,19 +9,19 @@
     "changedotorgsourcing": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/change",
       "method": "ashby",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "maintainx": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/maintainx",
       "method": "ashby",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "mercury": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-15",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "varicent": {
@@ -33,8 +33,8 @@
     "wealthsimple": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/wealthsimple",
       "method": "ashby",
-      "lastChecked": "2026-11-16",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "faire": {
       "url": "",
@@ -51,8 +51,8 @@
     "ada": {
       "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
       "method": "greenhouse",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "1password": {
       "url": "https://jobs.ashbyhq.com/1password",
@@ -105,8 +105,8 @@
     "achievers": {
       "url": "https://api.lever.co/v0/postings/achievers?mode=json",
       "method": "lever",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "ecobee": {
       "url": "",
@@ -123,7 +123,7 @@
     "flynncompanies": {
       "url": "",
       "method": "lever",
-      "lastChecked": "2026-11-15",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "Black-White-Zebra": {
@@ -135,8 +135,8 @@
     "neo": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/neofinancial",
       "method": "ashby",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "paymentus": {
       "url": "",
@@ -195,13 +195,13 @@
     "mars": {
       "url": "https://mars.wd3.myworkdayjobs.com/External",
       "method": "workday",
-      "lastChecked": "2026-11-18",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "fidelity-canada": {
       "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada",
       "method": "workday",
-      "lastChecked": "2026-11-16",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "four-seasons": {
@@ -225,7 +225,7 @@
     "aip-connect": {
       "url": "https://jobs.lever.co/aipconnect",
       "method": "lever",
-      "lastChecked": "2026-11-18",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "caseware": {
@@ -237,13 +237,13 @@
     "viral-nation": {
       "url": "https://job-boards.greenhouse.io/viralnation",
       "method": "greenhouse",
-      "lastChecked": "2026-11-12",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "directive": {
       "url": "https://jobs.ashbyhq.com/directive",
       "method": "ashby",
-      "lastChecked": "2026-11-16",
+      "lastChecked": "2026-11-19",
       "lastResult": "ok"
     },
     "csmc": {
@@ -267,8 +267,8 @@
     "league": {
       "url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
       "method": "greenhouse",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "workleap": {
       "url": "",
@@ -297,8 +297,8 @@
     "colab": {
       "url": "https://boards-api.greenhouse.io/v1/boards/colabsoftware/jobs",
       "method": "greenhouse",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
     },
     "knak": {
       "url": "",
@@ -392,6 +392,24 @@
     },
     "afptoronto": {
       "url": "",
+      "method": "html",
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
+    },
+    "equinix": {
+      "url": "https://equinix.wd1.myworkdayjobs.com/External",
+      "method": "workday",
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
+    },
+    "humber-river-health": {
+      "url": "https://careersen-hrrh.icims.com/",
+      "method": "icims",
+      "lastChecked": "2026-11-19",
+      "lastResult": "ok"
+    },
+    "oncat": {
+      "url": "https://oncat.ca/",
       "method": "html",
       "lastChecked": "2026-11-19",
       "lastResult": "ok"
