@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T03:16:29-05:00",
+  "generatedAt": "2026-11-21T03:14:44-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
   "excludedClosed": [
     {
-      "id": "cija-manager-communications-ontario",
-      "company": "CIJA (Centre for Israel and Jewish Affairs)",
-      "title": "Manager, Communications, Ontario",
-      "reason": "Posting closed (reported closed Aug 2024); had been carried as an unconfirmed lead since 2026-11-13",
-      "checkedOn": "2026-11-20"
+      "id": "lifelabs-manager-internal-communications",
+      "company": "LifeLabs",
+      "title": "Manager, Internal Communications",
+      "reason": "Unconfirmed lead for 8 days with posting text unreadable (aggregator only); dropped per 7-day rule",
+      "checkedOn": "2026-11-21"
     }
   ],
-  "notes": "Run 2026-11-20 (scheduled): 25 employer boards, 8 job boards, 16 searches (6 ATS), 9 browser leads screened. 1 new role; 0 carried-over roles closed. Leads screened out: stale/closed, contract, specialist-domain (security), sales-comms, duplicates of earlier-reviewed roles, unreadable pages.",
+  "notes": "Run 2026-11-21 (scheduled): 34 employer boards via API plus job-board and ATS site searches; Workday tenants returned a maintenance redirect today so Workday roles carried over on the 2026-11-20 check. 1 new role; 1 unconfirmed lead dropped. 8 browser leads screened out (growth/product marketing, specialist, learning, sales).",
   "jobs": [
     {
       "id": "fidelity-manager-corporate-communications-community-affairs",
@@ -179,46 +179,6 @@
       "priority": 6.0
     },
     {
-      "id": "lifelabs-manager-internal-communications",
-      "company": "LifeLabs",
-      "title": "Manager, Internal Communications",
-      "cluster": "Internal / Employee Communications Manager",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "Not stated",
-      "deadline": "Not stated",
-      "salary": "Not stated",
-      "summary": "Unconfirmed lead — posting text not fully readable. Internal communications strategy, executive and CEO updates, leadership agendas and modernizing internal channels; 7+ years asked.",
-      "fit": "Internal and executive communications at UJA (speaking notes, senior-leadership advisory) plus Microsoft 365 and Copilot workflows.",
-      "gap": "Posting read only through a job-board copy; pay and direct reports not stated; 7+ years required.",
-      "url": "https://www.jobillico.com/en/job-offer/lifelabsdXwxRd/manager-internal-communications-toronto-on-hybrid-/17343680",
-      "urlSource": "aggregator",
-      "verified": false,
-      "verifiedOn": "2026-11-13",
-      "rank": 5,
-      "titleSeniority": "Manager: manager-band",
-      "sector": "Health & hospital",
-      "mission": "Health & wellness",
-      "peopleLeadership": "not stated",
-      "orgSize": "large",
-      "labels": [],
-      "benefits": [],
-      "benefitsChecked": false,
-      "employerCheck": {
-        "layoffs": "Sudbury lab cut/closure plan, 2026 (Ontario NDP, employment-law blogs)",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-13",
-      "payStatus": "pay not stated",
-      "arrangement": "Hybrid",
-      "flags": [],
-      "priority": 5.0
-    },
-    {
       "id": "nieuport-aviation-senior-manager-communications",
       "company": "Nieuport Aviation (Billy Bishop Toronto City Airport terminal)",
       "title": "Senior Manager, Communications",
@@ -239,7 +199,7 @@
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
-      "rank": 6,
+      "rank": 5,
       "titleSeniority": "senior manager (one step above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -280,7 +240,7 @@
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-07",
       "sector": "Other",
-      "rank": 7,
+      "rank": 6,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -321,7 +281,7 @@
       "verified": true,
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-20",
-      "rank": 8,
+      "rank": 7,
       "titleSeniority": "manager-level",
       "peopleLeadership": "not stated",
       "orgSize": "large",
@@ -343,7 +303,6 @@
         "no pension"
       ],
       "priority": 4.5,
-      "newSinceLastRun": true,
       "feedbackAdjustment": "Like your picks: Financial services & insurance employers (9 of 20 picked)"
     },
     {
@@ -364,7 +323,7 @@
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
       "verified": true,
       "verifiedOn": "2026-11-20",
-      "rank": 9,
+      "rank": 8,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
@@ -408,7 +367,7 @@
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-10",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 10,
+      "rank": 9,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -451,7 +410,7 @@
       "orgSize": "large",
       "addedBy": "Jacob (manual, already applied)",
       "titleSeniority": "Senior Copywriter (IC)",
-      "rank": 11,
+      "rank": 10,
       "payStatus": "above floor",
       "arrangement": "Hybrid",
       "flags": [
@@ -482,7 +441,7 @@
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 12,
+      "rank": 11,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -517,7 +476,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-20",
-      "rank": 13,
+      "rank": 12,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)",
@@ -558,7 +517,7 @@
       "verifiedOn": "2026-11-09",
       "newOn": "2026-11-07",
       "sector": "Nonprofit & charity",
-      "rank": 14,
+      "rank": 13,
       "titleSeniority": "director-level (above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "meets target",
@@ -593,7 +552,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-20",
-      "rank": 15,
+      "rank": 14,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)",
@@ -635,7 +594,7 @@
       "verifiedOn": "2026-11-20",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 16,
+      "rank": 15,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit",
       "peopleLeadership": "likely",
@@ -737,5 +696,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-19T19:54:18-05:00"
+  "previousRunAt": "2026-11-20T03:16:29-05:00"
 }
