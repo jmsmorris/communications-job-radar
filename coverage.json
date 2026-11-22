@@ -3,25 +3,25 @@
     "mozilla": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "changedotorgsourcing": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/change",
       "method": "ashby",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "maintainx": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/maintainx",
       "method": "ashby",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "mercury": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "varicent": {
@@ -39,7 +39,7 @@
     "faire": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "clio": {
@@ -51,8 +51,8 @@
     "ada": {
       "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
-      "lastResult": "empty"
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
     },
     "1password": {
       "url": "https://jobs.ashbyhq.com/1password",
@@ -75,25 +75,25 @@
     "thescore": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-20",
+      "lastChecked": "2026-11-22",
       "lastResult": "blocked"
     },
     "cloudbeds": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "remotewoman": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "axiom": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "stackadapt": {
@@ -111,7 +111,7 @@
     "ecobee": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-20",
+      "lastChecked": "2026-11-22",
       "lastResult": "blocked"
     },
     "eqbank": {
@@ -123,32 +123,32 @@
     "flynncompanies": {
       "url": "",
       "method": "lever",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "Black-White-Zebra": {
       "url": "",
       "method": "lever",
-      "lastChecked": "2026-11-21",
-      "lastResult": "empty"
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
     },
     "neo": {
       "url": "https://api.ashbyhq.com/posting-api/job-board/neofinancial",
       "method": "ashby",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "paymentus": {
       "url": "",
       "method": "lever",
-      "lastChecked": "2026-11-20",
+      "lastChecked": "2026-11-22",
       "lastResult": "blocked"
     },
     "lightspeedhq": {
-      "url": "",
-      "method": "lever",
-      "lastChecked": "2026-11-20",
-      "lastResult": "blocked"
+      "url": "https://api.ashbyhq.com/posting-api/job-board/lightspeedhq",
+      "method": "ashby",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
     },
     "cohere": {
       "url": "",
@@ -159,7 +159,7 @@
     "knockri": {
       "url": "",
       "method": "ashby",
-      "lastChecked": "2026-11-20",
+      "lastChecked": "2026-11-22",
       "lastResult": "blocked"
     },
     "td": {
@@ -225,7 +225,7 @@
     "aip-connect": {
       "url": "https://jobs.lever.co/aipconnect",
       "method": "lever",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "caseware": {
@@ -237,7 +237,7 @@
     "viral-nation": {
       "url": "https://job-boards.greenhouse.io/viralnation",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "directive": {
@@ -279,7 +279,7 @@
     "roofr": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "practicebetter": {
@@ -291,13 +291,13 @@
     "viralnation": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "colab": {
       "url": "https://boards-api.greenhouse.io/v1/boards/colabsoftware/jobs",
       "method": "greenhouse",
-      "lastChecked": "2026-11-21",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "knak": {
@@ -345,7 +345,7 @@
     "city-of-toronto": {
       "url": "",
       "method": "html",
-      "lastChecked": "2026-11-19",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     },
     "sirc": {
@@ -412,6 +412,102 @@
       "url": "https://oncat.ca/",
       "method": "html",
       "lastChecked": "2026-11-19",
+      "lastResult": "ok"
+    },
+    "uja": {
+      "url": "https://uja.bamboohr.com/careers/list",
+      "method": "bamboohr",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "hamilton-health-sciences": {
+      "url": "https://hhsc.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+      "method": "taleo",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "ieso": {
+      "url": "https://careers.ieso.ca/search/?q=communications",
+      "method": "html",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "mackenzie-investments": {
+      "url": "https://careersen-mackenzieinvestments.icims.com/jobs/search?ss=1&searchKeyword=communications",
+      "method": "icims",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "mackenzie-health": {
+      "url": "https://employment-mackenziehealth.icims.com/jobs/search?ss=1&searchKeyword=communications",
+      "method": "icims",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "uoft": {
+      "url": "https://jobs.utoronto.ca/search/?q=communications&sortColumn=referencedate&sortDirection=desc",
+      "method": "html",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "sickkids": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "camh": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "sinai-health": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "holland-bloorview": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "tmu": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "york-university": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "mcmaster": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "sunnybrook": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "unity-health": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
+      "lastResult": "ok"
+    },
+    "uhn": {
+      "url": "",
+      "method": "search",
+      "lastChecked": "2026-11-22",
       "lastResult": "ok"
     }
   }

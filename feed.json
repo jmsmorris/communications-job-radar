@@ -1,9 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T03:12:44-05:00",
+  "generatedAt": "2026-11-22T12:54:11-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
   "excludedClosed": [
+    {
+      "id": "equinix-communications-manager-foundation",
+      "company": "Equinix",
+      "title": "Communications Manager, Equinix Foundation",
+      "reason": "Posting removed from the employer Workday board (page no longer exists; absent from board search)",
+      "checkedOn": "2026-11-22"
+    },
     {
       "id": "girl-guides-of-canada-director-brand-marketing",
       "company": "Girl Guides of Canada (via Boyden)",
@@ -12,7 +19,7 @@
       "checkedOn": "2026-11-22"
     }
   ],
-  "notes": "Run 2026-11-22 (scheduled): 23 employer boards via ATS APIs, 8 job boards, 17+ searches. 2 added (BMO Communications Manager reposted 2026-11-20; Rogers Manager Comms, Technology). 1 unconfirmed lead dropped. 8 browser leads screened out (growth/product marketing, specialist, learning, sales).",
+  "notes": "Run 2026-11-22 (on-demand full refresh): 85 employer boards logged (ATS APIs, hospital Taleo/iCIMS, university SuccessFactors, Playwright for bot-walled sites), all 8 job boards, 50+ searches, 16 leads opened and screened. 0 added; 1 closed (Equinix Foundation role removed from employer board). Unconfirmed leads: none in feed.",
   "jobs": [
     {
       "id": "fidelity-manager-corporate-communications-community-affairs",
@@ -56,47 +63,6 @@
       "employerCheckOn": "2026-11-12"
     },
     {
-      "id": "equinix-communications-manager-foundation",
-      "company": "Equinix",
-      "title": "Communications Manager, Equinix Foundation",
-      "cluster": "Fundraising / Philanthropic Communications",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-11-13",
-      "deadline": "Not stated",
-      "salary": "$102,000–$152,000 CAD/year (base salary)",
-      "summary": "Lead global Foundation communications, brand narrative, thought leadership, community-impact storytelling and impact reporting across regions and channels.",
-      "fit": "UJA philanthropic storytelling and large-scale campaign communications, combined with AthletesCAN digital storytelling and senior-stakeholder work, align closely with impact narrative development.",
-      "gap": "Direct global ESG/CSR and digital-inclusion subject experience is not established; the posting treats this background as a plus rather than a requirement.",
-      "url": "https://equinix.wd1.myworkdayjobs.com/External/job/Toronto/Communications-Manager--Equinix-Foundation_JR-164341",
-      "verified": true,
-      "verifiedOn": "2026-11-22",
-      "rank": 2,
-      "sector": "Technology",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "priority": 7.0,
-      "orgSize": "large",
-      "benefits": [
-        "pension"
-      ],
-      "rescoredOn": "2026-11-12",
-      "flags": [],
-      "employerCheck": {
-        "layoffs": "About 3% staff cut reported, date unconfirmed; thin sourcing (trade press); Equinix Metal sunset June 2026",
-        "leadershipTenure": "New CMO DD Dasgupta named Sept 2026, succeeding Adam Berlew (CMO since 2023) (Equinix newsroom)",
-        "internalPromotion": "New CMO was promoted from VP, Product and Solution Marketing (Equinix newsroom, Sept 2026)",
-        "staffReviews": "Glassdoor 3.8/5; mixed: some cite progression, others slow internal mobility and title-only promotions"
-      },
-      "employerCheckOn": "2026-11-12",
-      "benefitsChecked": true
-    },
-    {
       "id": "fidelity-clearing-canada-marketing-communications-manager",
       "company": "Fidelity Clearing Canada (Fidelity Investments Canada)",
       "title": "Marketing & Communications Manager",
@@ -117,7 +83,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-07",
       "sector": "Financial services & insurance",
-      "rank": 3,
+      "rank": 2,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "meets target",
@@ -156,7 +122,7 @@
       "url": "https://equinix.wd1.myworkdayjobs.com/External/job/Toronto/Content---Channels-Manager_JR-164742",
       "verified": true,
       "verifiedOn": "2026-11-22",
-      "rank": 4,
+      "rank": 3,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
@@ -198,7 +164,7 @@
       "verified": true,
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-22",
-      "rank": 5,
+      "rank": 4,
       "titleSeniority": "Manager",
       "peopleLeadership": "not stated",
       "orgSize": "large",
@@ -216,8 +182,7 @@
       "payStatus": "meets target",
       "arrangement": "Not stated",
       "flags": [],
-      "priority": 3.0,
-      "newSinceLastRun": true
+      "priority": 3.0
     },
     {
       "id": "st-josephs-health-centre-foundation-manager-marketing-communications-18016",
@@ -255,7 +220,7 @@
       },
       "employerCheckOn": "2026-11-22",
       "addedBy": "Jacob (manual)",
-      "rank": 6,
+      "rank": 5,
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
       "flags": [
@@ -287,7 +252,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
-      "rank": 7,
+      "rank": 6,
       "titleSeniority": "senior manager (one step above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -328,7 +293,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-07",
       "sector": "Other",
-      "rank": 8,
+      "rank": 7,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -369,7 +334,7 @@
       "verified": true,
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-20",
-      "rank": 9,
+      "rank": 8,
       "titleSeniority": "manager-level",
       "peopleLeadership": "not stated",
       "orgSize": "large",
@@ -411,7 +376,7 @@
       "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
       "verified": true,
       "verifiedOn": "2026-11-22",
-      "rank": 10,
+      "rank": 9,
       "sector": "Technology",
       "urlSource": "employer",
       "titleSeniority": "manager-level",
@@ -454,7 +419,7 @@
       "verified": true,
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-22",
-      "rank": 11,
+      "rank": 10,
       "titleSeniority": "Manager",
       "peopleLeadership": "not stated",
       "orgSize": "large",
@@ -476,8 +441,7 @@
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
       "flags": [],
-      "priority": 3.0,
-      "newSinceLastRun": true
+      "priority": 3.0
     },
     {
       "id": "directive-consulting-pr-communications-manager-remote-canada",
@@ -500,7 +464,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-10",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 12,
+      "rank": 11,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -543,7 +507,7 @@
       "orgSize": "large",
       "addedBy": "Jacob (manual, already applied)",
       "titleSeniority": "Senior Copywriter (IC)",
-      "rank": 13,
+      "rank": 12,
       "payStatus": "above floor",
       "arrangement": "Hybrid",
       "flags": [
@@ -574,7 +538,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 14,
+      "rank": 13,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -609,7 +573,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-22",
-      "rank": 15,
+      "rank": 14,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)",
@@ -647,7 +611,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-22",
-      "rank": 16,
+      "rank": 15,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)",
@@ -689,7 +653,7 @@
       "verifiedOn": "2026-11-22",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 17,
+      "rank": 16,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit",
       "peopleLeadership": "likely",
@@ -791,5 +755,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-21T03:14:44-05:00"
+  "previousRunAt": "2026-11-22T03:12:44-05:00"
 }
