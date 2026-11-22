@@ -19,6 +19,7 @@ The site is static and requires no build step:
 - Feedback stored in browser localStorage and exportable as JSON
 - Loads `feed.json` from the same site origin
 - Contract badge and employment-type filter (full-time preferred; contract roles downgraded one fit tier)
+- **Customize resume** / **Customize cover letter** buttons on every card open the private Radar Application Customizer artifact for that posting (the posting id and link go in the URL hash and are also copied to the clipboard as `jobradar:<resume|cover>:<id>:<url>`). The artifact is private to its owner; no resume or profile data lives in this repo.
 - Responsive layout
 
 ## Feed contract
