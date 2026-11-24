@@ -381,6 +381,8 @@ def main():
     kept_jobs = []
     for j in d['jobs']:
         key = ckey(j)
+        # A role you were not moved ahead on leaves the feed (the portal still lists it under that stage filter).
+        if fb.get(j['id'], {}).get('applicationStage') == 'Not moving ahead': removed['reposts'].append(j['id']); continue
         if j['id'] in keep: kept_jobs.append(j); continue
         if fb.get(j['id'], {}).get('status') == 'not-fit' or key in nf_keys: removed['notfit'].append(j['id']); continue
         if key in closed_out: removed['reposts'].append(j['id']); continue
@@ -437,7 +439,7 @@ def main():
     labels = {t: label for j in hist.values() if j.get('company') for t, label in traits(j)}
     adj = []
     if removed['notfit']: adj.append({'effect': 'Roles you marked Not a fit, and reposts of them, are excluded', 'basis': '%d removed this run' % len(removed['notfit'])})
-    if removed['reposts']: adj.append({'effect': 'Reposts of roles where you were not moved ahead are excluded', 'basis': '%d removed this run' % len(removed['reposts'])})
+    if removed['reposts']: adj.append({'effect': 'Roles where you were not moved ahead, and reposts of them, are excluded', 'basis': '%d removed this run' % len(removed['reposts'])})
     if blocked_employers: adj.append({'effect': 'Employers you ruled out are excluded', 'basis': '%d employers' % len(blocked_employers)})
     adj.append({'effect': 'Sectors excluded: ' + ', '.join(sorted(blocked_sectors)), 'basis': 'ruled out or never considered'})
     if french: adj.append({'effect': 'Roles requiring French fluency ranked lower', 'basis': 'from your notes'})
