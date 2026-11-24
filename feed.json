@@ -15,85 +15,48 @@
   "notes": "Run 2026-11-24 (scheduled): 37 employer boards read, 8 job boards, 19 searches (6 ATS-restricted), 19 leads opened and screened. 0 added; 1 closed. Carried-over roles re-checked live.",
   "jobs": [
     {
-      "id": "fidelity-manager-corporate-communications-community-affairs",
-      "company": "Fidelity Investments Canada",
-      "title": "Manager Corporate Communications and Community Affairs",
-      "cluster": "Corporate / Internal & External Communications",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto (moving to Mississauga)",
-      "work": "Hybrid",
-      "posted": "2026-10-21",
-      "deadline": "Not stated",
-      "salary": "$140,000–$165,000 total annual cash (base + target bonus)",
-      "summary": "Leads corporate and internal communications plus community-affairs programming; work location moves from Bay St. to Mississauga in late 2026.",
-      "fit": "Combines Jacob's nonprofit/community storytelling with corporate communications and senior-leader advisory.",
-      "gap": "Financial-services/regulated-industry experience preferred (not required); office relocating to Mississauga.",
-      "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada/job/Toronto-Office/Manager-Corporate-Communications-and-Community-Affairs_J71275",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "rank": 1,
-      "sector": "Financial services & insurance",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "yes",
-      "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "priority": 7.5,
-      "orgSize": "large",
-      "benefits": [
-        "RRSP match",
-        "extended health"
-      ],
-      "rescoredOn": "2026-11-12",
-      "flags": [],
-      "employerCheck": {
-        "layoffs": "Global cut of about 800-1,000 mostly tech/product roles, May 2026 (Bloomberg); nothing Canada-specific found",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "Glassdoor career opportunities 3.9/5 (all locations); lateral moves easy, upward promotion often called slow"
-      },
-      "employerCheckOn": "2026-11-12"
-    },
-    {
-      "id": "equinix-manager-content-channels",
-      "company": "Equinix",
-      "title": "Manager, Content & Channels (Employee Communications)",
-      "cluster": "Internal / Employee Communications",
+      "id": "tpl-lead-strategic-communications-issues-management-j1126-0155",
+      "company": "Toronto Public Library",
+      "title": "Lead, Strategic Communications and Issues Management",
+      "cluster": "Public / Crown Sector Communications",
       "tier": "Strongest fit",
       "level": "Target level",
       "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-11-13",
-      "deadline": "Not stated",
-      "salary": "$102,000–$152,000 CAD/year (base salary)",
-      "summary": "Run the employee communications content engine: editorial calendar, Hub News intranet articles, leader messages, broadcast email and employee video, plus global digital signage.",
-      "fit": "UJA content calendars and flagship publications, SharePoint and multimedia coordination, and writing executive messages map directly to an employee-facing editorial engine.",
-      "gap": "Hands-on user-generated video filming and digital-signage platform experience are asked for and not established; no direct reports are mentioned.",
-      "url": "https://equinix.wd1.myworkdayjobs.com/External/job/Toronto/Content---Channels-Manager_JR-164742",
+      "work": "Not stated",
+      "posted": "2026-11-19",
+      "deadline": "2026-11-27",
+      "salary": "$109,509.40 - $119,938.00/Year",
+      "summary": "Leads strategic communications, media relations and issues management for Toronto Public Library (Toronto Reference Library, Communications, Programming and Customer Engagement division). Acts as the division's main media liaison, advises leadership, writes briefing notes, speeches and key messages, and coaches and supervises staff. Permanent full-time, Monday to Friday, reporting to the Senior Manager, Strategic Communications and Issues Management.",
+      "fit": "Media relations for national and international Games at the COC, primary media contact at AthletesCAN and senior-leadership advisory at UJA map to the media and executive-communications work, and public-service values fit the mission.",
+      "gap": "Central requirement of 5+ years in issues management and crisis communications, plus spokesperson preparation and on-site media event delivery, is not shown on your resume; library or municipal experience is an asset.",
+      "url": "https://tpl.njoyn.com/CL/xweb/Xweb.asp?CLID=124455&page=jobdetails&JobID=J1126-0155&lang=1",
+      "urlSource": "employer",
       "verified": true,
       "verifiedOn": "2026-11-24",
-      "rank": 2,
-      "sector": "Technology",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "not stated",
+      "sector": "Government & public agencies",
+      "peopleLeadership": "yes",
       "orgSize": "large",
-      "benefits": [
-        "pension"
-      ],
+      "labels": [],
+      "benefits": [],
       "benefitsChecked": true,
+      "titleSeniority": "Lead (senior communications role with manager-level scope; reports to a Senior Manager)",
       "employerCheck": {
-        "layoffs": "About 3% staff cut reported, date unconfirmed; thin sourcing (trade press); Equinix Metal sunset June 2026",
-        "leadershipTenure": "New CMO DD Dasgupta named Sept 2026, succeeding Adam Berlew (CMO since 2023) (Equinix newsroom)",
-        "internalPromotion": "New CMO was promoted from VP, Product and Solution Marketing (Equinix newsroom, Sept 2026)",
-        "staffReviews": "Glassdoor 3.8/5; mixed: some cite progression, others slow internal mobility and title-only promotions"
+        "layoffs": "No 2026 layoffs found; 2026 operating budget submission shows a 0.2% net increase (TPL, Oct 2025).",
+        "leadershipTenure": "not found",
+        "internalPromotion": "Collective agreement gives preference to internal candidates for vacancies (TPL workforce report, 2026).",
+        "staffReviews": "Glassdoor 4.4/5 (223 reviews), Indeed 4.5; praise for job security, complaints of seniority-based promotion (2025-2026)."
       },
-      "employerCheckOn": "2026-11-19",
+      "employerCheckOn": "2026-11-24",
+      "addedBy": "Jacob (manual)",
+      "rank": 1,
       "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "flags": [],
-      "priority": 6.0
+      "arrangement": "Not stated",
+      "flags": [
+        "no pension",
+        "no benefits mentioned"
+      ],
+      "priority": 2.5,
+      "newSinceLastRun": true
     },
     {
       "id": "st-josephs-health-centre-foundation-manager-marketing-communications-18016",
@@ -131,59 +94,14 @@
       },
       "employerCheckOn": "2026-11-22",
       "addedBy": "Jacob (manual)",
-      "rank": 3,
+      "rank": 2,
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
       "flags": [
         "no pension",
         "no benefits mentioned"
       ],
-      "priority": 2.5,
-      "feedbackAdjustment": "Like your picks: fundraising & philanthropic communications roles (5 of 9 picked)"
-    },
-    {
-      "id": "tpl-lead-strategic-communications-issues-management-j1126-0155",
-      "company": "Toronto Public Library",
-      "title": "Lead, Strategic Communications and Issues Management",
-      "cluster": "Public / Crown Sector Communications",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "2026-11-19",
-      "deadline": "2026-11-27",
-      "salary": "$109,509.40 - $119,938.00/Year",
-      "summary": "Leads strategic communications, media relations and issues management for Toronto Public Library (Toronto Reference Library, Communications, Programming and Customer Engagement division). Acts as the division's main media liaison, advises leadership, writes briefing notes, speeches and key messages, and coaches and supervises staff. Permanent full-time, Monday to Friday, reporting to the Senior Manager, Strategic Communications and Issues Management.",
-      "fit": "Media relations for national and international Games at the COC, primary media contact at AthletesCAN and senior-leadership advisory at UJA map to the media and executive-communications work, and public-service values fit the mission.",
-      "gap": "Central requirement of 5+ years in issues management and crisis communications, plus spokesperson preparation and on-site media event delivery, is not shown on your resume; library or municipal experience is an asset.",
-      "url": "https://tpl.njoyn.com/CL/xweb/Xweb.asp?CLID=124455&page=jobdetails&JobID=J1126-0155&lang=1",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "sector": "Government & public agencies",
-      "peopleLeadership": "yes",
-      "orgSize": "large",
-      "labels": [],
-      "benefits": [],
-      "benefitsChecked": true,
-      "titleSeniority": "Lead (senior communications role with manager-level scope; reports to a Senior Manager)",
-      "employerCheck": {
-        "layoffs": "No 2026 layoffs found; 2026 operating budget submission shows a 0.2% net increase (TPL, Oct 2025).",
-        "leadershipTenure": "not found",
-        "internalPromotion": "Collective agreement gives preference to internal candidates for vacancies (TPL workforce report, 2026).",
-        "staffReviews": "Glassdoor 4.4/5 (223 reviews), Indeed 4.5; praise for job security, complaints of seniority-based promotion (2025-2026)."
-      },
-      "employerCheckOn": "2026-11-24",
-      "addedBy": "Jacob (manual)",
-      "rank": 4,
-      "payStatus": "meets target",
-      "arrangement": "Not stated",
-      "flags": [
-        "no pension",
-        "no benefits mentioned"
-      ],
-      "priority": 2.5,
-      "newSinceLastRun": true
+      "priority": 2.5
     },
     {
       "id": "nieuport-aviation-senior-manager-communications",
@@ -206,7 +124,7 @@
       "verifiedOn": "2026-11-24",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
-      "rank": 5,
+      "rank": 3,
       "titleSeniority": "senior manager (one step above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -217,215 +135,6 @@
         "extended health"
       ],
       "rescoredOn": "2026-11-12",
-      "flags": [],
-      "employerCheck": {
-        "layoffs": "not found",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-12"
-    },
-    {
-      "id": "canadian-strategic-missions-corporation-marketing-communication-manager",
-      "company": "Canadian Strategic Missions Corporation (CSMC)",
-      "title": "Marketing & Communication Manager",
-      "cluster": "Corporate / Internal & External Communications",
-      "tier": "Strongest fit",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "On-site",
-      "posted": "2026-09-29",
-      "deadline": "Not stated",
-      "salary": "Salary not stated",
-      "summary": "Marketing and communications manager for a space, defence and energy company, working with senior leaders on content and PR.",
-      "fit": "Content leadership at UJA, digital communications and media relations at AthletesCAN and agency PR at Mile 27 PR cover a broad corporate communications mandate.",
-      "gap": "Posting asks for: 4+ years in marketing, communications, PR or content; security/compliance-aware communications.",
-      "url": "https://csmc.bamboohr.com/careers/62",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "newOn": "2026-11-07",
-      "sector": "Other",
-      "rank": 6,
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
-      "payStatus": "pay not stated",
-      "arrangement": "On-site",
-      "priority": -5.5,
-      "rescoredOn": "2026-11-12",
-      "benefitsChecked": false,
-      "flags": [
-        "heavy on-site",
-        "on-site outside Hamilton"
-      ],
-      "employerCheck": {
-        "layoffs": "No layoffs reported in searches; company rebranded from Canadian Space Mining Corp in Dec 2025 (Built In)",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-12",
-      "feedbackAdjustment": "Often passed on: Other employers (0 of 5 picked)"
-    },
-    {
-      "id": "manulife-manager-communications-individual-insurance-canada",
-      "company": "Manulife",
-      "title": "Manager, Communications, Individual Insurance Canada",
-      "cluster": "Corporate / Internal & External Communications",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-11-19",
-      "deadline": "Not stated",
-      "salary": "$92,900–$142,900 CAD base",
-      "summary": "Manage integrated external, internal and executive communications plans for the Canada Individual Insurance segment: leader messaging, proactive storytelling and issues management, reporting to the Director of Communications.",
-      "fit": "UJA senior-leadership content advisory and flagship publications, plus AthletesCAN media and digital work, map to executive messaging, storytelling and integrated planning.",
-      "gap": "Insurance-sector and issues-management experience is not in your background; posting asks for 5–7+ years in a complex corporate environment.",
-      "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs/job/Toronto-Ontario/Manager--Communications--Individual-Insurance-Canada_JR26110860",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "newOn": "2026-11-20",
-      "rank": 7,
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "not stated",
-      "orgSize": "large",
-      "benefits": [
-        "extended health"
-      ],
-      "benefitsChecked": true,
-      "sector": "Financial services & insurance",
-      "employerCheck": {
-        "layoffs": "No 2026 Canada cuts found; 2024 wealth-unit cuts of ~2.5% of staff (Investment Executive)",
-        "leadershipTenure": "Patrick Graham named CEO, Manulife Canada, effective July 2026 (Manulife, May 2026)",
-        "internalPromotion": "not found",
-        "staffReviews": "Glassdoor 2025-26: good benefits and balance, but several reviews cite limited or slow promotion"
-      },
-      "employerCheckOn": "2026-11-20",
-      "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "flags": [
-        "no pension"
-      ],
-      "priority": 4.5,
-      "feedbackAdjustment": "Like your picks: Financial services & insurance employers (9 of 20 picked)"
-    },
-    {
-      "id": "varicent-manager-content-marketing",
-      "company": "Varicent",
-      "title": "Manager, Content Marketing",
-      "cluster": "Content Marketing / Editorial Strategy",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "2026-10-07",
-      "deadline": "Not stated",
-      "salary": "$115,200–$151,200 CAD/year",
-      "summary": "Lead Varicent's content function and team, own content strategy and SEO/AEO, manage editorial priorities and partner with product marketing, sales and other business teams.",
-      "fit": "UJA content strategy, flagship publications and campaign storytelling, plus AthletesCAN digital content and analytics, align with editorial leadership and measurement.",
-      "gap": "Direct B2B SaaS product marketing and sales-performance-management subject expertise are not established.",
-      "url": "https://job-boards.greenhouse.io/varicent/jobs/5445699008",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "rank": 8,
-      "sector": "Technology",
-      "urlSource": "employer",
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "yes",
-      "payStatus": "meets target",
-      "arrangement": "Not stated",
-      "priority": 3.0,
-      "benefits": [
-        "extended health"
-      ],
-      "rescoredOn": "2026-11-12",
-      "flags": [
-        "no pension"
-      ],
-      "employerCheck": {
-        "layoffs": "No layoffs reported in searches; staff grew from 120 to 700+ since going independent (Varicent)",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "Glassdoor 4.1/5; a recent review says progression and pay transparency lag, advancement paths limited"
-      },
-      "employerCheckOn": "2026-11-12"
-    },
-    {
-      "id": "rogers-manager-comms-technology",
-      "company": "Rogers Communications",
-      "title": "Manager, Comms, Technology",
-      "cluster": "Corporate communications",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "2026-11-11",
-      "deadline": "Not stated",
-      "salary": "Not stated",
-      "summary": "External and internal communications programs for Rogers Technology teams: issues management (network service, cyber), media relations, press releases, speeches and executive materials. 5–8 years' communications experience; reports to Director, Communications, Technology. Regular full-time at 333 Bloor St E.",
-      "fit": "Speaking notes, executive communications and internal comms work at UJA and AthletesCAN media-contact experience match the drafting and media-relations scope.",
-      "gap": "Telecom issues management and cyber incident communications are new; likely a hands-on role with no stated direct reports.",
-      "url": "https://jobs.rogers.com/job/Toronto-Manager-Comms%2C-Technology-ON/1449928100/",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "newOn": "2026-11-22",
-      "rank": 9,
-      "titleSeniority": "Manager",
-      "peopleLeadership": "not stated",
-      "orgSize": "large",
-      "labels": [],
-      "benefits": [
-        "pension",
-        "RRSP match",
-        "extended health"
-      ],
-      "benefitsChecked": true,
-      "employerCheck": {
-        "layoffs": "Voluntary buyouts offered Apr 2026; ~230 media/corporate cuts Jul 2026 (BNN Bloomberg, law-firm blog)",
-        "leadershipTenure": "not found",
-        "internalPromotion": "Posting says 'Rogers First: priority in applying to internal roles' (Rogers posting, 2026)",
-        "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-22",
-      "sector": "Technology",
-      "payStatus": "pay not stated",
-      "arrangement": "Not stated",
-      "flags": [],
-      "priority": 3.0
-    },
-    {
-      "id": "directive-consulting-pr-communications-manager-remote-canada",
-      "company": "Directive Consulting",
-      "title": "PR & Communications Manager (Remote Canada)",
-      "cluster": "Executive / External Communications",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Remote Canada",
-      "work": "Remote",
-      "posted": "2026-11-06",
-      "deadline": "Not stated",
-      "salary": "Salary not stated",
-      "summary": "Leads day-to-day PR delivery for B2B client accounts: earned media, media relations, press releases, executive positioning and thought leadership.",
-      "fit": "Mile 27 PR agency experience, AthletesCAN media-contact work and thought-leadership content at UJA map to agency-side PR delivery; asks 4–7 years.",
-      "gap": "B2B tech/marketing-agency client work and hands-on account execution, not nonprofit or sport.",
-      "url": "https://jobs.ashbyhq.com/directive/0a6dc8dd-f81c-4045-940a-36b5e63b947c/application",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "newOn": "2026-11-10",
-      "sector": "PR, marketing & consulting agencies",
-      "rank": 10,
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
-      "payStatus": "pay not stated",
-      "arrangement": "Remote",
-      "priority": 3.0,
-      "rescoredOn": "2026-11-12",
-      "benefitsChecked": false,
       "flags": [],
       "employerCheck": {
         "layoffs": "not found",
@@ -461,15 +170,14 @@
       "orgSize": "large",
       "addedBy": "Jacob (manual, already applied)",
       "titleSeniority": "Senior Copywriter (IC)",
-      "rank": 11,
+      "rank": 4,
       "payStatus": "above floor",
       "arrangement": "Hybrid",
       "flags": [
         "no pension",
         "no benefits mentioned"
       ],
-      "priority": 2.0,
-      "feedbackAdjustment": "Like your picks: fundraising & philanthropic communications roles (5 of 9 picked)"
+      "priority": 2.0
     },
     {
       "id": "rethink-pr-manager",
@@ -492,7 +200,7 @@
       "verifiedOn": "2026-11-24",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 12,
+      "rank": 5,
       "titleSeniority": "manager-level",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -527,7 +235,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-24",
-      "rank": 13,
+      "rank": 6,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)",
@@ -565,7 +273,7 @@
       "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
       "verified": true,
       "verifiedOn": "2026-11-24",
-      "rank": 14,
+      "rank": 7,
       "sector": "PR, marketing & consulting agencies",
       "urlSource": "aggregator",
       "titleSeniority": "director-level (above past titles)",
@@ -607,7 +315,7 @@
       "verifiedOn": "2026-11-24",
       "newOn": "2026-11-07",
       "sector": "PR, marketing & consulting agencies",
-      "rank": 15,
+      "rank": 8,
       "titleSeniority": "director-level (above past titles)",
       "tierBeforeSeniorityDowngrade": "Strongest fit",
       "peopleLeadership": "likely",
@@ -634,16 +342,24 @@
   ],
   "feedbackLearning": {
     "available": true,
-    "exportedAt": "2026-11-09T01:01:28.085Z",
+    "exportedAt": "2026-11-24T21:33:28.240Z",
     "signals": {
-      "fit": 35,
-      "notFit": 145,
-      "withNotes": 22
+      "fit": 39,
+      "notFit": 159,
+      "withNotes": 29
     },
     "adjustments": [
       {
+        "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
+        "basis": "6 removed this run"
+      },
+      {
+        "effect": "Roles where you were not moved ahead, and reposts of them, are excluded",
+        "basis": "1 removed this run"
+      },
+      {
         "effect": "Employers you ruled out are excluded",
-        "basis": "1 employers"
+        "basis": "2 employers"
       },
       {
         "effect": "Sectors excluded: Gambling, Religious organization, Tobacco",
@@ -674,32 +390,36 @@
         "basis": "2 of 5 picks were Fit or Applied, vs 20% overall"
       },
       {
-        "effect": "Internal & employee communications roles ranked higher",
-        "basis": "10 of 28 picks were Fit or Applied, vs 20% overall"
+        "effect": "Health & wellness employers ranked higher",
+        "basis": "8 of 22 picks were Fit or Applied, vs 20% overall"
       },
       {
-        "effect": "Health & hospital employers ranked higher",
-        "basis": "5 of 12 picks were Fit or Applied, vs 20% overall"
+        "effect": "Financial services & insurance employers ranked higher",
+        "basis": "8 of 21 picks were Fit or Applied, vs 20% overall"
       },
       {
         "effect": "Technology employers ranked higher",
-        "basis": "10 of 24 picks were Fit or Applied, vs 20% overall"
+        "basis": "10 of 26 picks were Fit or Applied, vs 20% overall"
       },
       {
         "effect": "Media, telecom & entertainment employers ranked higher",
         "basis": "2 of 4 picks were Fit or Applied, vs 20% overall"
       },
       {
-        "effect": "Financial services & insurance employers ranked higher",
-        "basis": "9 of 20 picks were Fit or Applied, vs 20% overall"
+        "effect": "Health & hospital employers ranked higher",
+        "basis": "8 of 15 picks were Fit or Applied, vs 20% overall"
       },
       {
         "effect": "Sport & recreation employers ranked higher",
-        "basis": "2 of 3 picks were Fit or Applied, vs 20% overall"
+        "basis": "3 of 4 picks were Fit or Applied, vs 20% overall"
       },
       {
         "effect": "Fundraising & philanthropic communications roles ranked higher",
-        "basis": "5 of 9 picks were Fit or Applied, vs 20% overall"
+        "basis": "8 of 12 picks were Fit or Applied, vs 20% overall"
+      },
+      {
+        "effect": "Research & knowledge-translation communications roles ranked higher",
+        "basis": "3 of 3 picks were Fit or Applied, vs 20% overall"
       }
     ],
     "notices": []
