@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T03:13:32-05:00",
+  "generatedAt": "2026-11-25T03:11:58-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
   "excludedClosed": [
     {
-      "id": "bmo-communications-manager-r260030412",
-      "company": "BMO Financial Group",
-      "title": "Communications Manager",
-      "reason": "No longer listed on employer board; posting API denies access",
-      "checkedOn": "2026-11-24"
+      "id": "homeward-public-affairs-director-of-marketing-and-communications",
+      "company": "Homeward Public Affairs",
+      "title": "Director of Marketing and Communications",
+      "reason": "LinkedIn posting now returns page not found; no employer copy found",
+      "checkedOn": "2026-11-25"
     }
   ],
-  "notes": "Run 2026-11-24 (scheduled): 37 employer boards read, 8 job boards, 19 searches (6 ATS-restricted), 19 leads opened and screened. 0 added; 1 closed. Carried-over roles re-checked live.",
+  "notes": "Run 2026-11-25 (scheduled): 23 employer boards read, 8 job boards, 16 searches (6 ATS-restricted), 15 leads screened. 0 added; 1 closed. Carried-over roles re-checked live.",
   "jobs": [
     {
       "id": "tpl-lead-strategic-communications-issues-management-j1126-0155",
@@ -293,51 +293,6 @@
         "staffReviews": "Glassdoor, small sample: mixed to negative; titles hard to carry elsewhere, understaffing and long hours cited"
       },
       "employerCheckOn": "2026-11-12"
-    },
-    {
-      "id": "homeward-public-affairs-director-of-marketing-and-communications",
-      "company": "Homeward Public Affairs",
-      "title": "Director of Marketing and Communications",
-      "cluster": "Corporate / Internal & External Communications",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Remote Canada",
-      "work": "Not stated",
-      "posted": "2026-11-02",
-      "deadline": "Not stated",
-      "salary": "$105,000–$120,000 base",
-      "summary": "Builds marketplace presence and growth for a public affairs consultancy serving nonprofits, First Nations and mission-driven clients (Ottawa location noted as ideal).",
-      "fit": "Content leadership at UJA, digital communications and media relations at AthletesCAN and agency PR at Mile 27 PR cover a broad corporate communications mandate.",
-      "gap": "Posting asks for: Marketing/communications leadership; nonprofit sector experience an asset. Director-level title: a step above your highest title so far (Manager).",
-      "url": "https://ca.linkedin.com/jobs/view/4485453916",
-      "urlSource": "aggregator",
-      "verified": true,
-      "verifiedOn": "2026-11-24",
-      "newOn": "2026-11-07",
-      "sector": "PR, marketing & consulting agencies",
-      "rank": 8,
-      "titleSeniority": "director-level (above past titles)",
-      "tierBeforeSeniorityDowngrade": "Strongest fit",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Not stated",
-      "priority": 2.5,
-      "labels": [
-        "sales duties"
-      ],
-      "benefits": [
-        "RRSP match",
-        "extended health"
-      ],
-      "rescoredOn": "2026-11-12",
-      "flags": [],
-      "employerCheck": {
-        "layoffs": "not found",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-12"
     }
   ],
   "feedbackLearning": {
@@ -349,14 +304,6 @@
       "withNotes": 29
     },
     "adjustments": [
-      {
-        "effect": "Roles you marked Not a fit, and reposts of them, are excluded",
-        "basis": "6 removed this run"
-      },
-      {
-        "effect": "Roles where you were not moved ahead, and reposts of them, are excluded",
-        "basis": "1 removed this run"
-      },
       {
         "effect": "Employers you ruled out are excluded",
         "basis": "2 employers"
@@ -429,5 +376,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-23T03:14:12-05:00"
+  "previousRunAt": "2026-11-24T03:13:32-05:00"
 }
