@@ -1,11 +1,62 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T03:12:22-05:00",
+  "generatedAt": "2026-11-27T09:16:26-05:00",
   "isSampleData": false,
   "source": "Daily Communications Job Feed automation",
-  "excludedClosed": [],
-  "notes": "Run 2026-11-27 (scheduled): 46 employer boards read, 8 job boards, 22 searches (6 ATS-restricted), 10 leads opened or screened. 0 added; 0 closed. Carried-over roles re-checked live.",
+  "excludedClosed": [
+    {
+      "id": "citizen-relations-senior-director-pr",
+      "company": "Citizen Relations",
+      "title": "Senior Director (PR)",
+      "reason": "LinkedIn copy shows \"No longer accepting applications\"; no employer posting found",
+      "checkedOn": "2026-11-27"
+    }
+  ],
+  "notes": "Run 2026-11-27 (on-demand full refresh): 69 employer boards read, 8 job boards, 54 searches (15 ATS-restricted), 25 leads opened or screened. 1 added (unconfirmed lead); 1 closed. Carried-over roles re-checked live.",
   "jobs": [
+    {
+      "id": "pwhl-toronto-sceptres-media-community-relations-manager",
+      "company": "PWHL (Toronto Sceptres)",
+      "title": "Media & Community Relations Manager",
+      "cluster": "Sport / Sponsorship & Partnerships",
+      "tier": "Strongest fit",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-08-07",
+      "deadline": "Not stated",
+      "salary": "$74,000 - $89,000 CAD",
+      "summary": "Unconfirmed lead — employer posting (Teamwork) not readable from here; text read from an aggregator copy. Primary media contact and community-relations lead for the Toronto Sceptres: local media strategy, storytelling, crisis support with league comms, community programs and charitable donations.",
+      "fit": "Sport media thesis, AthletesCAN media-contact role and COC communications experience map directly onto women's pro hockey media relations and storytelling.",
+      "gap": "Posting asks for 5+ years in sports media relations or PR and a communications/journalism degree; reports to the team's Director, Business Operations; top of pay range is under $100K.",
+      "url": "https://www.teamworkonline.com/hockey-jobs/pwhl-jobs/toronto-sceptres-jobs/media-community-relations-manager-2183673",
+      "urlSource": "employer",
+      "verified": false,
+      "verifiedOn": "2026-11-27",
+      "newOn": "2026-11-27",
+      "sector": "Sport & recreation",
+      "rank": 1,
+      "titleSeniority": "manager (matches highest title held)",
+      "mission": "Sport",
+      "peopleLeadership": "not stated",
+      "orgSize": "large",
+      "labels": [],
+      "benefits": [],
+      "benefitsChecked": false,
+      "employerCheck": {
+        "layoffs": "No league-wide layoffs found; some team and officiating staff dismissals reported (The Hockey News, 2026)",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-27",
+      "payStatus": "above floor",
+      "arrangement": "Hybrid",
+      "flags": [],
+      "priority": 7.0,
+      "newSinceLastRun": true,
+      "feedbackAdjustment": "Like your picks: Sport & recreation employers (3 of 4 picked)"
+    },
     {
       "id": "tpl-lead-strategic-communications-issues-management-j1126-0155",
       "company": "Toronto Public Library",
@@ -40,7 +91,7 @@
       },
       "employerCheckOn": "2026-11-24",
       "addedBy": "Jacob (manual)",
-      "rank": 1,
+      "rank": 2,
       "payStatus": "meets target",
       "arrangement": "Not stated",
       "flags": [
@@ -85,7 +136,7 @@
       },
       "employerCheckOn": "2026-11-22",
       "addedBy": "Jacob (manual)",
-      "rank": 2,
+      "rank": 3,
       "payStatus": "pay not stated",
       "arrangement": "Not stated",
       "flags": [
@@ -115,7 +166,7 @@
       "verifiedOn": "2026-11-27",
       "newOn": "2026-11-07",
       "sector": "Energy, engineering & infrastructure",
-      "rank": 3,
+      "rank": 4,
       "titleSeniority": "senior manager (one step above past titles)",
       "peopleLeadership": "likely",
       "payStatus": "pay not stated",
@@ -132,6 +183,44 @@
         "leadershipTenure": "not found",
         "internalPromotion": "not found",
         "staffReviews": "not found"
+      },
+      "employerCheckOn": "2026-11-12"
+    },
+    {
+      "id": "rethink-pr-manager",
+      "company": "Rethink",
+      "title": "PR Manager",
+      "cluster": "Agency PR / Account Leadership",
+      "tier": "Good fit with stretch",
+      "level": "Target level",
+      "location": "Toronto/GTA — Toronto",
+      "work": "Hybrid",
+      "posted": "2026-10-15",
+      "deadline": "Not stated",
+      "salary": "$70K - $80K per year",
+      "summary": "Agency PR manager developing integrated PR and content programs for national consumer brands.",
+      "fit": "Co-founding Mile 27 PR plus serving as AthletesCAN's primary media contact give direct agency PR and client-service experience.",
+      "gap": "Posting asks for: 3–5 years PR experience incl. 1–2 years at manager level.",
+      "url": "https://rethinkcanada.bamboohr.com/careers/239",
+      "urlSource": "employer",
+      "verified": true,
+      "verifiedOn": "2026-11-27",
+      "newOn": "2026-11-07",
+      "sector": "PR, marketing & consulting agencies",
+      "rank": 5,
+      "titleSeniority": "manager-level",
+      "peopleLeadership": "likely",
+      "payStatus": "above floor",
+      "arrangement": "Hybrid",
+      "priority": 4.0,
+      "rescoredOn": "2026-11-12",
+      "benefitsChecked": false,
+      "flags": [],
+      "employerCheck": {
+        "layoffs": "About 30 laid off in 2020 pandemic, salaries later restored (Strategy); no recent cuts found",
+        "leadershipTenure": "not found",
+        "internalPromotion": "not found",
+        "staffReviews": "Glassdoor, small sample: favouritism and tenure over merit cited (Jan-Feb 2026), some praise team and work"
       },
       "employerCheckOn": "2026-11-12"
     },
@@ -161,7 +250,7 @@
       "orgSize": "large",
       "addedBy": "Jacob (manual, already applied)",
       "titleSeniority": "Senior Copywriter (IC)",
-      "rank": 4,
+      "rank": 6,
       "payStatus": "above floor",
       "arrangement": "Hybrid",
       "flags": [
@@ -169,44 +258,6 @@
         "no benefits mentioned"
       ],
       "priority": 2.0
-    },
-    {
-      "id": "rethink-pr-manager",
-      "company": "Rethink",
-      "title": "PR Manager",
-      "cluster": "Agency PR / Account Leadership",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Not stated",
-      "posted": "2026-10-15",
-      "deadline": "Not stated",
-      "salary": "Salary not stated",
-      "summary": "Agency PR manager developing integrated PR and content programs for national consumer brands.",
-      "fit": "Co-founding Mile 27 PR plus serving as AthletesCAN's primary media contact give direct agency PR and client-service experience.",
-      "gap": "Posting asks for: 3–5 years PR experience incl. 1–2 years at manager level.",
-      "url": "https://rethinkcanada.bamboohr.com/careers/239",
-      "urlSource": "employer",
-      "verified": true,
-      "verifiedOn": "2026-11-27",
-      "newOn": "2026-11-07",
-      "sector": "PR, marketing & consulting agencies",
-      "rank": 5,
-      "titleSeniority": "manager-level",
-      "peopleLeadership": "likely",
-      "payStatus": "pay not stated",
-      "arrangement": "Not stated",
-      "priority": 1.0,
-      "rescoredOn": "2026-11-12",
-      "benefitsChecked": false,
-      "flags": [],
-      "employerCheck": {
-        "layoffs": "About 30 laid off in 2020 pandemic, salaries later restored (Strategy); no recent cuts found",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "Glassdoor, small sample: favouritism and tenure over merit cited (Jan-Feb 2026), some praise team and work"
-      },
-      "employerCheckOn": "2026-11-12"
     },
     {
       "id": "ohtn-director-communications",
@@ -226,7 +277,7 @@
       "url": "https://www.ohtn.on.ca/wp-content/uploads/2026/10/2026.20-director-communications.pdf",
       "verified": true,
       "verifiedOn": "2026-11-27",
-      "rank": 6,
+      "rank": 7,
       "sector": "Health & hospital",
       "urlSource": "employer",
       "titleSeniority": "director-level (above past titles)",
@@ -243,45 +294,6 @@
         "leadershipTenure": "not found",
         "internalPromotion": "not found",
         "staffReviews": "not found"
-      },
-      "employerCheckOn": "2026-11-12"
-    },
-    {
-      "id": "citizen-relations-senior-director-pr",
-      "company": "Citizen Relations",
-      "title": "Senior Director (PR)",
-      "cluster": "Agency PR / Account Leadership",
-      "tier": "Good fit with stretch",
-      "level": "Target level",
-      "location": "Toronto/GTA — Toronto",
-      "work": "Hybrid",
-      "posted": "2026-11-03",
-      "deadline": "Not stated",
-      "salary": "$125,000–$150,000 CAD/year",
-      "summary": "Full ownership of client accounts — day-to-day operations, growth and team leadership — at a global integrated PR agency.",
-      "fit": "Ran his own PR agency (Mile 27 PR) and served as primary media contact at AthletesCAN.",
-      "gap": "Senior large-agency account P&L and consumer-brand roster experience not established.",
-      "url": "https://ca.linkedin.com/jobs/view/senior-director-pr-at-citizen-relations-4483702592",
-      "verified": true,
-      "verifiedOn": "2026-11-27",
-      "rank": 7,
-      "sector": "PR, marketing & consulting agencies",
-      "urlSource": "aggregator",
-      "titleSeniority": "director-level (above past titles)",
-      "peopleLeadership": "likely",
-      "payStatus": "meets target",
-      "arrangement": "Hybrid",
-      "priority": 3.0,
-      "rescoredOn": "2026-11-12",
-      "flags": [
-        "no pension",
-        "no benefits mentioned"
-      ],
-      "employerCheck": {
-        "layoffs": "not found",
-        "leadershipTenure": "not found",
-        "internalPromotion": "not found",
-        "staffReviews": "Glassdoor, small sample: mixed to negative; titles hard to carry elsewhere, understaffing and long hours cited"
       },
       "employerCheckOn": "2026-11-12"
     }
@@ -367,5 +379,5 @@
     "Religious organization",
     "Tobacco"
   ],
-  "previousRunAt": "2026-11-26T03:11:24-05:00"
+  "previousRunAt": "2026-11-27T03:12:22-05:00"
 }

@@ -45,8 +45,8 @@
     "clio": {
       "url": "https://www.clio.com/about/careers/",
       "method": "html",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-27",
+      "lastResult": "blocked"
     },
     "ada": {
       "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
@@ -63,8 +63,8 @@
     "shopify": {
       "url": "https://www.shopify.com/careers",
       "method": "html",
-      "lastChecked": "2026-11-13",
-      "lastResult": "unchecked"
+      "lastChecked": "2026-11-27",
+      "lastResult": "empty"
     },
     "hootsuite": {
       "url": "",
@@ -75,7 +75,7 @@
     "thescore": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "blocked"
     },
     "cloudbeds": {
@@ -87,7 +87,7 @@
     "remotewoman": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-25",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "axiom": {
@@ -111,7 +111,7 @@
     "ecobee": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "blocked"
     },
     "eqbank": {
@@ -141,7 +141,7 @@
     "paymentus": {
       "url": "",
       "method": "lever",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "blocked"
     },
     "lightspeedhq": {
@@ -159,7 +159,7 @@
     "knockri": {
       "url": "",
       "method": "ashby",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "blocked"
     },
     "td": {
@@ -183,7 +183,7 @@
     "rogers": {
       "url": "https://jobs.rogers.com/search/",
       "method": "html",
-      "lastChecked": "2026-11-25",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "mlse": {
@@ -213,7 +213,7 @@
     "interpublic-omc": {
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
       "method": "workday",
-      "lastChecked": "2026-11-24",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "brock": {
@@ -291,7 +291,7 @@
     "viralnation": {
       "url": "",
       "method": "greenhouse",
-      "lastChecked": "2026-11-23",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "colab": {
@@ -304,12 +304,12 @@
       "url": "",
       "method": "greenhouse",
       "lastChecked": "2026-11-27",
-      "lastResult": "ok"
+      "lastResult": "empty"
     },
     "jobs.toronto.ca": {
       "url": "https://jobs.toronto.ca/jobsatcity/search/",
       "method": "html",
-      "lastChecked": "2026-11-23",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "paralympic": {
@@ -385,9 +385,9 @@
       "lastResult": "ok"
     },
     "hillel": {
-      "url": "",
-      "method": "html",
-      "lastChecked": "2026-11-19",
+      "url": "https://job-boards.greenhouse.io/hillel",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "afptoronto": {
@@ -405,7 +405,7 @@
     "humber-river-health": {
       "url": "https://careersen-hrrh.icims.com/",
       "method": "icims",
-      "lastChecked": "2026-11-19",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "oncat": {
@@ -423,49 +423,49 @@
     "hamilton-health-sciences": {
       "url": "https://hhsc.taleo.net/careersection/2/jobsearch.ftl?lang=en",
       "method": "taleo",
-      "lastChecked": "2026-11-22",
-      "lastResult": "ok"
+      "lastChecked": "2026-11-27",
+      "lastResult": "blocked"
     },
     "ieso": {
       "url": "https://careers.ieso.ca/search/?q=communications",
       "method": "html",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "mackenzie-investments": {
       "url": "https://careersen-mackenzieinvestments.icims.com/jobs/search?ss=1&searchKeyword=communications",
       "method": "icims",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "mackenzie-health": {
       "url": "https://employment-mackenziehealth.icims.com/jobs/search?ss=1&searchKeyword=communications",
       "method": "icims",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "uoft": {
       "url": "https://jobs.utoronto.ca/search/?q=communications&sortColumn=referencedate&sortDirection=desc",
       "method": "html",
-      "lastChecked": "2026-11-25",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "sickkids": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-24",
-      "lastResult": "search"
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
     },
     "camh": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "sinai-health": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "holland-bloorview": {
@@ -489,25 +489,25 @@
     "mcmaster": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "sunnybrook": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "unity-health": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "uhn": {
       "url": "",
       "method": "search",
-      "lastChecked": "2026-11-22",
+      "lastChecked": "2026-11-27",
       "lastResult": "ok"
     },
     "brocku": {
@@ -525,6 +525,78 @@
     "unity-health-infor": {
       "url": "https://css-ezjf9k52wb5ac52e-prd.tam.ca1.inforcloudsuite.com/hcm/Jobs/list/JobPosting.SearchForJobsResults?csk.JobBoard=EXTERNAL&csk.HROrganization=1&menu=JobsNavigationMenu.JobSearch",
       "method": "infor",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "city-of-hamilton": {
+      "url": "https://cityofhamilton.bamboohr.com/careers",
+      "method": "bamboohr",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "mississauga": {
+      "url": "https://jobs.mississauga.ca/search/?q=communications",
+      "method": "html",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "brampton": {
+      "url": "https://careers.brampton.ca/search/?q=communications",
+      "method": "html",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "halton-region": {
+      "url": "https://careers.halton.ca/search/?q=communications",
+      "method": "html",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "hoopp": {
+      "url": "https://hoopp.wd10.myworkdayjobs.com/hoopp",
+      "method": "workday",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "omers": {
+      "url": "https://omers.wd3.myworkdayjobs.com/omers_External",
+      "method": "workday",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "enbridge": {
+      "url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers",
+      "method": "workday",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "rbc": {
+      "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1",
+      "method": "workday",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "sunlife": {
+      "url": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
+      "method": "workday",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "pcpa": {
+      "url": "https://pcpacorp.bamboohr.com/careers",
+      "method": "bamboohr",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "national-pr": {
+      "url": "https://job-boards.greenhouse.io/national",
+      "method": "greenhouse",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "craft-pr": {
+      "url": "https://jobs.lever.co/bloom",
+      "method": "lever",
       "lastChecked": "2026-11-27",
       "lastResult": "ok"
     }
