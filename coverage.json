@@ -515,6 +515,18 @@
       "method": "html",
       "lastChecked": "2026-11-25",
       "lastResult": "ok"
+    },
+    "toronto-public-library": {
+      "url": "https://tpl.njoyn.com/CL/xweb/Xweb.asp?CLID=124455&page=joblisting&lang=1",
+      "method": "njoyn",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
+    },
+    "unity-health-infor": {
+      "url": "https://css-ezjf9k52wb5ac52e-prd.tam.ca1.inforcloudsuite.com/hcm/Jobs/list/JobPosting.SearchForJobsResults?csk.JobBoard=EXTERNAL&csk.HROrganization=1&menu=JobsNavigationMenu.JobSearch",
+      "method": "infor",
+      "lastChecked": "2026-11-27",
+      "lastResult": "ok"
     }
   }
 }
