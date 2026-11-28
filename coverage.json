@@ -1,604 +1,604 @@
 {
-  "boards": {
-    "mozilla": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "changedotorgsourcing": {
-      "url": "https://api.ashbyhq.com/posting-api/job-board/change",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "maintainx": {
-      "url": "https://api.ashbyhq.com/posting-api/job-board/maintainx",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mercury": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "varicent": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "wealthsimple": {
-      "url": "https://api.ashbyhq.com/posting-api/job-board/wealthsimple",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "faire": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "clio": {
-      "url": "https://www.clio.com/about/careers/",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "ada": {
-      "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "1password": {
-      "url": "https://jobs.ashbyhq.com/1password",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "shopify": {
-      "url": "https://www.shopify.com/careers",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "empty"
-    },
-    "hootsuite": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "thescore": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "cloudbeds": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "remotewoman": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "axiom": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "stackadapt": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "achievers": {
-      "url": "https://api.lever.co/v0/postings/achievers?mode=json",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "ecobee": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "eqbank": {
-      "url": "",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "flynncompanies": {
-      "url": "",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "Black-White-Zebra": {
-      "url": "",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "neo": {
-      "url": "https://api.ashbyhq.com/posting-api/job-board/neofinancial",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "paymentus": {
-      "url": "",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "lightspeedhq": {
-      "url": "https://api.ashbyhq.com/posting-api/job-board/lightspeedhq",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "cohere": {
-      "url": "",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "knockri": {
-      "url": "",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "td": {
-      "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "cibc": {
-      "url": "https://cibc.wd3.myworkdayjobs.com/search",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "manulife": {
-      "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "rogers": {
-      "url": "https://jobs.rogers.com/search/",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mlse": {
-      "url": "https://mlse.wd3.myworkdayjobs.com/mlse",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mars": {
-      "url": "https://mars.wd3.myworkdayjobs.com/External",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "fidelity-canada": {
-      "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "four-seasons": {
-      "url": "https://fourseasons.wd3.myworkdayjobs.com/search",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "interpublic-omc": {
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "brock": {
-      "url": "https://brocku.wd3.myworkdayjobs.com/brocku_careers",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "aip-connect": {
-      "url": "https://jobs.lever.co/aipconnect",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "caseware": {
-      "url": "https://jobs.lever.co/caseware",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "viral-nation": {
-      "url": "https://job-boards.greenhouse.io/viralnation",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "directive": {
-      "url": "https://jobs.ashbyhq.com/directive",
-      "method": "ashby",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "csmc": {
-      "url": "https://csmc.bamboohr.com/careers",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "rethink": {
-      "url": "https://rethinkcanada.bamboohr.com/careers",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "sportswork": {
-      "url": "https://sportswork.ca/wp-json/wp/v2/job-listings",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "league": {
-      "url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "workleap": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "roofr": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "practicebetter": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "viralnation": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "colab": {
-      "url": "https://boards-api.greenhouse.io/v1/boards/colabsoftware/jobs",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "knak": {
-      "url": "",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "empty"
-    },
-    "jobs.toronto.ca": {
-      "url": "https://jobs.toronto.ca/jobsatcity/search/",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "paralympic": {
-      "url": "https://paralympic.bamboohr.com/careers",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "halton-healthcare": {
-      "url": "https://jobs.smartrecruiters.com/HaltonHealthcare1",
-      "method": "smartrecruiters",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "bmo": {
-      "url": "https://bmo.wd3.myworkdayjobs.com/External",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "questrade": {
-      "url": "https://job-boards.greenhouse.io/questrade",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "toronto": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "city-of-toronto": {
-      "url": "",
-      "method": "html",
-      "lastChecked": "2026-11-24",
-      "lastResult": "search"
-    },
-    "sirc": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "charityvillage": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "jobbank": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "ops": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "hamilton": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "gcjobs": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "hillel": {
-      "url": "https://job-boards.greenhouse.io/hillel",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "afptoronto": {
-      "url": "",
-      "method": "html",
-      "lastChecked": "2026-11-19",
-      "lastResult": "ok"
-    },
-    "equinix": {
-      "url": "https://equinix.wd1.myworkdayjobs.com/External",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "humber-river-health": {
-      "url": "https://careersen-hrrh.icims.com/",
-      "method": "icims",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "oncat": {
-      "url": "https://oncat.ca/",
-      "method": "html",
-      "lastChecked": "2026-11-19",
-      "lastResult": "ok"
-    },
-    "uja": {
-      "url": "https://uja.bamboohr.com/careers/list",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "hamilton-health-sciences": {
-      "url": "https://hhsc.taleo.net/careersection/2/jobsearch.ftl?lang=en",
-      "method": "taleo",
-      "lastChecked": "2026-11-27",
-      "lastResult": "blocked"
-    },
-    "ieso": {
-      "url": "https://careers.ieso.ca/search/?q=communications",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mackenzie-investments": {
-      "url": "https://careersen-mackenzieinvestments.icims.com/jobs/search?ss=1&searchKeyword=communications",
-      "method": "icims",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mackenzie-health": {
-      "url": "https://employment-mackenziehealth.icims.com/jobs/search?ss=1&searchKeyword=communications",
-      "method": "icims",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "uoft": {
-      "url": "https://jobs.utoronto.ca/search/?q=communications&sortColumn=referencedate&sortDirection=desc",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "sickkids": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "camh": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "sinai-health": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "holland-bloorview": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-22",
-      "lastResult": "ok"
-    },
-    "tmu": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-22",
-      "lastResult": "ok"
-    },
-    "york-university": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-22",
-      "lastResult": "ok"
-    },
-    "mcmaster": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "sunnybrook": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "unity-health": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "uhn": {
-      "url": "",
-      "method": "search",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "brocku": {
-      "url": "",
-      "method": "html",
-      "lastChecked": "2026-11-25",
-      "lastResult": "ok"
-    },
-    "toronto-public-library": {
-      "url": "https://tpl.njoyn.com/CL/xweb/Xweb.asp?CLID=124455&page=joblisting&lang=1",
-      "method": "njoyn",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "unity-health-infor": {
-      "url": "https://css-ezjf9k52wb5ac52e-prd.tam.ca1.inforcloudsuite.com/hcm/Jobs/list/JobPosting.SearchForJobsResults?csk.JobBoard=EXTERNAL&csk.HROrganization=1&menu=JobsNavigationMenu.JobSearch",
-      "method": "infor",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "city-of-hamilton": {
-      "url": "https://cityofhamilton.bamboohr.com/careers",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "mississauga": {
-      "url": "https://jobs.mississauga.ca/search/?q=communications",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "brampton": {
-      "url": "https://careers.brampton.ca/search/?q=communications",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "halton-region": {
-      "url": "https://careers.halton.ca/search/?q=communications",
-      "method": "html",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "hoopp": {
-      "url": "https://hoopp.wd10.myworkdayjobs.com/hoopp",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "omers": {
-      "url": "https://omers.wd3.myworkdayjobs.com/omers_External",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "enbridge": {
-      "url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "rbc": {
-      "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "sunlife": {
-      "url": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
-      "method": "workday",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "pcpa": {
-      "url": "https://pcpacorp.bamboohr.com/careers",
-      "method": "bamboohr",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "national-pr": {
-      "url": "https://job-boards.greenhouse.io/national",
-      "method": "greenhouse",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    },
-    "craft-pr": {
-      "url": "https://jobs.lever.co/bloom",
-      "method": "lever",
-      "lastChecked": "2026-11-27",
-      "lastResult": "ok"
-    }
+ "boards": {
+  "mozilla": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "changedotorgsourcing": {
+   "url": "https://api.ashbyhq.com/posting-api/job-board/change",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "maintainx": {
+   "url": "https://api.ashbyhq.com/posting-api/job-board/maintainx",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "mercury": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "varicent": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "wealthsimple": {
+   "url": "https://api.ashbyhq.com/posting-api/job-board/wealthsimple",
+   "method": "ashby",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "faire": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "clio": {
+   "url": "https://www.clio.com/about/careers/",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "ada": {
+   "url": "https://boards-api.greenhouse.io/v1/boards/ada18/jobs",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "1password": {
+   "url": "https://jobs.ashbyhq.com/1password",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "shopify": {
+   "url": "https://www.shopify.com/careers",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "empty"
+  },
+  "hootsuite": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "thescore": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "cloudbeds": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "remotewoman": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "axiom": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "stackadapt": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "achievers": {
+   "url": "https://api.lever.co/v0/postings/achievers?mode=json",
+   "method": "lever",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "ecobee": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "eqbank": {
+   "url": "",
+   "method": "lever",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "flynncompanies": {
+   "url": "",
+   "method": "lever",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "Black-White-Zebra": {
+   "url": "",
+   "method": "lever",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "neo": {
+   "url": "https://api.ashbyhq.com/posting-api/job-board/neofinancial",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "paymentus": {
+   "url": "",
+   "method": "lever",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "lightspeedhq": {
+   "url": "https://api.ashbyhq.com/posting-api/job-board/lightspeedhq",
+   "method": "ashby",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "cohere": {
+   "url": "",
+   "method": "ashby",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "knockri": {
+   "url": "",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "td": {
+   "url": "https://td.wd3.myworkdayjobs.com/TD_Bank_Careers",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "cibc": {
+   "url": "https://cibc.wd3.myworkdayjobs.com/search",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "manulife": {
+   "url": "https://manulife.wd3.myworkdayjobs.com/MFCJH_Jobs",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "rogers": {
+   "url": "https://jobs.rogers.com/search/",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "mlse": {
+   "url": "https://mlse.wd3.myworkdayjobs.com/mlse",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "mars": {
+   "url": "https://mars.wd3.myworkdayjobs.com/External",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "fidelity-canada": {
+   "url": "https://fil.wd3.myworkdayjobs.com/fidelitycanada",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "four-seasons": {
+   "url": "https://fourseasons.wd3.myworkdayjobs.com/search",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "interpublic-omc": {
+   "url": "https://interpublic.wd5.myworkdayjobs.com/OMC",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "brock": {
+   "url": "https://brocku.wd3.myworkdayjobs.com/brocku_careers",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "aip-connect": {
+   "url": "https://jobs.lever.co/aipconnect",
+   "method": "lever",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "caseware": {
+   "url": "https://jobs.lever.co/caseware",
+   "method": "lever",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "viral-nation": {
+   "url": "https://job-boards.greenhouse.io/viralnation",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "directive": {
+   "url": "https://jobs.ashbyhq.com/directive",
+   "method": "ashby",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "csmc": {
+   "url": "https://csmc.bamboohr.com/careers",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "rethink": {
+   "url": "https://rethinkcanada.bamboohr.com/careers",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "sportswork": {
+   "url": "https://sportswork.ca/wp-json/wp/v2/job-listings",
+   "method": "html",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "league": {
+   "url": "https://boards-api.greenhouse.io/v1/boards/leagueinc/jobs",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "workleap": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "roofr": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "practicebetter": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "viralnation": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "colab": {
+   "url": "https://boards-api.greenhouse.io/v1/boards/colabsoftware/jobs",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "knak": {
+   "url": "",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-27",
+   "lastResult": "empty"
+  },
+  "jobs.toronto.ca": {
+   "url": "https://jobs.toronto.ca/jobsatcity/search/",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "paralympic": {
+   "url": "https://paralympic.bamboohr.com/careers",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "halton-healthcare": {
+   "url": "https://jobs.smartrecruiters.com/HaltonHealthcare1",
+   "method": "smartrecruiters",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "bmo": {
+   "url": "https://bmo.wd3.myworkdayjobs.com/External",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "questrade": {
+   "url": "https://job-boards.greenhouse.io/questrade",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "toronto": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "city-of-toronto": {
+   "url": "",
+   "method": "html",
+   "lastChecked": "2026-11-24",
+   "lastResult": "search"
+  },
+  "sirc": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "charityvillage": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "jobbank": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "ops": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "hamilton": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "gcjobs": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "hillel": {
+   "url": "https://job-boards.greenhouse.io/hillel",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "afptoronto": {
+   "url": "",
+   "method": "html",
+   "lastChecked": "2026-11-19",
+   "lastResult": "ok"
+  },
+  "equinix": {
+   "url": "https://equinix.wd1.myworkdayjobs.com/External",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "humber-river-health": {
+   "url": "https://careersen-hrrh.icims.com/",
+   "method": "icims",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "oncat": {
+   "url": "https://oncat.ca/",
+   "method": "html",
+   "lastChecked": "2026-11-19",
+   "lastResult": "ok"
+  },
+  "uja": {
+   "url": "https://uja.bamboohr.com/careers/list",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "hamilton-health-sciences": {
+   "url": "https://hhsc.taleo.net/careersection/2/jobsearch.ftl?lang=en",
+   "method": "taleo",
+   "lastChecked": "2026-11-27",
+   "lastResult": "blocked"
+  },
+  "ieso": {
+   "url": "https://careers.ieso.ca/search/?q=communications",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "mackenzie-investments": {
+   "url": "https://careersen-mackenzieinvestments.icims.com/jobs/search?ss=1&searchKeyword=communications",
+   "method": "icims",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "mackenzie-health": {
+   "url": "https://employment-mackenziehealth.icims.com/jobs/search?ss=1&searchKeyword=communications",
+   "method": "icims",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "uoft": {
+   "url": "https://jobs.utoronto.ca/search/?q=communications&sortColumn=referencedate&sortDirection=desc",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "sickkids": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "camh": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "sinai-health": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "holland-bloorview": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-22",
+   "lastResult": "ok"
+  },
+  "tmu": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-22",
+   "lastResult": "ok"
+  },
+  "york-university": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-22",
+   "lastResult": "ok"
+  },
+  "mcmaster": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "sunnybrook": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "unity-health": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "uhn": {
+   "url": "",
+   "method": "search",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "brocku": {
+   "url": "",
+   "method": "html",
+   "lastChecked": "2026-11-25",
+   "lastResult": "ok"
+  },
+  "toronto-public-library": {
+   "url": "https://tpl.njoyn.com/CL/xweb/Xweb.asp?CLID=124455&page=joblisting&lang=1",
+   "method": "njoyn",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "unity-health-infor": {
+   "url": "https://css-ezjf9k52wb5ac52e-prd.tam.ca1.inforcloudsuite.com/hcm/Jobs/list/JobPosting.SearchForJobsResults?csk.JobBoard=EXTERNAL&csk.HROrganization=1&menu=JobsNavigationMenu.JobSearch",
+   "method": "infor",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "city-of-hamilton": {
+   "url": "https://cityofhamilton.bamboohr.com/careers",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "mississauga": {
+   "url": "https://jobs.mississauga.ca/search/?q=communications",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "brampton": {
+   "url": "https://careers.brampton.ca/search/?q=communications",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "halton-region": {
+   "url": "https://careers.halton.ca/search/?q=communications",
+   "method": "html",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "hoopp": {
+   "url": "https://hoopp.wd10.myworkdayjobs.com/hoopp",
+   "method": "workday",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "omers": {
+   "url": "https://omers.wd3.myworkdayjobs.com/omers_External",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "enbridge": {
+   "url": "https://enbridge.wd3.myworkdayjobs.com/enbridge_careers",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "rbc": {
+   "url": "https://rbc.wd3.myworkdayjobs.com/RBCGLOBAL1",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "sunlife": {
+   "url": "https://sunlife.wd3.myworkdayjobs.com/Experienced-Jobs",
+   "method": "workday",
+   "lastChecked": "2026-11-27",
+   "lastResult": "ok"
+  },
+  "pcpa": {
+   "url": "https://pcpacorp.bamboohr.com/careers",
+   "method": "bamboohr",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "national-pr": {
+   "url": "https://job-boards.greenhouse.io/national",
+   "method": "greenhouse",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
+  },
+  "craft-pr": {
+   "url": "https://jobs.lever.co/bloom",
+   "method": "lever",
+   "lastChecked": "2026-11-28",
+   "lastResult": "ok"
   }
+ }
 }
